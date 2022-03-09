@@ -7,8 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83D48B927D8E1240078C828 /* NUXBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48B627D8E1240078C828 /* NUXBubble.swift */; };
+		D83D48BA27D8E1240078C828 /* NUXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48B727D8E1240078C828 /* NUXView.swift */; };
+		D83D48BB27D8E1240078C828 /* NUXPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48B827D8E1240078C828 /* NUXPageView.swift */; };
+		D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BC27D8E12F0078C828 /* Initiation.swift */; };
+		D83D48C527D8E1540078C828 /* BlankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BF27D8E1540078C828 /* BlankState.swift */; };
+		D83D48C627D8E1540078C828 /* SubscribeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C027D8E1540078C828 /* SubscribeButton.swift */; };
+		D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C127D8E1540078C828 /* OfflineState.swift */; };
+		D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C227D8E1540078C828 /* SignUpState.swift */; };
+		D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C327D8E1540078C828 /* OoviumState.swift */; };
+		D83D48CA27D8E1540078C828 /* SubscribeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C427D8E1540078C828 /* SubscribeState.swift */; };
+		D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CC27D8E5230078C828 /* LinksMenu.swift */; };
+		D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CD27D8E5230078C828 /* AetherMenu.swift */; };
+		D83D48D427D8E5230078C828 /* RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CE27D8E5230078C828 /* RedDot.swift */; };
+		D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CF27D8E5230078C828 /* KeyPad.swift */; };
+		D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D027D8E5230078C828 /* RootMenu.swift */; };
+		D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D127D8E5230078C828 /* HelpMenu.swift */; };
+		D83D48E027D8E5DA0078C828 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D927D8E5D90078C828 /* ArticlesView.swift */; };
+		D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DA27D8E5D90078C828 /* PathView.swift */; };
+		D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DB27D8E5D90078C828 /* ArticleCell.swift */; };
+		D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DC27D8E5D90078C828 /* StickyIcon.swift */; };
+		D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */; };
+		D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DE27D8E5DA0078C828 /* Antechamber.swift */; };
+		D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */; };
 		D8CC689627D64EB500D25FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC689527D64EB500D25FF1 /* AppDelegate.swift */; };
-		D8CC689A27D64EB500D25FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC689927D64EB500D25FF1 /* ViewController.swift */; };
 		D8CC689F27D64EB500D25FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CC689E27D64EB500D25FF1 /* Assets.xcassets */; };
 		D8CC68A227D64EB500D25FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CC68A027D64EB500D25FF1 /* LaunchScreen.storyboard */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
@@ -16,9 +38,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D83D48B627D8E1240078C828 /* NUXBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXBubble.swift; sourceTree = "<group>"; };
+		D83D48B727D8E1240078C828 /* NUXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXView.swift; sourceTree = "<group>"; };
+		D83D48B827D8E1240078C828 /* NUXPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXPageView.swift; sourceTree = "<group>"; };
+		D83D48BC27D8E12F0078C828 /* Initiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initiation.swift; sourceTree = "<group>"; };
+		D83D48BF27D8E1540078C828 /* BlankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankState.swift; sourceTree = "<group>"; };
+		D83D48C027D8E1540078C828 /* SubscribeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeButton.swift; sourceTree = "<group>"; };
+		D83D48C127D8E1540078C828 /* OfflineState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineState.swift; sourceTree = "<group>"; };
+		D83D48C227D8E1540078C828 /* SignUpState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpState.swift; sourceTree = "<group>"; };
+		D83D48C327D8E1540078C828 /* OoviumState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumState.swift; sourceTree = "<group>"; };
+		D83D48C427D8E1540078C828 /* SubscribeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeState.swift; sourceTree = "<group>"; };
+		D83D48CC27D8E5230078C828 /* LinksMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksMenu.swift; sourceTree = "<group>"; };
+		D83D48CD27D8E5230078C828 /* AetherMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AetherMenu.swift; sourceTree = "<group>"; };
+		D83D48CE27D8E5230078C828 /* RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedDot.swift; sourceTree = "<group>"; };
+		D83D48CF27D8E5230078C828 /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		D83D48D027D8E5230078C828 /* RootMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootMenu.swift; sourceTree = "<group>"; };
+		D83D48D127D8E5230078C828 /* HelpMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
+		D83D48D927D8E5D90078C828 /* ArticlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		D83D48DA27D8E5D90078C828 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		D83D48DB27D8E5D90078C828 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D83D48DC27D8E5D90078C828 /* StickyIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyIcon.swift; sourceTree = "<group>"; };
+		D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoIcon.swift; sourceTree = "<group>"; };
+		D83D48DE27D8E5DA0078C828 /* Antechamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antechamber.swift; sourceTree = "<group>"; };
+		D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewIcon.swift; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC689527D64EB500D25FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8CC689927D64EB500D25FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8CC689E27D64EB500D25FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8CC68A127D64EB500D25FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8CC68A327D64EB500D25FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +82,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83D48B427D8E0DD0078C828 /* NUX */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48B627D8E1240078C828 /* NUXBubble.swift */,
+				D83D48B827D8E1240078C828 /* NUXPageView.swift */,
+				D83D48B727D8E1240078C828 /* NUXView.swift */,
+			);
+			path = NUX;
+			sourceTree = "<group>";
+		};
+		D83D48B527D8E1060078C828 /* Initiation */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48BE27D8E13B0078C828 /* States */,
+				D83D48BC27D8E12F0078C828 /* Initiation.swift */,
+			);
+			path = Initiation;
+			sourceTree = "<group>";
+		};
+		D83D48BE27D8E13B0078C828 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48BF27D8E1540078C828 /* BlankState.swift */,
+				D83D48C127D8E1540078C828 /* OfflineState.swift */,
+				D83D48C327D8E1540078C828 /* OoviumState.swift */,
+				D83D48C227D8E1540078C828 /* SignUpState.swift */,
+				D83D48C027D8E1540078C828 /* SubscribeButton.swift */,
+				D83D48C427D8E1540078C828 /* SubscribeState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		D83D48CB27D8E4EF0078C828 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48CD27D8E5230078C828 /* AetherMenu.swift */,
+				D83D48D127D8E5230078C828 /* HelpMenu.swift */,
+				D83D48CF27D8E5230078C828 /* KeyPad.swift */,
+				D83D48CC27D8E5230078C828 /* LinksMenu.swift */,
+				D83D48CE27D8E5230078C828 /* RedDot.swift */,
+				D83D48D027D8E5230078C828 /* RootMenu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D83D48D827D8E5B00078C828 /* Antechamber */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48DE27D8E5DA0078C828 /* Antechamber.swift */,
+				D83D48DB27D8E5D90078C828 /* ArticleCell.swift */,
+				D83D48D927D8E5D90078C828 /* ArticlesView.swift */,
+				D83D48DA27D8E5D90078C828 /* PathView.swift */,
+				D83D48DC27D8E5D90078C828 /* StickyIcon.swift */,
+				D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */,
+				D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */,
+			);
+			path = Antechamber;
+			sourceTree = "<group>";
+		};
 		D8CC688927D64EB500D25FF1 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +170,10 @@
 		D8CC68A927D64EE400D25FF1 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				D8CC689927D64EB500D25FF1 /* ViewController.swift */,
+				D83D48D827D8E5B00078C828 /* Antechamber */,
+				D83D48CB27D8E4EF0078C828 /* Menu */,
+				D83D48B527D8E1060078C828 /* Initiation */,
+				D83D48B427D8E0DD0078C828 /* NUX */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -168,9 +274,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CC689A27D64EB500D25FF1 /* ViewController.swift in Sources */,
+				D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */,
+				D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */,
+				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
+				D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */,
+				D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */,
+				D83D48B927D8E1240078C828 /* NUXBubble.swift in Sources */,
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
+				D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */,
+				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
+				D83D48C527D8E1540078C828 /* BlankState.swift in Sources */,
+				D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */,
+				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
+				D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */,
+				D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */,
+				D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */,
+				D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */,
+				D83D48BA27D8E1240078C828 /* NUXView.swift in Sources */,
+				D83D48C627D8E1540078C828 /* SubscribeButton.swift in Sources */,
+				D83D48CA27D8E1540078C828 /* SubscribeState.swift in Sources */,
 				D8CC689627D64EB500D25FF1 /* AppDelegate.swift in Sources */,
+				D83D48E027D8E5DA0078C828 /* ArticlesView.swift in Sources */,
+				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
+				D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */,
+				D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */,
+				D83D48BB27D8E1240078C828 /* NUXPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
