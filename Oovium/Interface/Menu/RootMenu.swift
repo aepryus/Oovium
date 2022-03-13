@@ -7,6 +7,7 @@
 //
 
 import Acheron
+import OoviumKit
 import UIKit
 
 class RootMenu: Hover {
@@ -27,7 +28,7 @@ class RootMenu: Hover {
 		schematic.add(row: 0, col: 0, key: Key(text: "aether", uiColor: apricot, { self.redDot.toggleAetherMenu() }))
 		schematic.add(row: 1, col: 0, key: Key(text: "lobby", uiColor: apricot, {
 			self.dismiss()
-			Oovium.aetherView.invokeAntechamper()
+//			Oovium.aetherView.invokeAntechamper()
 //			Hovers.invokeAntechamber()
 		}))
 		schematic.add(row: 2, col: 0, key: Key(text: "help", uiColor: apricot, { self.redDot.toggleHelpMenu() }))
@@ -67,12 +68,12 @@ class RootMenu: Hover {
 	}
 	
 // Hover ===========================================================================================
-	override func rescale() {
+	override public func rescale() {
 		super.rescale()
 		schematic.render(rect: CGRect(x: 0, y: 0, width: 78*Oo.s, height: 174*Oo.s))
 		path = RootMenu.renderPath()
 	}
-	override func retract() {
+	override public func retract() {
 		dismiss()
 	}
 	

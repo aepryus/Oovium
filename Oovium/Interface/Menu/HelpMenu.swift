@@ -7,6 +7,7 @@
 //
 
 import Acheron
+import OoviumKit
 import UIKit
 
 class HelpMenu: KeyPad {
@@ -18,7 +19,7 @@ class HelpMenu: KeyPad {
 
 		schematic.add(row: 0, col: 0, key: Key(text: "about".localized, uiColor: apricot, {
 			self.redDot.dismissRootMenu()
-			Oovium.aetherView.backView.fade(aboutOn: true)
+			if let backView = Oovium.aetherView.backView as? BackView { backView.fade(aboutOn: true) }
 		}))
 		schematic.add(row: 1, col: 0, key: Key(text: "whatsnew".localized, uiColor: apricot, {
 			self.redDot.dismissRootMenu()

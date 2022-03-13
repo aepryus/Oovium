@@ -8,6 +8,7 @@
 
 import Acheron
 import OoviumEngine
+import OoviumKit
 import UIKit
 
 class ArticlesView: AETableView, UITableViewDataSource {

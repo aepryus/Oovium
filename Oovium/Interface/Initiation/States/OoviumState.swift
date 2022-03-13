@@ -8,10 +8,11 @@
 
 import Acheron
 import OoviumEngine
+import OoviumKit
 import UIKit
 
 class OoviumState: LaunchState {
-	static let behindView: BehindView = BehindView()
+	static let behindView: BehindView = BehindView(aetherView: Oovium.aetherView)
 
 // LaunchState =======================================================================================
 	override func onActivate() {
@@ -33,14 +34,14 @@ class OoviumState: LaunchState {
 
 			Oovium.window.backgroundColor = UIColor(red: 32/255, green: 34/255, blue: 36/255, alpha: 1)
 
-			if	let aetherPath: String = Local.get(key: "aetherPath") {
+			if	let aetherPath: String = Pequod.get(key: "aetherPath") {
 				Space.digest(aetherPath: aetherPath) { (spaceAether: (Space, Aether)?) in
 					guard let spaceAether = spaceAether else { return }
 					Oovium.space = spaceAether.0
 					Oovium.aetherView.swapToAether(space: spaceAether.0, aether: spaceAether.1)
 				}
 			} else {
-				Local.set(key: "aetherPath", value: Space.local.aetherPath(aether: Oovium.aetherView.aether))
+				Pequod.set(key: "aetherPath", value: Space.local.aetherPath(aether: Oovium.aetherView.aether))
 				Space.local.storeAether(Oovium.aetherView.aether) { (success: Bool) in }
 			}
 		}

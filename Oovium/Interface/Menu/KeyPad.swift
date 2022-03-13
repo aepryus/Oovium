@@ -6,6 +6,7 @@
 //  Copyright © 2017 Aepryus Software. All rights reserved.
 //
 
+import OoviumKit
 import UIKit
 
 public class KeyPad: Hover {

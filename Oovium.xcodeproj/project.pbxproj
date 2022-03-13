@@ -30,9 +30,23 @@
 		D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */; };
 		D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DE27D8E5DA0078C828 /* Antechamber.swift */; };
 		D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */; };
-		D8CC689627D64EB500D25FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC689527D64EB500D25FF1 /* AppDelegate.swift */; };
+		D83D48EA27D9FFC70078C828 /* OoviumAetherViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */; };
+		D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EC27DA00CE0078C828 /* AboutView.swift */; };
+		D83D48EF27DA00E20078C828 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EE27DA00E20078C828 /* BackView.swift */; };
+		D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */; };
+		D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */; };
+		D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F327DA0A5F0078C828 /* OoviumController.swift */; };
+		D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F927DA0A790078C828 /* BootPond.swift */; };
+		D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FA27DA0A790078C828 /* ExitPond.swift */; };
+		D83D490627DA0A930078C828 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FE27DA0A930078C828 /* Security.swift */; };
+		D83D490727DA0A930078C828 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490027DA0A930078C828 /* AppStore.swift */; };
+		D83D490827DA0A930078C828 /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490127DA0A930078C828 /* iCloud.swift */; };
+		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
+		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
+		D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8427DDAB1200D46874 /* Article.swift */; };
+		D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */; };
+		D8B5BB8927DDC63700D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */; };
 		D8CC689F27D64EB500D25FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CC689E27D64EB500D25FF1 /* Assets.xcassets */; };
-		D8CC68A227D64EB500D25FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CC68A027D64EB500D25FF1 /* LaunchScreen.storyboard */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 /* End PBXBuildFile section */
@@ -61,10 +75,24 @@
 		D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoIcon.swift; sourceTree = "<group>"; };
 		D83D48DE27D8E5DA0078C828 /* Antechamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antechamber.swift; sourceTree = "<group>"; };
 		D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewIcon.swift; sourceTree = "<group>"; };
+		D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoviumAetherViewDelegate.swift; sourceTree = "<group>"; };
+		D83D48EC27DA00CE0078C828 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D83D48EE27DA00E20078C828 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumDelegate.swift; sourceTree = "<group>"; };
+		D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumWindow.swift; sourceTree = "<group>"; };
+		D83D48F327DA0A5F0078C828 /* OoviumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumController.swift; sourceTree = "<group>"; };
+		D83D48F927DA0A790078C828 /* BootPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootPond.swift; sourceTree = "<group>"; };
+		D83D48FA27DA0A790078C828 /* ExitPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitPond.swift; sourceTree = "<group>"; };
+		D83D48FE27DA0A930078C828 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		D83D490027DA0A930078C828 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		D83D490127DA0A930078C828 /* iCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
+		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
+		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		D8B5BB8427DDAB1200D46874 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOLabel.swift; sourceTree = "<group>"; };
+		D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8CC689527D64EB500D25FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CC689E27D64EB500D25FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8CC68A127D64EB500D25FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8CC68A327D64EB500D25FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
 		D8CC68AE27D64F6800D25FF1 /* Oovium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Oovium.entitlements; sourceTree = "<group>"; };
@@ -141,6 +169,60 @@
 			path = Antechamber;
 			sourceTree = "<group>";
 		};
+		D83D48EB27DA00BA0078C828 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48EC27DA00CE0078C828 /* AboutView.swift */,
+				D83D48EE27DA00E20078C828 /* BackView.swift */,
+				D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D83D48F827DA0A790078C828 /* Ponds */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48F927DA0A790078C828 /* BootPond.swift */,
+				D83D48FA27DA0A790078C828 /* ExitPond.swift */,
+			);
+			path = Ponds;
+			sourceTree = "<group>";
+		};
+		D83D48FD27DA0A930078C828 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D83D48FE27DA0A930078C828 /* Security.swift */,
+				D8B5BB8427DDAB1200D46874 /* Article.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D83D48FF27DA0A930078C828 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				D83D490027DA0A930078C828 /* AppStore.swift */,
+				D83D490127DA0A930078C828 /* iCloud.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		D83D490227DA0A930078C828 /* Pequod */ = {
+			isa = PBXGroup;
+			children = (
+				D83D490327DA0A930078C828 /* Pequod.swift */,
+				D83D490427DA0A930078C828 /* Domain */,
+			);
+			path = Pequod;
+			sourceTree = "<group>";
+		};
+		D83D490427DA0A930078C828 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D83D490527DA0A930078C828 /* Shell.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		D8CC688927D64EB500D25FF1 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +242,9 @@
 		D8CC689427D64EB500D25FF1 /* Oovium */ = {
 			isa = PBXGroup;
 			children = (
+				D83D48FF27DA0A930078C828 /* Wrappers */,
+				D83D48FD27DA0A930078C828 /* Utility */,
+				D83D490227DA0A930078C828 /* Pequod */,
 				D8CC68A927D64EE400D25FF1 /* Interface */,
 				D8CC68AA27D64EFC00D25FF1 /* Global */,
 				D8CC68AB27D64F0800D25FF1 /* Resources */,
@@ -170,6 +255,7 @@
 		D8CC68A927D64EE400D25FF1 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				D83D48EB27DA00BA0078C828 /* Other */,
 				D83D48D827D8E5B00078C828 /* Antechamber */,
 				D83D48CB27D8E4EF0078C828 /* Menu */,
 				D83D48B527D8E1060078C828 /* Initiation */,
@@ -181,7 +267,11 @@
 		D8CC68AA27D64EFC00D25FF1 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				D8CC689527D64EB500D25FF1 /* AppDelegate.swift */,
+				D83D48F827DA0A790078C828 /* Ponds */,
+				D83D48F327DA0A5F0078C828 /* OoviumController.swift */,
+				D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */,
+				D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */,
+				D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */,
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
 			path = Global;
@@ -190,9 +280,9 @@
 		D8CC68AB27D64F0800D25FF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */,
 				D8CC68AE27D64F6800D25FF1 /* Oovium.entitlements */,
 				D8CC689E27D64EB500D25FF1 /* Assets.xcassets */,
-				D8CC68A027D64EB500D25FF1 /* LaunchScreen.storyboard */,
 				D8CC68A327D64EB500D25FF1 /* Info.plist */,
 			);
 			path = Resources;
@@ -230,6 +320,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Aepryus Software";
 				TargetAttributes = {
 					D8CC689127D64EB500D25FF1 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -262,7 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CC68A227D64EB500D25FF1 /* LaunchScreen.storyboard in Resources */,
+				D8B5BB8927DDC63700D46874 /* Launch Screen.storyboard in Resources */,
 				D8CC689F27D64EB500D25FF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,43 +368,46 @@
 				D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */,
 				D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */,
 				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
+				D83D48EA27D9FFC70078C828 /* OoviumAetherViewDelegate.swift in Sources */,
 				D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */,
 				D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */,
 				D83D48B927D8E1240078C828 /* NUXBubble.swift in Sources */,
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
+				D83D490A27DA0A930078C828 /* Shell.swift in Sources */,
+				D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */,
 				D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */,
+				D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */,
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
 				D83D48C527D8E1540078C828 /* BlankState.swift in Sources */,
 				D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */,
+				D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */,
 				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
+				D83D48EF27DA00E20078C828 /* BackView.swift in Sources */,
+				D83D490627DA0A930078C828 /* Security.swift in Sources */,
 				D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */,
 				D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */,
 				D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */,
+				D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */,
 				D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */,
+				D83D490827DA0A930078C828 /* iCloud.swift in Sources */,
+				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,
+				D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */,
 				D83D48BA27D8E1240078C828 /* NUXView.swift in Sources */,
 				D83D48C627D8E1540078C828 /* SubscribeButton.swift in Sources */,
+				D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */,
+				D83D490727DA0A930078C828 /* AppStore.swift in Sources */,
 				D83D48CA27D8E1540078C828 /* SubscribeState.swift in Sources */,
-				D8CC689627D64EB500D25FF1 /* AppDelegate.swift in Sources */,
 				D83D48E027D8E5DA0078C828 /* ArticlesView.swift in Sources */,
+				D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */,
 				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
 				D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */,
 				D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */,
+				D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */,
 				D83D48BB27D8E1240078C828 /* NUXPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D8CC68A027D64EB500D25FF1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8CC68A127D64EB500D25FF1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D8CC68A427D64EB500D25FF1 /* Debug */ = {
@@ -439,10 +533,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Oovium/Resources/Oovium.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -451,10 +546,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.Oovium;
+				MARKETING_VERSION = 2.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -468,10 +564,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Oovium/Resources/Oovium.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -480,10 +577,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.Oovium;
+				MARKETING_VERSION = 2.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";

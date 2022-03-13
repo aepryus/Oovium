@@ -1,0 +1,115 @@
+{
+  "yOffset" : 540.33333333333337,
+  "height" : 595.59999999999991,
+  "type" : "aether",
+  "readOnly" : true,
+  "xOffset" : 226.33333333333334,
+  "aexels" : [
+    {
+      "color" : 8,
+      "type" : "text",
+      "name" : "Oovium is Moving to Subscriptions",
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "5CF6FAF8-DC28-4980-9873-2D87FB36D0CB",
+          "textNo" : 2
+        },
+        {
+          "type" : "edge",
+          "iden" : "BEAFED27-09C0-4F7E-818D-F2C4439F0DD3",
+          "textNo" : 3
+        },
+        {
+          "iden" : "3512D876-8E1A-4602-B946-A1A21574FD65",
+          "type" : "edge",
+          "textNo" : 4
+        },
+        {
+          "textNo" : 6,
+          "iden" : "7DC94126-91A8-4679-B7CC-48D8450913B4",
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 7,
+          "iden" : "18DC6CE8-905D-4C77-941B-ACBFD343E49B"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 8,
+          "iden" : "8581137F-7F7D-45D1-85B2-675BFC893C6D"
+        }
+      ],
+      "x" : 304.58267683919235,
+      "iden" : "65D56D71-3069-4316-8529-15EE44B87C2B",
+      "y" : 559.59999999999991,
+      "no" : 1,
+      "shape" : 2
+    },
+    {
+      "type" : "text",
+      "no" : 2,
+      "iden" : "6DAA42A0-F2EF-4A87-9A28-A4BE0BAD6DF5",
+      "name" : "With Oovium 2.0, Oovium will be moving to be subscription based and I wanted to explain the move.",
+      "shape" : 1,
+      "color" : 13,
+      "y" : 651.79333333333329,
+      "x" : 258.53467175292815
+    },
+    {
+      "x" : 230.90398982747391,
+      "iden" : "20738943-7A27-4EAC-BF11-B50C8A7304F5",
+      "name" : "Oovium is a massive project and is currently a mere shadow of what it is intended to be.  Oovium won’t be able to be fully realized without me working on it full-time.  And ultimately, there is just too much to be done for a single individual, especially if it is to be moved to Android, Windows or elsewhere someday.",
+      "y" : 749.68001525878901,
+      "no" : 3,
+      "shape" : 1,
+      "type" : "text",
+      "color" : 13
+    },
+    {
+      "color" : 13,
+      "name" : "Oovium and the related Aexels and Evolizer are my life’s work and my primary motivation for working on them is to bring them into existence.  But, obviously that is made significantly more difficult if I have to work on other projects also.",
+      "iden" : "9CEDEBF6-33AC-4D86-889A-C5A1D962A7FA",
+      "x" : 233.3831898274739,
+      "y" : 940.17999999999984,
+      "no" : 4,
+      "shape" : 1,
+      "type" : "text"
+    },
+    {
+      "y" : 1093.9999898274737,
+      "iden" : "E7F72014-71A2-4564-BAAF-01D83A59B484",
+      "color" : 13,
+      "type" : "text",
+      "shape" : 1,
+      "no" : 6,
+      "name" : "I realize that not all of Oovium’s existing users will be overly enthusiastic about this switch to subscriptions.  My hope is that they’ll join me on this next phase of Oovium’s evolution.",
+      "x" : 230
+    },
+    {
+      "y" : 1210.3599898274738,
+      "x" : 232.93201525878905,
+      "no" : 7,
+      "type" : "text",
+      "name" : "However, if not, I have made Oovium 1 available in the AppStore under the name Oovium Classic.  When Oovium 2 first runs it copies all of the users existing aethers off to the side and then migrates them to the Oovium 2 file format while also uploading the Oovium 1 format files to iCloud.  When Oovium Classic runs, it searches iCloud for the old Oovium aethers and downloads them.",
+      "iden" : "F5E94A6B-6650-4D46-A963-614F6067CF8E",
+      "color" : 13,
+      "shape" : 1
+    },
+    {
+      "color" : 13,
+      "type" : "text",
+      "name" : "I won’t be making any further updates to Oovium Classic and once existing users have had a chance to download it, I’ll remove Classic from the AppStore entirely.",
+      "shape" : 1,
+      "y" : 1438.3333384195964,
+      "x" : 240.7717435058594,
+      "iden" : "D7DEE97A-FAF6-454F-BBD6-EB159425B209",
+      "no" : 8
+    }
+  ],
+  "width" : 330,
+  "iden" : "A6CF1A9C-B16A-4DCF-A0BC-DC4449B3B5AE",
+  "name" : "Subscriptions",
+  "modified" : "2020-05-28T23:36:43+0900"
+}

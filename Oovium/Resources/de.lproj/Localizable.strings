@@ -1,0 +1,227 @@
+/*
+ Localizable.strings
+ Oovium
+ 
+ Created by Joe Charlier on 1/21/12.
+ Copyright (c) 2012 Aepryus Software. All rights reserved.
+ */
+
+/* name of the Oovium workspace */
+"aether" = "Äther";
+
+/* remove all bubbles from the current aether */
+"clear" = "leeren";
+
+"buy" = "kaufen";
+
+/* internet URLs */
+"links" = "Links";
+
+"help" = "Hilfe";
+
+"album" = "Album";
+
+/* the Dropbox cloud service */
+"dropbox" = "dropbox";
+
+/* the iPad / iPhone or iPod touch */
+"device" = "Gerät";
+
+/* log out of dropbox */
+"logoff" = "abmelden";
+
+/* link to oovium.com */
+"oovium" = "oovium";
+
+/* online messageboard */
+"forums" = "Foren";
+
+/* link to Oovium's twitter feed */
+"twitter" = "Twitter";
+
+/* rate or review the app in the AppStore. */
+"review" = "kritik";
+
+/* bring up the about info (i.e., version and copyright) */
+"about" = "Info";
+
+/* list of changes in the current version */
+"whatsnew" = "was ist neu";
+
+/* Oovium term describing a subset of gestures */
+"anchoring" = "verankerung";
+
+"tutorial" = "Anleitung";
+
+/* tutorial explaining Oovium basics */
+"basics" = "Grundlagen";
+
+/* tutorial explaining how to make Mind Maps */
+"mapper" = "Mapper";
+
+"cancel" = "abbrechen";
+
+"new" = "neu";
+
+"add" = "+";
+
+"remove" = "-";
+
+/* include other aethers in the current aether, similar to import */
+"includes" = "enthält";
+
+"replace" = "ersetzen";
+
+/* A sticker or tag affixed to an item to provide identifying or descriptive information. */
+"label" = "Etikett";
+
+"copy" = "kopieren";
+
+"color" = "Farbe";
+
+"shape" = "Form";
+
+"delete" = "löschen";
+
+"addParam" = "hinzufügen";
+
+"removeParam" = "entfernen";
+
+/* set of functions that work on aggregate data (sum,count,average) */
+"aggregate" = "aggregate";
+
+/* text justification (center, right, left) */
+"justify" = "ausrichten";
+
+"sum" = "Summe";
+
+"average" = "Mittel";
+
+/* a type of aggregate function which tallies a running total of a given column */
+"running" = "Laufend";
+
+"none" = "keine";
+
+"left" = "links";
+
+"center" = "zentriert";
+
+"right" = "rechts";
+
+/* a list of nodes that flow into the current node */
+"inputs" = "Eingaben";
+
+/* a list of nodes that flow out of the current node */
+"outputs" = "Ausgaben";
+
+"OK" = "OK";
+
+"Yes" = "Ja";
+
+"No" = "Nein";
+
+"clearConfirm" = "Möchten Sie diesen Äther vollständig leeren?";
+"deleteOneConfirm" = "Möchten Sie die ausgewählte Blase löschen?";
+"deleteManyConfirm" = "Möchten Sie die ausgewählten Blasen löschen?";
+"deleteColumn" = "Möchten Sie die ausgewählte Spalte löschen?";
+"deleteRow" = "Möchten Sie die ausgewählte Zeile löschen?";
+
+"whatsnewText" = "Was ist neu in Version 1.1.4";
+
+"ooviumText" = "Willkommen bei Oovium \n\nWas wäre, wenn jemand, der alle bisher verfügbaren Rechenprogramme nicht kennt, von Grund auf eine App für Berechnungen entwerfen würde, die die uns heute zur Verfügung stehenden Technologien und Konzepte voll ausnutzt? Wie würde diese Anwendung wohl aussehen?  \n\nIm Laufe der Jahre hatte Aepryus zahlreiche Ideen für Anwendungen. Schließlich erkannte man, daß sechs dieser Ideen einfach nur sechs verschiedene Aspekte des gleichen Programms waren. Oovium ist dieses Programm.  \n\nOder, besser gesagt, Oovium wird dieses Programm werden. Oovium ist ein mathematischer Sandkasten. Seit der Version 1.1 enthält Oovium einen der sechs Aspekte mit dem Codenamen Bricklin. Dabei handelt es sich um die Implementierung einer Objekt-orientierten Tabelle. Nach und nach werden die fünf anderen Aspekte mit den Codenamen Crawford, Shazaam, Archimedes, Eddington und Mithrandir in Oovium integriert werden.";
+
+"ooviumMmText" = "Oovium Mind Mapper \n\nMind Mapper wurde entwickelt, um Ihr Whiteboard zu ersetzen; Damit können Sie Knoten auf ein Feld (Äther) platzieren und Verbindungen zwischen ihnen knüpfen. Jeder Knoten kann mehrere Ein- und Ausgaben (gerichtetes Diagramm) haben.\n\nBesondere Aufmerksamkeit wurde der Erstellung einer Suite von natürlichen und eleganten Gesten gewidmet, die eine schnelle und einfache Handhabung der Blasen auf dem Äther ermöglicht.\n\nLesen Sie die Hinweise zum Thema Verankerung, um mehr über diese Gesten zu erfahren.";
+
+"anchoringText" = "Die Freuden der Verankerung \n\nDer Arbeitsbereich von Oovium ist eine beliebig große zweidimensionale Ebene, die uns erlaubt, Blasen darauf zu platzieren. Diese Ebene wird als Äther bezeichnet. So wie dem Äther Blasen hinzugefügt werden, wird die Größe des Äthers automatisch angepasst, damit alle Blasen Platz haben. Bei der Nutzung von Oovium gibt es eine wichtige Kategorie von Gesten, die als Verankerung bezeichnet werden.  \n\nBei der Verankerung hält man den Äther mit einem Finger fest, während man mit einem anderen Finger eine andere Aktion ausführt. Folgende Gesten gibt es: \n\nBLASE BEWEGEN [Verankern+Ziehen:Blase]\nMit einem Finger verankern, dann mit einem anderen Finger eine Blase ziehen. Je mehr Finger benutzt werden, desto mehr Blasen können bewegt werden. \n\nKONTEXT-MENÜ [Verankern+Antippen:Blase]\nMit einem Finger verankern und mit einem anderen auf eine Blase tippen. Damit wird ein Kontext-Menü für die Blase aufgerufen, mit dem zusätzliche Aktionen für die Blase ausgeführt werden können, wie z. B. eine Bezeichnung hinzufügen und Löschen.  \n\nLASSO [Verankern+Ziehen:Äther] \nMit einem Finger verankern und einen anderen Finger auf einen leeren Bereich ziehen. Dabei erscheint ein gelber Pfad unter der Bewegung ihres zweiten Fingers. Sie werden in der Lage sein, mehrere Blasen auszuwählen und diese dann als Gruppe zu verschieben oder relevante Kontext-Menü-Aktionen für alle von ihnen auszuführen.  \n\nCURSOR BEWEGEN [Verankern+Antippen:Ausdruck] \nBei der Bearbeitung eines Ausdrucks mit einem Finger verankern und mit einem anderen auf den Ausdruck tippen. Der Cursor wird an die angetippte Stelle verschoben, so dass Sie den Ausdruck an dieser Stelle ändern können.";
+
+"basics01" = "Hier zweimal antippen";
+"basics02" = "Der \"Äther\" ist Ihr Arbeitsbereich. Sie haben gerade eine Instanz-Blase auf diesem Äther erstellt.";
+"basics03" = "Geben Sie 5781 = mit Hilfe der Tastatur ein";
+"basics04" = "Hier zweimal antippen";
+"basics05" = "Sie können vollständige Ausdrücke in eine Blase eingeben.";
+"basics06" = "Geben Sie 84\U00D7114 = ein";
+"basics07" = "Hier zweimal antippen";
+"basics08" = "Neue Blasen können auf ältere Blasen verweisen.";
+"basics09" = "Tippen Sie Ihre erste Blase an";
+"basics10" = "Drücken Sie die Taste \U00D7";
+"basics11" = "Tippen Sie jetzt Ihre zweite Blase an";
+"basics12" = "Drücken Sie das Gleichheitszeichen";
+"basics13" = "Sie können auf die Blasen zurückkommen und sie bearbeiten.";
+"basics14" = "Klicken Sie auf die Blase 5781";
+"basics15" = "Ändern Sie die Zahl zu 5783 mithilfe der Rücktaste; Drücken Sie =";
+"basics16" = "Möchten Sie auf das Kontext-Menü zugreifen können? Möchten Sie eine Blase oder eine Sammlung von Blasen bewegen können?  Erfahren Sie mehr über Verankerung! (in der Hilfe)";
+"basics17" = "Drücken Sie die Menütaste (roter Punkt in der unteren linken Ecke)";
+"basics18" = "Drücken Sie die Äther-Taste";
+"basics19" = "Drücken Sie die Leeren-Taste";
+"basics20" = "Drücken Sie Ja, um Ihren Äther zu leeren";
+
+"mapper01" = "Tippen Sie auf das Kästchen in der rechten oberen Ecke (Symbolleiste) und wählen Sie das orangene Oval.";
+"mapper02" = "Hier zweimal antippen";
+"mapper03" = "Der \"Äther\" ist Ihr Arbeitsbereich. Sie haben gerade einen Knoten auf dem Äther erstellt.";
+"mapper04" = "Geben Sie \"Frikadelle\" ein und drücken Sie dann die Eingabetaste.";
+"mapper05" = "Die Symbolleiste oben rechts bestimmt, was erstellt wird, wenn der Äther zweimal angetippt wird. Tippen Sie auf das Farb-Werkzeug (ganz links) und wählen Sie gelb.";
+"mapper06" = "Hier zweimal antippen";
+"mapper07" = "Geben Sie \"Senf\" in den zweiten Knoten ein und drücken Sie dann die Eingabetaste.";
+"mapper08" = "Sie können gern eine andere Farb- oder Form-Kombination ausprobieren, bevor Sie zweimal tippen.";
+"mapper09" = "Hier zweimal antippen";
+"mapper10" = "Geben Sie \"F und S\" in den dritten Knoten ein und drücken Sie dann die Eingabetaste.";
+"mapper11" = "Sie können den Text eines Knotens durch doppeltes Antippen bearbeiten.";
+"mapper12" = "Tippen Sie den \"F und S\"-Knoten zweimal an und fügen Sie \"Sandwich\" hinzu, dann drücken Sie die Eingabetaste.";
+"mapper13" = "Durch das einmalige Antippen eines Knoten können Sie diesen mit anderen Knoten verbinden.";
+"mapper14" = "Tippen Sie einmal auf den \"F- und S-Sandwich\"-Knoten.";
+"mapper15" = "Tippen Sie auf die Knoten \"Frikadelle\" und \"Senf\". Klicken Sie auf \"OK\", um die Verbindungen festzulegen.";
+"mapper16" = "Möchten Sie die Form oder Farbe der vorhandenen Knoten ändern können? Möchten Sie eine Blase oder eine Sammlung von Blasen bewegen können? Erfahren Sie mehr über Verankerung! (in der Hilfe)";
+"mapper17" = "Drücken Sie die Menütaste (roter Punkt in der unteren linken Ecke)";
+"mapper18" = "Drücken Sie die Äther-Taste";
+"mapper19" = "Drücken Sie die Leeren-Taste";
+"mapper20" = "Drücken Sie Ja, um Ihren Äther zu leeren";
+
+"lexiconMain" = "einzigen Antippen eines Tokens um seine Beschreibung anzuzeigen \n \nDouble tippen Sie auf ein Token, um es in Ihrer aktuellen Ausdruck einzufügen..";
+"lexiconFilter" = "(Filter)";
+"lexOperator" = "Operator";
+"lexMisc" = "Verschiedenes";
+"lexPower" = "Potenz";
+"lexTrig" = "trigonometrische";
+"lexAdd" = "Additions-Operator";
+"lexSub" = "Subtraktions-Operator";
+"lexMul" = "Multiplikationsoperator";
+"lexDiv" = "Divisions-Operator";
+"lexPow" = "Macht Operator \n \nNegative Echtzeit Eingänge ergriffen werden, um nicht-ganzzahligen Mächte werden in Nan führen.";
+"lexDot" = "dot product operator";
+"lexEqual" = "gleich \n \nComparison Betreiber gibt eine 1 zurück, wenn wahr, eine 0, wenn falsch.";
+"lexNotEqual" = "nicht gleich \n \nComparison Betreiber gibt eine 1 zurück, wenn wahr, eine 0, wenn falsch.";
+"lexLess" = "weniger als \n \nComparison Betreiber gibt eine 1 zurück, wenn wahr, eine 0, wenn falsch.";
+"lexLessEqual" = "kleiner oder gleich \n \nComparison Betreiber wird eine 1 zurück, wenn sie wahr ist, eine 0, wenn falsch.";
+"lexGreat" = "größer als \n \nComparison Betreiber gibt eine 1 zurück, wenn wahr, eine 0, wenn falsch.";
+"lexGreatEqual" = "größer oder gleich \n \nComparison Betreiber gibt eine 1 zurück, wenn wahr, eine 0, wenn falsch.";
+"lexFac" = "Fakultät";
+"lexRound" = "Runde auf die nächste ganze Zahl";
+"lexFloor" = "Der Boden Funktion verschiebt einen Wert an den Leasinggeber der beiden Zahlen, dass es fällt zwischen (oder den Wert selbst wenn es bereits eine ganze Zahl).";
+"lexAbs" = "absoluter Wert";
+"lexMin" = "Gibt den kleineren von zwei Werten";
+"lexMax" = "gibt die höhere der beiden Werte";
+"lexIf" = "if then else \n \nWenn das' ob '-Parameter (1.) wahr ist (ergibt einen Wert ungleich Null), dann die ', dann' Parameter (2.) zurückgegeben werden, andernfalls wenn es falsch ist ( wertet auf Null), dann das 'else' Parameter (3.) werden zurückgegeben. \n \nWithin Oovium, alle Parameter werden zuerst, bevor sie in ihrer Funktion geschickt ausgewertet. Dies wird jedoch rekursive Funktionen bewirken, dass immer in einem Stack-Überlauf führen. Für rekursive Funktionen, ist es notwendig, die zweite Form mit Funktion-Typ ', dann' und 'else' Parameter verwenden. In der zweiten Form ist die Funktion selbst das Ergebnis und damit nur die entsprechende Version wird ausgewertet Verhinderung der Stack-Überlauf werden. " ;
+"lexSum" = "Summation \n \nDie Funktion werden die Ergebnisse der Funktionsparameter (3.), durch Iteration diese Funktion mit Inkrementieren Werte von k summieren. \n \nIn die erste Form k werden ab dem Beginn Parameter (1.) iterieren . durch die Parameter stop (2.) In der zweiten Form k wird mit dem Start-Parameter (1.) zu starten, aber wird weiterhin ausgeführt, während die Bedingung Parameter (2.) bleibt wahr. ";
+"lexRandom" = "gibt eine beliebige ganze Zahl von 0 bis n-1";
+"lexSqrt" = "Quadratwurzel (dh x ^ 0,5) \n \nNegative Echtzeit-Eingänge wird in NaN führen.";
+"lexLn" = "natürlichen Logarithmus (dh Logarithmus zur Basis e) \n \nInverse der exp-Funktion.";
+"lexLog" = "Logarithmus zur Basis 10 \n \nInverse der zehn-Funktion.";
+"lexLog2" = "Logarithmus zur Basis 2 \n \nInverse der beiden Funktionen.";
+"lexExp" = "Exponential-, Potenz von e (~ 2,71 ...) (e ^ x)";
+"lexTen" = "Kraft von 10 (10 ^ x)";
+"lexTwo" = "Kraft der 2 (2 ^ x)";
+"lexSin" = "sine \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexCos" = "Cosinus \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexTan" = "Tangente \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexSec" = "Sekante \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexCsc" = "Kosekans \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexCot" = "Kotangens \n \nDie Eingabe Winkel sollte im Bogenmaß sein.";
+"lexAsin" = "Arkussinus";
+"lexAcos" = "Arcuscosinus";
+"lexAtan" = "Arcustangens";
+"lexSinh" = "Sinus hyperbolicus";
+"lexCosh" = "Hyperbelkosinus";
+"lexTanh" = "Hyperbeltangens";
+"lexAsinh" = "hyperbolischen Arkussinus";
+"lexAcosh" = "hyperbolischen Arcuscosinus";
+"lexAtanh" = "hyperbolischen Arcustangens";

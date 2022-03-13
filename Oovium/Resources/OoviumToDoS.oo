@@ -1,0 +1,70 @@
+{
+  "type" : "aether",
+  "height" : 595.59999999999991,
+  "iden" : "C2D8BB75-0F53-4D30-8F50-F875FCFF2A64",
+  "xOffset" : 223.66666666666666,
+  "modified" : "2020-05-29T05:18:15+0900",
+  "width" : 330,
+  "readOnly" : true,
+  "name" : "OoviumToDo",
+  "yOffset" : 532.66666666666663,
+  "aexels" : [
+    {
+      "shape" : 2,
+      "x" : 257.91066158040366,
+      "iden" : "F2853D4E-C822-44E3-B232-C7402AC555D9",
+      "color" : 8,
+      "no" : 1,
+      "name" : "Oovium To Do List",
+      "type" : "text",
+      "y" : 559.59999999999991,
+      "edges" : [
+        {
+          "textNo" : 5,
+          "type" : "edge",
+          "iden" : "1515788C-78F3-47F8-A837-7D9BA8F92468"
+        },
+        {
+          "iden" : "B68FA688-A79C-439C-B701-404555EC8B77",
+          "type" : "edge",
+          "textNo" : 6
+        },
+        {
+          "textNo" : 7,
+          "type" : "edge",
+          "iden" : "9595F185-B085-4B73-8E5C-6AFC6E6810A1"
+        }
+      ]
+    },
+    {
+      "iden" : "663B505B-C0B2-45DD-8B5A-5459F7836BCC",
+      "no" : 5,
+      "type" : "text",
+      "x" : 280.5213333333333,
+      "y" : 667.30667683919262,
+      "color" : 13,
+      "shape" : 1,
+      "name" : "There are 2 stickied articles at the top of the antechamber, ‘What’s New’ and ‘To Do’."
+    },
+    {
+      "no" : 6,
+      "x" : 229.99999999999997,
+      "name" : "The ‘To Do’ article contains an overview of the Oovium product road map.  This will allow Oovium users to keep an eye on the current progress of Oovium and to learn a bit about the product’s future directions.  Eventually, I’m hoping to integrate a voting mechanism that will allow Oovium users to help prioritize those future directions.  The ‘To Do’ article will also highlight areas that were completed in the current release.",
+      "type" : "text",
+      "iden" : "4052A5B4-422C-4E48-BA12-1E524687530A",
+      "y" : 751.3599898274739,
+      "shape" : 1,
+      "color" : 13
+    },
+    {
+      "name" : "The ‘What’s New’ section will echo those completed tasks from the ‘To Do’ article, but also provide a little more detail and other helpful bits of information.",
+      "iden" : "56CE3E73-1F84-4A44-906C-475188FEE55E",
+      "y" : 979.83333333333337,
+      "x" : 230.8173485921223,
+      "no" : 7,
+      "color" : 13,
+      "type" : "text",
+      "shape" : 1
+    }
+  ]
+}
