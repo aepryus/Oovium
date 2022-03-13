@@ -1,0 +1,286 @@
+/*
+ Localizable.strings
+ Oovium
+ 
+ Created by Joe Charlier on 1/21/12.
+ Copyright (c) 2012 Aepryus Software. All rights reserved.
+ */
+
+/* name of the Oovium workspace */
+"aether" = "aether";
+
+/* remove all bubbles from the current aether */
+"clear" = "clear";
+
+"buy" = "buy";
+
+/* internet URLs */
+"links" = "links";
+"help" = "help";
+
+"album" = "album";
+
+/* the Dropbox cloud service */
+"dropbox" = "dropbox";
+
+/* the iPad / iPhone or iPod touch */
+"device" = "device";
+
+/* log out of dropbox */
+"logoff" = "logoff";
+
+/* link to oovium.com */
+"oovium" = "oovium";
+
+/* online messageboard */
+"forums" = "forums";
+
+/* link to Oovium's twitter feed */
+"twitter" = "twitter";
+
+/* rate or review the app in the AppStore. */
+"review" = "review";
+
+/* bring up the about info (i.e., version and copyright) */
+"about" = "about";
+
+/* list of changes in the current version */
+"whatsnew" = "what's new";
+
+/* Oovium term describing a subset of gestures */
+"anchoring" = "anchoring";
+"tutorial" = "tutorial";
+
+/* tutorial explaining Oovium basics */
+"basics" = "basics";
+
+/* tutorial explaining how to make Mind Maps */
+"mapper" = "mapper";
+"cancel" = "cancel";
+
+"new" = "new";
+"add" = "add";
+"remove" = "remove";
+
+/* include other aethers in the current aether, similar to import */
+"includes" = "includes";
+"replace" = "replace";
+
+/* A sticker or tag affixed to an item to provide identifying or descriptive information. */
+"label" = "label";
+"copy" = "copy";
+
+/* menu option that allows the user to change the color of a bubble */
+"color" = "color";
+
+/* menu option that allows the user to change the shape of a bubble */
+"shape" = "shape";
+"delete" = "delete";
+
+"addParam" = "add param";
+"removeParam" = "remove param";
+
+/* set of functions that work on aggregate data (sum,count,average) */
+"aggregate" = "footer";
+
+/* text justification (center, right, left) */
+"justify" = "justify";
+"sum" = "sum";
+"average" = "average";
+
+/* a type of aggregate function which tallies a running total of a given column */
+"running" = "running";
+"none" = "none";
+"left" = "left";
+"center" = "center";
+"right" = "right";
+
+/* a list of nodes that flow into the current node */
+"inputs" = "inputs";
+
+/* a list of nodes that flow out of the current node */
+"outputs" = "outputs";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+
+"clearConfirm" = "Clear this aether completely?";
+"deleteOneConfirm" = "Delete selected bubble?";
+"deleteManyConfirm" = "Delete selected bubbles?";
+"deleteColumn" = "Delete selected column?";
+"deleteRow" = "Delete selected row?";
+
+"bootupText" = "ANNOUNCING
+
+** Oovium for Mac **
+
+The conversion of Oovium to the desktop has recently been completed.  Oovium for Mac is now available in the Mac AppStore!
+
+All the Oovium goodness you've come to know and love on the iPad (and iPhone) is now available on your computer, allowing you to share Aethers between all of your devices via Dropbox.
+
+AepCalc, RPN calculator for Mac is also available.
+";
+
+"whatsnewText" = "Welcome to Oovium Redux
+
+Oovium was started on March 23rd, 2009.  It was written for an iPhone 3GS running iOS 2 using a language I had recently learned, Objective-C.
+
+Much has changed in the 10 years since then.  The hardware has changed dramatically, iOS has changed dramatically, Oovium has changed dramatically and I, as a programmer, have changed dramatically.  Additionally, an entirely new language has been created called Swift.
+
+Because of all of this, I embarked on a project to rewrite Oovium from scratch.  I have been working on Oovium Redux on and off for over 2 years now.  Oovium is far from complete and Oovium Redux is far from complete, but it is time to release it.  Oovium has largely been paralyzed for the past 6 years because of the need to rewrite it; that paralysis ends now.
+
+Oovium was written entirely in Objective-C; Oovium Redux is written in Swift, with the exception of the core math engine which is written in C.  The result has been a 300 fold increase in calculation speed.  This will allow Oovium to be used in all sorts of new ways.
+
+Please come along as Oovium begins this next phase of its evolution.
+
+";
+
+"ooviumText" = "Welcome to Oovium
+
+Oovium is a visual object oriented functional programming language... or at least it will be.  Being able to program a computer is extremely useful; learning how to program a computer (skillfully) is a long, painful, tedious process.
+
+There are a multitude of people in this world that would benefit from the power of programming, but have chosen another field to specialize in; perhaps you're one of those people.  With Oovium, I want to meet those people half way.  I want to give them the power available to programmers without having to deal with the tedium, complexity and frustration of programming.
+
+Oovium is intended to also be a highly tactile and visual tool.  It seems most Math and Science is the domain of algebraists these days; I want to create a tool for geometrists.
+
+Oovium is a massive project and it has many facets and goals.  Here are a few of its aspirations:
+
+	- to be an object oriented sandbox, that allows users to define, create and manipulate instances of objects.
+
+	- to be a tool for visualizing functions, data and simulations.
+
+	- to be able to store and query data, or connect to external data sources seamlessly.
+
+	- to enable users to define their own objects and automatically generate interface screens for viewing and manipulating those objects.
+
+	- to be a scratch pad for drawing geometric diagrams.
+
+	- to be a logic engine that will allow proofs to be created and vetted.
+
+
+Certainly, this is a lifetime of work (or more), so, I'll try to type fast.
+
+- Joe
+
+";
+
+"ooviumMmText" = "Oovium Mind Mapper
+
+Designed to replace your white board; it allows you to place nodes on a field (the aether) and designate links between them. Each node can have multiple inputs and outputs (a directed graph).
+
+Particular attention was given to creating a natural and elegant gesture suite that allows for quick and easy manipulations of the bubbles upon the aether.
+
+Be sure to read up on Anchoring to learn about these gestures.";
+
+"anchoringText" = "The Joy of Anchoring
+
+The workspace of Oovium is an arbitrarily large 2 dimensional plane that allows users to place bubbles upon it.  This plane is referred to as the Aether.  As Bubbles are added to the Aether, it automatically resizes to accommodate all of the bubbles.  In using Oovium, there is an important class of gestures known as anchoring.
+
+Anchoring is holding the Aether still with one finger while performing another action with a different finger.  These gestures are:
+
+MOVE BUBBLE [Anchor+Drag:bubble]
+Anchor with one finger, then drag a bubble with another.  The more fingers that you use, the more bubbles you can drag around.
+
+CONTEXT MENU [Anchor+Tap:bubble]
+Anchor with one finger and tap a bubble with another.  This will bring up a context menu for the bubble that will allow you to perform additional actions to the bubble, such as Label and Delete.
+
+LASSO [Anchor+Drag:aether]
+Anchor with one finger and drag another finger on empty space.  A yellow path will begin to render along the path of your second finger.  You will be able to select multiple Bubbles and then move them as a group or perform relevant context menu actions on all of them.
+
+MOVE CURSOR [Anchor+Tap:expression]
+While editing an expression, anchor with one finger and tap the expression with another.  The cursor will move to the location of the tap, allowing you to modify the expression at that location.";
+
+"basics01" = "Double\nTap\nMe";
+"basics02" = "The \"aether\" is your workspace.  You have just created an instance bubble on that aether.";
+"basics03" = "Using the keypad input 5781 =";
+"basics04" = "Double\nTap\nMe";
+"basics05" = "You can enter full expressions into a bubble.";
+"basics06" = "Input 84\U00D7114=";
+"basics07" = "Double\nTap\nMe";
+"basics08" = "Previous bubbles can be referenced from new bubbles.";
+"basics09" = "Touch your first bubble";
+"basics10" = "Hit the \U00D7 key";
+"basics11" = "Now touch your second bubble";
+"basics12" = "Hit the equal sign";
+"basics13" = "Bubbles can be revisited and edited.";
+"basics14" = "Hit the 5781 bubble";
+"basics15" = "Using the backspace, change the number to 5783; hit =";
+"basics16" = "Want to be able to access the context menu?  Want to be able to move a bubble or a collection of bubbles?  Read about anchoring! (in Help)";
+"basics17" = "Hit the menu key (the red dot in the lower left corner)";
+"basics18" = "Hit the aether key";
+"basics19" = "Hit the clear key";
+"basics20" = "Hit yes to clear your aether";
+
+"mapper01" = "Tap the box in the upper right corner (the tool bar) and select the orange oval.";
+"mapper02" = "Double\nTap\nMe";
+"mapper03" = "The \"aether\" is your workspace.  You have just created a node on the aether.";
+"mapper04" = "Type \"peanut butter\" and then hit return.";
+"mapper05" = "The toolbar in the upper right determines what gets created when double tapping on the aether.  Tap the color tool (the left most one) and select purple.";
+"mapper06" = "Double\nTap\nMe";
+"mapper07" = "In the second node type \"jelly\" and then hit return.";
+"mapper08" = "Feel free try a different color or shape combination before double tapping.";
+"mapper09" = "Double\nTap\nMe";
+"mapper10" = "In the third node type \"pb&j\" and then return.";
+"mapper11" = "You can edit the text of a node by double tapping on it.";
+"mapper12" = "Double tap on the pb&j node and add \"sandwich\", then hit return.";
+"mapper13" = "Single tapping on a node will allow you to connect it to other nodes.";
+"mapper14" = "Single tap on the \"pb&j sandwich\" node.";
+"mapper15" = "Tap both the \"peanut butter\" and \"jelly\" nodes.  Hit \"OK\" to set the connections.";
+"mapper16" = "Want to be able to change the shape or color of existing nodes?  Want to be able to move a bubble or a collection of bubbles?  Read about anchoring! (in Help)";
+"mapper17" = "Hit the menu key (the red dot in the lower left corner)";
+"mapper18" = "Hit the aether key";
+"mapper19" = "Hit the clear key";
+"mapper20" = "Hit yes to clear your aether";
+
+"lexiconMain" = "Single tap a token to see its description.\n\nDouble tap a token to insert it into your current expression.";
+"lexiconFilter" = "(filter)";
+"lexOperator" = "operator";
+"lexMisc" = "miscellaneous";
+"lexPower" = "exponentiation";
+"lexTrig" = "trigonometric";
+"lexAdd" = "addition operator";
+"lexSub" = "subtraction operator";
+"lexMul" = "multiplication operator";
+"lexDiv" = "division operator";
+"lexPow" = "power operator\n\nNegative Real inputs taken to non-integer powers will result in Nan.";
+"lexDot" = "dot product operator";
+"lexEqual" = "equal to\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexNotEqual" = "not equal\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexLess" = "less than\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexLessEqual" = "less than or equal\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexGreat" = "greater than\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexGreatEqual" = "greater than or equal\n\nComparison operators will return a 1 if true, a 0 if false.";
+"lexNot" = "unary not operator\n\nThis operator will return true (1) if the operand is false (0) and false (0) if the operand is true (not equal to 0).";
+"lexAnd" = "and operator\n\nThis operator will return true (1) if both operands are also true (not equal to 0).";
+"lexOr" = "or operator\n\nThis operator will return true (1) if either of the operands are true (not equal to 0).";
+"lexFac" = "factorial";
+"lexRound" = "round to nearest integer";
+"lexFloor" = "The floor function shifts a value to the lessor of the two integers that it falls between (or the value itself if it is already an integer).";
+"lexAbs" = "absolute value";
+"lexMin" = "returns the lesser of two values";
+"lexMax" = "returns the greater of two values";
+"lexIf" = "if then else\n\nIf the 'if' parameter (1st) is true (evaluates to a non-zero value) then the 'then' parameter (2nd) will be returned; otherwise if it is false (evaluates to zero) then the 'else' parameter (3rd) will be returned.\n\nWithin Oovium, all parameters are evaluated first before being sent to their function.  However, this will cause recursive functions to always result in a stack overflow.  For recursive functions, it is necessary to use the 2nd form with Function type 'then' and 'else' parameters.  In the 2nd form, the function itself is the result and therefore only the appropriate version will be evaluated preventing the stack overflow.";
+"lexSum" = "summation\n\nThis function will sum the results of the function parameter (3rd), by iterating that function using incrementing values of k.\n\nIn the first form k will iterate from the start parameter (1st) through the stop parameter (2nd).  In the 2nd form k will start with the start parameter (1st), but will continue to execute while the condition parameter (2nd) remains true.";
+"lexRandom" = "returns a random integer from 0 to n-1";
+"lexSqrt" = "square root (i.e., x^0.5)\n\nNegative Real inputs will result in NaN.";
+"lexLn" = "natural logarithm (i.e., logarithm base e)\n\nInverse of the exp function.";
+"lexLog" = "logarithm base 10\n\nInverse of the ten function.";
+"lexLog2" = "logarithm base 2\n\nInverse of the two function.";
+"lexExp" = "exponential, power of e (~2.71...) (e^x)";
+"lexTen" = "power of 10 (10^x)";
+"lexTwo" = "power of 2 (2^x)";
+"lexSin" = "sine\n\nThe input angle should be in radians.";
+"lexCos" = "cosine\n\nThe input angle should be in radians.";
+"lexTan" = "tangent\n\nThe input angle should be in radians.";
+"lexSec" = "secant\n\nThe input angle should be in radians.";
+"lexCsc" = "cosecant\n\nThe input angle should be in radians.";
+"lexCot" = "cotangent\n\nThe input angle should be in radians.";
+"lexAsin" = "arcsine";
+"lexAcos" = "arccosine";
+"lexAtan" = "arctangent";
+"lexSinh" = "hyperbolic sine";
+"lexCosh" = "hyperbolic cosine";
+"lexTanh" = "hyperbolic tangent";
+"lexAsinh" = "hyperbolic arcsine";
+"lexAcosh" = "hyperbolic arccosine";
+"lexAtanh" = "hyperbolic arctangent";

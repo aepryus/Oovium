@@ -45,8 +45,37 @@
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
 		D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8427DDAB1200D46874 /* Article.swift */; };
 		D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */; };
-		D8B5BB8927DDC63700D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */; };
-		D8CC689F27D64EB500D25FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CC689E27D64EB500D25FF1 /* Assets.xcassets */; };
+		D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */; };
+		D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9627DDD24000D46874 /* Localizable.strings */; };
+		D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9B27DDD24000D46874 /* Assets.xcassets */; };
+		D8B5BBA127DDD2B700D46874 /* ChicagoFLF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9F27DDD2B700D46874 /* ChicagoFLF.ttf */; };
+		D8B5BBA227DDD2B700D46874 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA027DDD2B700D46874 /* Roboto-Medium.ttf */; };
+		D8B5BBAC27DDD2BF00D46874 /* RoadMap.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA327DDD2BF00D46874 /* RoadMap.oo */; };
+		D8B5BBAD27DDD2BF00D46874 /* Oovium2L.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA427DDD2BF00D46874 /* Oovium2L.oo */; };
+		D8B5BBAE27DDD2BF00D46874 /* OoviumToDoL.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA527DDD2BF00D46874 /* OoviumToDoL.oo */; };
+		D8B5BBAF27DDD2BF00D46874 /* OoviumToDoS.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA627DDD2BF00D46874 /* OoviumToDoS.oo */; };
+		D8B5BBB027DDD2BF00D46874 /* SubscriptionsS.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA727DDD2BF00D46874 /* SubscriptionsS.oo */; };
+		D8B5BBB127DDD2BF00D46874 /* Oovium2S.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA827DDD2BF00D46874 /* Oovium2S.oo */; };
+		D8B5BBB227DDD2BF00D46874 /* SubscriptionsL.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBA927DDD2BF00D46874 /* SubscriptionsL.oo */; };
+		D8B5BBB327DDD2BF00D46874 /* AexelsEvolizerS.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBAA27DDD2BF00D46874 /* AexelsEvolizerS.oo */; };
+		D8B5BBB427DDD2BF00D46874 /* AexelsEvolizerL.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBAB27DDD2BF00D46874 /* AexelsEvolizerL.oo */; };
+		D8B5BBBD27DDD2D000D46874 /* NUXSS1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBB527DDD2D000D46874 /* NUXSS1.png */; };
+		D8B5BBBE27DDD2D000D46874 /* NUXSS2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBB627DDD2D000D46874 /* NUXSS2.png */; };
+		D8B5BBBF27DDD2D000D46874 /* NUXSS1s.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBB727DDD2D000D46874 /* NUXSS1s.png */; };
+		D8B5BBC027DDD2D000D46874 /* NUXSS4.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBB827DDD2D000D46874 /* NUXSS4.png */; };
+		D8B5BBC127DDD2D000D46874 /* NUXSS2s.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBB927DDD2D000D46874 /* NUXSS2s.png */; };
+		D8B5BBC227DDD2D000D46874 /* NUXSS3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBBA27DDD2D000D46874 /* NUXSS3.png */; };
+		D8B5BBC327DDD2D000D46874 /* NUXSS3s.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBBB27DDD2D000D46874 /* NUXSS3s.png */; };
+		D8B5BBC427DDD2D000D46874 /* NUXSS4s.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBBC27DDD2D000D46874 /* NUXSS4s.png */; };
+		D8B5BBCE27DDD2DC00D46874 /* Burn812@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBC527DDD2DB00D46874 /* Burn812@2x.png */; };
+		D8B5BBCF27DDD2DC00D46874 /* Burn1366@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBC627DDD2DB00D46874 /* Burn1366@2x.png */; };
+		D8B5BBD027DDD2DC00D46874 /* Burn1112@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBC727DDD2DB00D46874 /* Burn1112@2x.png */; };
+		D8B5BBD127DDD2DC00D46874 /* Burn568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBC827DDD2DB00D46874 /* Burn568@2x.png */; };
+		D8B5BBD227DDD2DC00D46874 /* BurnMac.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBC927DDD2DC00D46874 /* BurnMac.png */; };
+		D8B5BBD327DDD2DC00D46874 /* Burn1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCA27DDD2DC00D46874 /* Burn1024@2x.png */; };
+		D8B5BBD427DDD2DC00D46874 /* Burn736@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */; };
+		D8B5BBD527DDD2DC00D46874 /* Burn1194@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */; };
+		D8B5BBD627DDD2DC00D46874 /* Burn667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 /* End PBXBuildFile section */
@@ -90,12 +119,42 @@
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		D8B5BB8427DDAB1200D46874 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOLabel.swift; sourceTree = "<group>"; };
-		D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D8B5BB9727DDD24000D46874 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8B5BB9827DDD24000D46874 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8B5BB9927DDD24000D46874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8B5BB9A27DDD24000D46874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8B5BB9B27DDD24000D46874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B5BB9F27DDD2B700D46874 /* ChicagoFLF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChicagoFLF.ttf; sourceTree = "<group>"; };
+		D8B5BBA027DDD2B700D46874 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D8B5BBA327DDD2BF00D46874 /* RoadMap.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RoadMap.oo; sourceTree = "<group>"; };
+		D8B5BBA427DDD2BF00D46874 /* Oovium2L.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oovium2L.oo; sourceTree = "<group>"; };
+		D8B5BBA527DDD2BF00D46874 /* OoviumToDoL.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OoviumToDoL.oo; sourceTree = "<group>"; };
+		D8B5BBA627DDD2BF00D46874 /* OoviumToDoS.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OoviumToDoS.oo; sourceTree = "<group>"; };
+		D8B5BBA727DDD2BF00D46874 /* SubscriptionsS.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubscriptionsS.oo; sourceTree = "<group>"; };
+		D8B5BBA827DDD2BF00D46874 /* Oovium2S.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oovium2S.oo; sourceTree = "<group>"; };
+		D8B5BBA927DDD2BF00D46874 /* SubscriptionsL.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubscriptionsL.oo; sourceTree = "<group>"; };
+		D8B5BBAA27DDD2BF00D46874 /* AexelsEvolizerS.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AexelsEvolizerS.oo; sourceTree = "<group>"; };
+		D8B5BBAB27DDD2BF00D46874 /* AexelsEvolizerL.oo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AexelsEvolizerL.oo; sourceTree = "<group>"; };
+		D8B5BBB527DDD2D000D46874 /* NUXSS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS1.png; sourceTree = "<group>"; };
+		D8B5BBB627DDD2D000D46874 /* NUXSS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS2.png; sourceTree = "<group>"; };
+		D8B5BBB727DDD2D000D46874 /* NUXSS1s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS1s.png; sourceTree = "<group>"; };
+		D8B5BBB827DDD2D000D46874 /* NUXSS4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS4.png; sourceTree = "<group>"; };
+		D8B5BBB927DDD2D000D46874 /* NUXSS2s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS2s.png; sourceTree = "<group>"; };
+		D8B5BBBA27DDD2D000D46874 /* NUXSS3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS3.png; sourceTree = "<group>"; };
+		D8B5BBBB27DDD2D000D46874 /* NUXSS3s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS3s.png; sourceTree = "<group>"; };
+		D8B5BBBC27DDD2D000D46874 /* NUXSS4s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUXSS4s.png; sourceTree = "<group>"; };
+		D8B5BBC527DDD2DB00D46874 /* Burn812@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn812@2x.png"; sourceTree = "<group>"; };
+		D8B5BBC627DDD2DB00D46874 /* Burn1366@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn1366@2x.png"; sourceTree = "<group>"; };
+		D8B5BBC727DDD2DB00D46874 /* Burn1112@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn1112@2x.png"; sourceTree = "<group>"; };
+		D8B5BBC827DDD2DB00D46874 /* Burn568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn568@2x.png"; sourceTree = "<group>"; };
+		D8B5BBC927DDD2DC00D46874 /* BurnMac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurnMac.png; sourceTree = "<group>"; };
+		D8B5BBCA27DDD2DC00D46874 /* Burn1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn1024@2x.png"; sourceTree = "<group>"; };
+		D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn736@3x.png"; sourceTree = "<group>"; };
+		D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn1194@2x.png"; sourceTree = "<group>"; };
+		D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn667@2x.png"; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8CC689E27D64EB500D25FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8CC68A327D64EB500D25FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
-		D8CC68AE27D64F6800D25FF1 /* Oovium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Oovium.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,10 +282,81 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		D8B5BB8E27DDD1BD00D46874 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5BB9027DDD1F700D46874 /* Burn */,
+				D8B5BB9127DDD1FF00D46874 /* NUX */,
+				D8B5BB9227DDD20600D46874 /* Aethers */,
+				D8B5BB9327DDD20B00D46874 /* Fonts */,
+				D8B5BB9B27DDD24000D46874 /* Assets.xcassets */,
+				D8B5BB9627DDD24000D46874 /* Localizable.strings */,
+				D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8B5BB9027DDD1F700D46874 /* Burn */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5BBC827DDD2DB00D46874 /* Burn568@2x.png */,
+				D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */,
+				D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */,
+				D8B5BBC527DDD2DB00D46874 /* Burn812@2x.png */,
+				D8B5BBCA27DDD2DC00D46874 /* Burn1024@2x.png */,
+				D8B5BBC727DDD2DB00D46874 /* Burn1112@2x.png */,
+				D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */,
+				D8B5BBC627DDD2DB00D46874 /* Burn1366@2x.png */,
+				D8B5BBC927DDD2DC00D46874 /* BurnMac.png */,
+			);
+			path = Burn;
+			sourceTree = "<group>";
+		};
+		D8B5BB9127DDD1FF00D46874 /* NUX */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5BBB527DDD2D000D46874 /* NUXSS1.png */,
+				D8B5BBB727DDD2D000D46874 /* NUXSS1s.png */,
+				D8B5BBB627DDD2D000D46874 /* NUXSS2.png */,
+				D8B5BBB927DDD2D000D46874 /* NUXSS2s.png */,
+				D8B5BBBA27DDD2D000D46874 /* NUXSS3.png */,
+				D8B5BBBB27DDD2D000D46874 /* NUXSS3s.png */,
+				D8B5BBB827DDD2D000D46874 /* NUXSS4.png */,
+				D8B5BBBC27DDD2D000D46874 /* NUXSS4s.png */,
+			);
+			path = NUX;
+			sourceTree = "<group>";
+		};
+		D8B5BB9227DDD20600D46874 /* Aethers */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5BBAB27DDD2BF00D46874 /* AexelsEvolizerL.oo */,
+				D8B5BBAA27DDD2BF00D46874 /* AexelsEvolizerS.oo */,
+				D8B5BBA427DDD2BF00D46874 /* Oovium2L.oo */,
+				D8B5BBA827DDD2BF00D46874 /* Oovium2S.oo */,
+				D8B5BBA527DDD2BF00D46874 /* OoviumToDoL.oo */,
+				D8B5BBA627DDD2BF00D46874 /* OoviumToDoS.oo */,
+				D8B5BBA327DDD2BF00D46874 /* RoadMap.oo */,
+				D8B5BBA927DDD2BF00D46874 /* SubscriptionsL.oo */,
+				D8B5BBA727DDD2BF00D46874 /* SubscriptionsS.oo */,
+			);
+			path = Aethers;
+			sourceTree = "<group>";
+		};
+		D8B5BB9327DDD20B00D46874 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5BB9F27DDD2B700D46874 /* ChicagoFLF.ttf */,
+				D8B5BBA027DDD2B700D46874 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D8CC688927D64EB500D25FF1 = {
 			isa = PBXGroup;
 			children = (
 				D8CC689427D64EB500D25FF1 /* Oovium */,
+				D8B5BB8E27DDD1BD00D46874 /* Resources */,
 				D8CC689327D64EB500D25FF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -247,7 +377,6 @@
 				D83D490227DA0A930078C828 /* Pequod */,
 				D8CC68A927D64EE400D25FF1 /* Interface */,
 				D8CC68AA27D64EFC00D25FF1 /* Global */,
-				D8CC68AB27D64F0800D25FF1 /* Resources */,
 			);
 			path = Oovium;
 			sourceTree = "<group>";
@@ -275,17 +404,6 @@
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
 			path = Global;
-			sourceTree = "<group>";
-		};
-		D8CC68AB27D64F0800D25FF1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D8B5BB8827DDC63700D46874 /* Launch Screen.storyboard */,
-				D8CC68AE27D64F6800D25FF1 /* Oovium.entitlements */,
-				D8CC689E27D64EB500D25FF1 /* Assets.xcassets */,
-				D8CC68A327D64EB500D25FF1 /* Info.plist */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +452,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				ja,
 			);
 			mainGroup = D8CC688927D64EB500D25FF1;
 			packageReferences = (
@@ -353,8 +473,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B5BB8927DDC63700D46874 /* Launch Screen.storyboard in Resources */,
-				D8CC689F27D64EB500D25FF1 /* Assets.xcassets in Resources */,
+				D8B5BBBE27DDD2D000D46874 /* NUXSS2.png in Resources */,
+				D8B5BBB427DDD2BF00D46874 /* AexelsEvolizerL.oo in Resources */,
+				D8B5BBD227DDD2DC00D46874 /* BurnMac.png in Resources */,
+				D8B5BBB127DDD2BF00D46874 /* Oovium2S.oo in Resources */,
+				D8B5BBCF27DDD2DC00D46874 /* Burn1366@2x.png in Resources */,
+				D8B5BBBD27DDD2D000D46874 /* NUXSS1.png in Resources */,
+				D8B5BBD027DDD2DC00D46874 /* Burn1112@2x.png in Resources */,
+				D8B5BBB227DDD2BF00D46874 /* SubscriptionsL.oo in Resources */,
+				D8B5BBBF27DDD2D000D46874 /* NUXSS1s.png in Resources */,
+				D8B5BBCE27DDD2DC00D46874 /* Burn812@2x.png in Resources */,
+				D8B5BBB027DDD2BF00D46874 /* SubscriptionsS.oo in Resources */,
+				D8B5BBA227DDD2B700D46874 /* Roboto-Medium.ttf in Resources */,
+				D8B5BBC027DDD2D000D46874 /* NUXSS4.png in Resources */,
+				D8B5BBAD27DDD2BF00D46874 /* Oovium2L.oo in Resources */,
+				D8B5BBA127DDD2B700D46874 /* ChicagoFLF.ttf in Resources */,
+				D8B5BBAF27DDD2BF00D46874 /* OoviumToDoS.oo in Resources */,
+				D8B5BBC327DDD2D000D46874 /* NUXSS3s.png in Resources */,
+				D8B5BBAE27DDD2BF00D46874 /* OoviumToDoL.oo in Resources */,
+				D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */,
+				D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */,
+				D8B5BBAC27DDD2BF00D46874 /* RoadMap.oo in Resources */,
+				D8B5BBD627DDD2DC00D46874 /* Burn667@2x.png in Resources */,
+				D8B5BBC127DDD2D000D46874 /* NUXSS2s.png in Resources */,
+				D8B5BBD327DDD2DC00D46874 /* Burn1024@2x.png in Resources */,
+				D8B5BBC427DDD2D000D46874 /* NUXSS4s.png in Resources */,
+				D8B5BBD427DDD2DC00D46874 /* Burn736@3x.png in Resources */,
+				D8B5BBC227DDD2D000D46874 /* NUXSS3.png in Resources */,
+				D8B5BBD527DDD2DC00D46874 /* Burn1194@2x.png in Resources */,
+				D8B5BBD127DDD2DC00D46874 /* Burn568@2x.png in Resources */,
+				D8B5BBB327DDD2BF00D46874 /* AexelsEvolizerS.oo in Resources */,
+				D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +557,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8B5BB9627DDD24000D46874 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B5BB9727DDD24000D46874 /* de */,
+				D8B5BB9827DDD24000D46874 /* ja */,
+				D8B5BB9927DDD24000D46874 /* en */,
+				D8B5BB9A27DDD24000D46874 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D8CC68A427D64EB500D25FF1 /* Debug */ = {
@@ -539,7 +702,9 @@
 				INFOPLIST_FILE = Oovium/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -570,7 +735,9 @@
 				INFOPLIST_FILE = Oovium/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
