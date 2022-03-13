@@ -13,7 +13,7 @@ class ExitPond: BackgroundPond {
 
 	lazy var saveAether: Pebble = {
 		pebble(name: "Save Aether") { (complete: @escaping (Bool) -> ()) in
-			guard let aetherView = Oovium.aetherView else { return }
+			guard let aetherView = Oovium.aetherView else { complete(false); return }
 			aetherView.saveAether { (success: Bool) in
 				complete(success)
 			}
