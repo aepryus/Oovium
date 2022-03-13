@@ -21,6 +21,7 @@ class OoviumState: LaunchState {
 
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
+			Oovium.aetherView.backView = BackView()
 			Oovium.aetherView.aetherViewDelegate = Oovium.aetherViewDelegate
 
 			Oovium.aetherController = OoviumController()
