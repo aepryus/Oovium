@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OoviumEngine",
+        "repositoryURL": "https://github.com/aepryus/OoviumEngine.git",
+        "state": {
+          "branch": "master",
+          "revision": "fe2ace6d59459495380d712a0586af7bc5c0c142",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
