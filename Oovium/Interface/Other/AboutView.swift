@@ -24,7 +24,7 @@ class AboutView: UIView {
 	func draw375x667() {
 		Skin.about(text: "Version \(Oovium.version)", x: 163*s, y: (97+41+36)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
 		Skin.about(text: tagline, x: 40*s, y: 254*s, uiColor: UIColor.green, font: UIFont(name: "Palatino-Italic", size: 20*s)!)
-		Skin.about(text: "\u{00A9} 2021", x: (15+10)*s, y: (285+51+2)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
+		Skin.about(text: "\u{00A9} 2022", x: (15+10)*s, y: (285+51+2)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
 		Skin.about(text: "Aepryus", x: 15*s, y: (321+55-21)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
 		Skin.about(text: "Software", x: (15+11)*s, y: (321+55)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
 
@@ -37,7 +37,7 @@ class AboutView: UIView {
 	func draw375x812() {
 		Skin.about(text: "Version \(Oovium.version)", x: 190*s, y: 170*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
 		Skin.about(text: tagline, x: 40*s, y: 294*s, uiColor: UIColor.green, font: UIFont(name: "Palatino-Italic", size: 20*s)!)
-		Skin.about(text: "\u{00A9} 2021", x: (5+10)*s, y: (285+51+2+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
+		Skin.about(text: "\u{00A9} 2022", x: (5+10)*s, y: (285+51+2+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
 		Skin.about(text: "Aepryus", x: 5*s, y: (321+55-21+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
 		Skin.about(text: "Software", x: 8*s, y: (321+55+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
 	}
@@ -59,7 +59,7 @@ class AboutView: UIView {
 		let p1: CGPoint = CGPoint(x: 686*s, y: 971*s)
 		let p2: CGPoint = CGPoint(x: 558*s, y: 991*s)
 
-		Skin.about(text: "\u{00A9} 2021", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
+		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
 		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
 	}
 	func draw834x1112() {draw768x1024()}
@@ -80,7 +80,7 @@ class AboutView: UIView {
 		let p1: CGPoint = CGPoint(x: 686*s, y: 1021*s)
 		let p2: CGPoint = CGPoint(x: 558*s, y: 1041*s)
 
-		Skin.about(text: "\u{00A9} 2021", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
+		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
 		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
 	}
 	func draw1024x1366() {draw768x1024()}
@@ -103,7 +103,7 @@ class AboutView: UIView {
 		let p1: CGPoint = CGPoint(x: 686*s, y: 996*s)
 		let p2: CGPoint = CGPoint(x: 572*s, y: 1016*s)
 
-		Skin.about(text: "\u{00A9} 2021", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
+		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
 		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
 	}
 

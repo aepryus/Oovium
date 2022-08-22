@@ -30,7 +30,6 @@
 		D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */; };
 		D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DE27D8E5DA0078C828 /* Antechamber.swift */; };
 		D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */; };
-		D83D48EA27D9FFC70078C828 /* OoviumAetherViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */; };
 		D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EC27DA00CE0078C828 /* AboutView.swift */; };
 		D83D48EF27DA00E20078C828 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EE27DA00E20078C828 /* BackView.swift */; };
 		D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */; };
@@ -74,6 +73,7 @@
 		D8B5BBD427DDD2DC00D46874 /* Burn736@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */; };
 		D8B5BBD527DDD2DC00D46874 /* Burn1194@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */; };
 		D8B5BBD627DDD2DC00D46874 /* Burn667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */; };
+		D8CB87E628B3463800048F9E /* Burn844@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CB87E528B3463800048F9E /* Burn844@2x.png */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 /* End PBXBuildFile section */
@@ -102,7 +102,6 @@
 		D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoIcon.swift; sourceTree = "<group>"; };
 		D83D48DE27D8E5DA0078C828 /* Antechamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antechamber.swift; sourceTree = "<group>"; };
 		D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewIcon.swift; sourceTree = "<group>"; };
-		D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoviumAetherViewDelegate.swift; sourceTree = "<group>"; };
 		D83D48EC27DA00CE0078C828 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		D83D48EE27DA00E20078C828 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
 		D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +148,7 @@
 		D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn736@3x.png"; sourceTree = "<group>"; };
 		D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn1194@2x.png"; sourceTree = "<group>"; };
 		D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn667@2x.png"; sourceTree = "<group>"; };
+		D8CB87E528B3463800048F9E /* Burn844@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burn844@2x.png"; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -298,6 +298,7 @@
 				D8B5BBCD27DDD2DC00D46874 /* Burn667@2x.png */,
 				D8B5BBCB27DDD2DC00D46874 /* Burn736@3x.png */,
 				D8B5BBC527DDD2DB00D46874 /* Burn812@2x.png */,
+				D8CB87E528B3463800048F9E /* Burn844@2x.png */,
 				D8B5BBCA27DDD2DC00D46874 /* Burn1024@2x.png */,
 				D8B5BBC727DDD2DB00D46874 /* Burn1112@2x.png */,
 				D8B5BBCC27DDD2DC00D46874 /* Burn1194@2x.png */,
@@ -385,7 +386,6 @@
 				D83D48F827DA0A790078C828 /* Ponds */,
 				D83D48F327DA0A5F0078C828 /* OoviumController.swift */,
 				D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */,
-				D83D48E927D9FFC70078C828 /* OoviumAetherViewDelegate.swift */,
 				D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */,
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
@@ -423,7 +423,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Aepryus Software";
 				TargetAttributes = {
 					D8CC689127D64EB500D25FF1 = {
@@ -459,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CB87E628B3463800048F9E /* Burn844@2x.png in Resources */,
 				D8B5BBBE27DDD2D000D46874 /* NUXSS2.png in Resources */,
 				D8B5BBB427DDD2BF00D46874 /* AexelsEvolizerL.oo in Resources */,
 				D8B5BBD227DDD2DC00D46874 /* BurnMac.png in Resources */,
@@ -501,7 +502,6 @@
 				D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */,
 				D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */,
 				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
-				D83D48EA27D9FFC70078C828 /* OoviumAetherViewDelegate.swift in Sources */,
 				D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */,
 				D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */,
 				D83D48B927D8E1240078C828 /* NUXBubble.swift in Sources */,
@@ -561,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -622,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -679,8 +681,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Oovium/Resources/Oovium.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
@@ -695,14 +699,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -712,8 +718,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Oovium/Resources/Oovium.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
@@ -728,14 +736,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

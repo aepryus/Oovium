@@ -32,8 +32,8 @@ import UIKit
 public class Oovium {
 	static var window: OoviumWindow = OoviumWindow(frame: UIScreen.main.bounds)
 	static var aetherController: OoviumController!
-	public static var aetherView: AetherView!
-	static let aetherViewDelegate: OoviumAetherViewDelegate = OoviumAetherViewDelegate()
+	static var aetherView: AetherView!
+    static var redDot: RedDot!
 
 	static let bootPond: BootPond = BootPond()
 	static let exitPond: ExitPond = ExitPond()
@@ -185,7 +185,6 @@ public class Oovium {
 
 	static func start() {
 		AppStore.start()
-
 
 		_ = UIFont.registerFont(bundle: fontBundle, fontName: "ChicagoFLF", fontExtension: "ttf")
 		_ = UIFont.registerFont(bundle: fontBundle, fontName: "Roboto-Medium", fontExtension: "ttf")

@@ -6,11 +6,12 @@
 //  Copyright © 2016 Aepryus Software. All rights reserved.
 //
 
+import OoviumEngine
 import OoviumKit
 import UIKit
 
 @main
-class OoviumDelegate: UIResponder, UIApplicationDelegate {
+class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 	var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
 
 // UIApplicationDelegate ===========================================================================
@@ -38,6 +39,8 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
 		return [.all]
 	}
+    
+//    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {}
 
 // MacOS ===========================================================================================
 	@objc func onAbout() {
@@ -46,7 +49,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate {
 
 	override func buildMenu(with builder: UIMenuBuilder) {
 		super.buildMenu(with: builder)
-		
+
 		builder.remove(menu: .services)
 		builder.remove(menu: .format)
 		builder.remove(menu: .toolbar)
@@ -63,4 +66,21 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate {
 		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
 		builder.insertSibling(menu, afterMenu: .about)
 	}
+    
+// AetherViewDelegate ==============================================================================
+    func onNew(aetherView: AetherView, aether: Aether) {
+        aetherView.markPositions()
+        aetherView.space?.storeAether(aether, complete: { (success: Bool) in })
+    }
+    func onClose(aetherView: AetherView, aether: Aether) {
+        aetherView.markPositions()
+        aetherView.space?.storeAether(aether)
+    }
+    func onOpen(aetherView: AetherView, aether: Aether) {
+        if let space: Space = aetherView.space {
+            Pequod.set(key: "aetherPath", value: space.aetherPath(aether: aether))
+        }
+        aetherView.orb.chainEditor.customSchematic?.render(aether: aether)
+    }
+    func onSave(aetherView: AetherView, aether: Aether) {}
 }

@@ -11,7 +11,7 @@ import Foundation
 import OoviumKit
 
 class BootPond: Pond {
-	let forceUnsubscribed: Bool = false
+//	let forceUnsubscribed: Bool = true
 
 	lazy var needNotMigrate: Pebble = {
 		pebble(name: "Need Not Migrate") { (complete: @escaping (Bool) -> ()) in
@@ -69,47 +69,47 @@ class BootPond: Pond {
 		}
 	}()
 
-	lazy var isLocallySubscribed: Pebble = {
-		pebble(name: "Is Locally Subscribed") { (complete: @escaping (Bool) -> ()) in
-			guard !self.forceUnsubscribed else { complete(false); return }
-			guard let expired = Pequod.expired, let expires = Pequod.expires else { complete(true); return }
-			complete(!expired && Date.now <= expires)
-		}
-	}()
-	lazy var isRemotelySubscribed: Pebble = {
-		pebble(name: "Is Remotely Subscribed") { (complete: @escaping (Bool) -> ()) in
-			guard !self.forceUnsubscribed else { complete(false); return }
-			guard Pequod.ping == true else { complete(true); return }
+//	lazy var isLocallySubscribed: Pebble = {
+//		pebble(name: "Is Locally Subscribed") { (complete: @escaping (Bool) -> ()) in
+//			guard !self.forceUnsubscribed else { complete(false); return }
+//			guard let expired = Pequod.expired, let expires = Pequod.expires else { complete(true); return }
+//			complete(!expired && Date.now <= expires)
+//		}
+//	}()
+//	lazy var isRemotelySubscribed: Pebble = {
+//		pebble(name: "Is Remotely Subscribed") { (complete: @escaping (Bool) -> ()) in
+//			guard !self.forceUnsubscribed else { complete(false); return }
+//			guard Pequod.ping == true else { complete(true); return }
+//
+//			Pequod.expired = true
+//
+//			AppStore.pauseForPurchase(delay: 5) {
+//				if let expired = Pequod.expired, !expired {
+//					complete(true)
+//				} else {
+//					AppStore.receiptValidation({
+//						complete(!(Pequod.expired ?? false))
+//					}) {
+//						Pequod.loginAccount(user: Pequod.user, {
+//							complete(!(Pequod.expired ?? false))
+//						}) {
+//							complete(false)
+//						}
+//					}
+//				}
+//			}
+//		}
+//	}()
 
-			Pequod.expired = true
-
-			AppStore.pauseForPurchase(delay: 5) {
-				if let expired = Pequod.expired, !expired {
-					complete(true)
-				} else {
-					AppStore.receiptValidation({
-						complete(!(Pequod.expired ?? false))
-					}) {
-						Pequod.loginAccount(user: Pequod.user, {
-							complete(!(Pequod.expired ?? false))
-						}) {
-							complete(false)
-						}
-					}
-				}
-			}
-		}
-	}()
-
-	lazy var receiptValidation: Pebble = {
-		pebble(name: "Receipt Validation") { (complete: @escaping (Bool) -> ()) in
-			AppStore.receiptValidation({
-				complete(true)
-			}) {
-				complete(false)
-			}
-		}
-	}()
+//	lazy var receiptValidation: Pebble = {
+//		pebble(name: "Receipt Validation") { (complete: @escaping (Bool) -> ()) in
+//			AppStore.receiptValidation({
+//				complete(true)
+//			}) {
+//				complete(false)
+//			}
+//		}
+//	}()
 	lazy var userLogin: Pebble = {
 		pebble(name: "User Login") { (complete: @escaping (Bool) -> ()) in
 			Pequod.loginAccount(user: Pequod.user, {
@@ -133,40 +133,40 @@ class BootPond: Pond {
 			}
 		}
 	}()
-	lazy var otidLogin: Pebble = {
-		pebble(name: "OTID Login") { (complete: @escaping (Bool) -> ()) in
-			Pequod.loginAccount(otid: Pequod.otid, user: Pequod.user, email: Pequod.email, {
-				if Pequod.user != nil {
-					Launch.shiftToOovium()
-				} else {
-					Launch.shiftToSignUp()
-				}
-				complete(true)
-			}) {
-				Log.print("recovery otid login failed")
-				complete(false)
-			}
-		}
-	}()
+//	lazy var otidLogin: Pebble = {
+//		pebble(name: "OTID Login") { (complete: @escaping (Bool) -> ()) in
+//			Pequod.loginAccount(otid: Pequod.otid, user: Pequod.user, email: Pequod.email, {
+//				if Pequod.user != nil {
+//					Launch.shiftToOovium()
+//				} else {
+//					Launch.shiftToSignUp()
+//				}
+//				complete(true)
+//			}) {
+//				Log.print("recovery otid login failed")
+//				complete(false)
+//			}
+//		}
+//	}()
 
-	lazy var showOffline: Pebble = {
-		pebble(name: "Show Offline") { (complete: @escaping (Bool) -> ()) in
-			Launch.shiftToOffline()
-			complete(true)
-		}
-	}()
-	lazy var showSubscribe: Pebble = {
-		pebble(name: "Show Subscribe") { (complete: @escaping (Bool) -> ()) in
-			Launch.shiftToSubscribe()
-			complete(true)
-		}
-	}()
-	lazy var showSignUp: Pebble = {
-		pebble(name: "Show Sign Up") { (complete: @escaping (Bool) -> ()) in
-			Launch.shiftToSignUp()
-			complete(true)
-		}
-	}()
+//	lazy var showOffline: Pebble = {
+//		pebble(name: "Show Offline") { (complete: @escaping (Bool) -> ()) in
+//			Launch.shiftToOffline()
+//			complete(true)
+//		}
+//	}()
+//	lazy var showSubscribe: Pebble = {
+//		pebble(name: "Show Subscribe") { (complete: @escaping (Bool) -> ()) in
+//			Launch.shiftToSubscribe()
+//			complete(true)
+//		}
+//	}()
+//	lazy var showSignUp: Pebble = {
+//		pebble(name: "Show Sign Up") { (complete: @escaping (Bool) -> ()) in
+//			Launch.shiftToSignUp()
+//			complete(true)
+//		}
+//	}()
 	lazy var queryCloud: Pebble = {
 		pebble(name: "Query iCloud") { (complete: @escaping (Bool) -> ()) in
 			Space.cloud = CloudSpace(path: "", parent: Space.anchor) {
@@ -200,11 +200,11 @@ class BootPond: Pond {
 
 		migrate.ready = { self.needNotMigrate.failed }
 
-		isLocallySubscribed.ready = { self.loadToken.succeeded }
-		isRemotelySubscribed.ready = {
-			self.ping.completed
-			&& self.isLocallySubscribed.failed
-		}
+//		isLocallySubscribed.ready = { self.loadToken.succeeded }
+//		isRemotelySubscribed.ready = {
+//			self.ping.completed
+//			&& self.isLocallySubscribed.failed
+//		}
 
 		userLogin.ready = {
 			self.ping.succeeded
@@ -212,44 +212,40 @@ class BootPond: Pond {
 			&& self.loadUser.succeeded
 		}
 
-		receiptValidation.ready = {
-			self.ping.succeeded
-			&& self.loadToken.failed
-			&& self.loadOTID.failed
-			&& (self.loadUser.failed || self.userLogin.failed)
-		}
+//		receiptValidation.ready = {
+//			self.ping.succeeded
+//			&& self.loadToken.failed
+//			&& self.loadOTID.failed
+//			&& (self.loadUser.failed || self.userLogin.failed)
+//		}
 
-		otidLogin.ready = {
-			self.ping.succeeded
-			&& self.loadToken.failed
-			&& (self.loadOTID.succeeded || self.receiptValidation.succeeded)
-			&& (self.loadUser.failed || self.userLogin.failed)
-		}
+//		otidLogin.ready = {
+//			self.ping.succeeded
+//			&& self.loadToken.failed
+//			&& (self.loadOTID.succeeded || self.receiptValidation.succeeded)
+//			&& (self.loadUser.failed || self.userLogin.failed)
+//		}
 
-		showOffline.ready = {
-			self.ping.failed
-			&& self.loadToken.failed
-		}
+//		showOffline.ready = {
+//			self.ping.failed
+//			&& self.loadToken.failed
+//		}
 
-		showSubscribe.ready = {
-			self.ping.succeeded
-			&& (self.receiptValidation.failed || self.isRemotelySubscribed.failed)
-		}
+//		showSubscribe.ready = {
+//			self.ping.succeeded
+//			&& (self.receiptValidation.failed || self.isRemotelySubscribed.failed)
+//		}
 
-		showSignUp.ready = {
-			self.ping.succeeded
-			&& self.loadToken.succeeded
-			&& self.loadOTID.succeeded
-			&& (self.isLocallySubscribed.succeeded || self.isRemotelySubscribed.succeeded)
-			&& self.loadUser.failed
-		}
+//		showSignUp.ready = {
+//			self.ping.succeeded
+//			&& self.loadToken.succeeded
+//			&& self.loadOTID.succeeded
+//			&& (self.isLocallySubscribed.succeeded || self.isRemotelySubscribed.succeeded)
+//			&& self.loadUser.failed
+//		}
 
-		startOovium.ready = {
-			self.loadToken.succeeded
-			&& self.loadOTID.succeeded
-			&& (self.loadUser.succeeded || self.ping.failed)
-			&& (self.isLocallySubscribed.succeeded || self.isRemotelySubscribed.succeeded)
-			&& (self.needNotMigrate.succeeded || self.migrate.succeeded)
+        startOovium.ready = {
+			(self.needNotMigrate.succeeded || self.migrate.succeeded)
 			&& self.queryCloud.succeeded
 		}
 

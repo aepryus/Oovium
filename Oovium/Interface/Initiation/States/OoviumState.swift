@@ -22,7 +22,8 @@ class OoviumState: LaunchState {
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
 			Oovium.aetherView.backView = BackView()
-			Oovium.aetherView.aetherViewDelegate = Oovium.aetherViewDelegate
+            Oovium.aetherView.aetherViewDelegate = UIApplication.shared.delegate as! OoviumDelegate
+            Oovium.redDot = RedDot(aetherView: Oovium.aetherView)
 
 			Oovium.aetherController = OoviumController()
 
@@ -32,6 +33,7 @@ class OoviumState: LaunchState {
 			Oovium.aetherController.view.addSubview(Oovium.aetherView)
 			Oovium.window.rootViewController = Oovium.aetherController
 			Oovium.aetherView.frame = CGRect(x: 0, y: Screen.mac ? Screen.safeTop : 0, width: Oovium.aetherController.view.width, height: Oovium.aetherController.view.height - (Screen.mac ? Screen.safeTop : 0))
+            if !Screen.mac { Oovium.redDot.invoke() }
 
 			Oovium.window.backgroundColor = UIColor(red: 32/255, green: 34/255, blue: 36/255, alpha: 1)
 

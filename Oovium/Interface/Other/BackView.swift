@@ -47,17 +47,31 @@ class BackView: UIView {
 		}
 	}
 	private func grabImage() -> UIImage {
-		if !Screen.iPhone { return UIImage(named: "BurnMac")! }
-		let height = max(Screen.height, Screen.width)
-		if height == 568 { return UIImage(named: "Burn568")! }
-		else if height == 667 { return UIImage(named: "Burn667")! }
-		else if height == 736 { return UIImage(named: "Burn736")! }
-		else if height == 812 { return UIImage(named: "Burn812")! }
-		else if height == 1024 { return UIImage(named: "Burn1024")! }
-		else if height == 1112 { return UIImage(named: "Burn1112")! }
-		else if height == 1194 { return UIImage(named: "Burn1194")! }
-		else if height == 1366 { return UIImage(named: "Burn1366")! }
-		else { return UIImage(named: "Burn667")! }
+        guard !Screen.mac else { return UIImage(named: "BurnMac")! }
+        
+        let name: String
+        switch Screen.dimensions {
+            case .dim320x480:   fatalError()
+            case .dim320x568:   name = "Burn568"
+//            case .dim360x780:   name = ""
+            case .dim375x667:   name = "Burn667"
+            case .dim375x812:   name = "Burn812"
+            case .dim390x844:   name = "Burn844"
+            case .dim414x736:   name = "Burn736"
+//            case .dim414x896:   name = ""
+//            case .dim428x926:   name = ""
+            case .dim1024x768:  name = "Burn1024"
+//            case .dim1080x810:  name = ""
+            case .dim1112x834:  name = "Burn1112"
+//            case .dim1133x744:  name = ""
+//            case .dim1180x820:  name = ""
+            case .dim1194x834:  name = "Burn1194"
+            case .dim1366x1024: name = "Burn1366"
+//            case .dimOther:     name = ""
+            default:            name = "Burn667"
+        }
+        
+        return UIImage(named: name)!
 	}
 
 	func reload() {
