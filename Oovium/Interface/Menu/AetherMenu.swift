@@ -19,7 +19,7 @@ class AetherMenu: KeyPad {
 
 		schematic.add(row: 0, col: 0, key: Key(text: "clear", uiColor: apricot, {
 			self.redDot.dismissRootMenu()
-			self.aetherView.invokeConfirmHover("clearConfirm".localized, {
+			self.aetherView.invokeConfirmModal("clearConfirm".localized, {
 				self.aetherView.clearAether()
 			})
 		}))
