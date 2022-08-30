@@ -79,6 +79,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D832029428B6B5DE00164F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Oovium/Info.plist; sourceTree = SOURCE_ROOT; };
 		D83D48B627D8E1240078C828 /* NUXBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXBubble.swift; sourceTree = "<group>"; };
 		D83D48B727D8E1240078C828 /* NUXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXView.swift; sourceTree = "<group>"; };
 		D83D48B827D8E1240078C828 /* NUXPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUXPageView.swift; sourceTree = "<group>"; };
@@ -287,6 +288,7 @@
 				D8B5BB9B27DDD24000D46874 /* Assets.xcassets */,
 				D8B5BB9627DDD24000D46874 /* Localizable.strings */,
 				D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */,
+				D832029428B6B5DE00164F19 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -422,6 +424,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = OO;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Aepryus Software";

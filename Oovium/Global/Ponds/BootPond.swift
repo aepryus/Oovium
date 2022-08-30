@@ -169,9 +169,9 @@ class BootPond: Pond {
 //	}()
 	lazy var queryCloud: Pebble = {
 		pebble(name: "Query iCloud") { (complete: @escaping (Bool) -> ()) in
-			Space.cloud = CloudSpace(path: "", parent: Space.anchor) {
-				complete(true)
-			}
+            guard Cloud.checkAvailability() else { complete(false); return }
+            Cloud.start()
+            complete(true)
 		}
 	}()
 	lazy var startOovium: Pebble = {

@@ -57,7 +57,7 @@ class Antechamber: Modal {
 		articleView = AetherView(aether: Aether(), toolsOn: false, burn: false)
 		if Screen.mac { articleView.makePannable() }
 
-		super.init(aetherView: Oovium.aetherView, anchor: .center, orientations: Screen.iPhone ? .portrait : .landscape)
+		super.init(anchor: .center, orientations: Screen.iPhone ? .portrait : .landscape)
 
 		forcedOrientation = Screen.iPhone ? .portrait : .landscape
 
