@@ -70,16 +70,15 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 // AetherViewDelegate ==============================================================================
     func onNew(aetherView: AetherView, aether: Aether) {
         aetherView.markPositions()
-        aetherView.space?.storeAether(aether, complete: { (success: Bool) in })
+//        aetherView.space?.storeAether(aether, complete: { (success: Bool) in })
     }
     func onClose(aetherView: AetherView, aether: Aether) {
         aetherView.markPositions()
-        aetherView.space?.storeAether(aether)
+//        aetherView.space?.storeAether(aether)
     }
     func onOpen(aetherView: AetherView, aether: Aether) {
-        if let space: Space = aetherView.space {
-            Pequod.set(key: "aetherPath", value: space.aetherPath(aether: aether))
-        }
+        guard let facade: Facade = aetherView.facade else { return }
+        Pequod.set(key: "aetherURL", value: facade.url.path)
         aetherView.orb.chainEditor.customSchematic?.render(aether: aether)
     }
     func onSave(aetherView: AetherView, aether: Aether) {}

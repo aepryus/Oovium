@@ -37,11 +37,11 @@ public class Oovium {
 
 	static let bootPond: BootPond = BootPond()
 	static let exitPond: ExitPond = ExitPond()
-
-	static var space: Space {
-		set { OoviumState.behindView.leftExplorer.space = newValue }
-		get { OoviumState.behindView.leftExplorer.space }
-	}
+    
+    static var facade: Facade {
+        set { OoviumState.behindView.leftExplorer.facade = newValue }
+        get { OoviumState.behindView.leftExplorer.facade }
+    }
 
 	static var version: String {
 		guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {return "0.0"}

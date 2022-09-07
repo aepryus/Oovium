@@ -32,10 +32,6 @@ class LaunchViewController: UIViewController {
 	override func viewDidLoad() {
 		view.backgroundColor = .clear
 	}
-//	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-//		super.viewWillTransition(to: size, with: coordinator)
-//		print("LaunchWindow transitioning")
-//	}
 }
 
 class LaunchState: NSObject {

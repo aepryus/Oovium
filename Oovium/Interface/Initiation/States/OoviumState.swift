@@ -17,7 +17,6 @@ class OoviumState: LaunchState {
 // LaunchState =======================================================================================
 	override func onActivate() {
 		Math.start()
-		Space.loadSpaces {}
 
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
@@ -36,17 +35,19 @@ class OoviumState: LaunchState {
             if !Screen.mac { Oovium.redDot.invoke() }
 
 			Oovium.window.backgroundColor = UIColor(red: 32/255, green: 34/255, blue: 36/255, alpha: 1)
-
-			if	let aetherPath: String = Pequod.get(key: "aetherPath") {
-				Space.digest(aetherPath: aetherPath) { (spaceAether: (Space, Aether)?) in
-					guard let spaceAether = spaceAether else { return }
-					Oovium.space = spaceAether.0
-					Oovium.aetherView.swapToAether(space: spaceAether.0, aether: spaceAether.1)
-				}
-			} else {
-				Pequod.set(key: "aetherPath", value: Space.local.aetherPath(aether: Oovium.aetherView.aether))
-				Space.local.storeAether(Oovium.aetherView.aether) { (success: Bool) in }
-			}
+            
+            if let string: String = Pequod.get(key: "aetherURL"), let aetherURL: URL = URL(string: string) {
+                let facade: Facade = Facade.create(url: aetherURL)
+                Space.digest(facade: facade) { (aether: Aether?) in
+                    guard let aether: Aether = aether else { return }
+                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                }
+            } else {
+                guard let facade: Facade = Oovium.aetherView.facade else { return }
+                let aether: Aether = Oovium.aetherView.aether
+                Pequod.set(key: "aetherURL", value: facade.url.path)
+                Space.local.storeAether(facade: facade, aether: aether) { (success: Bool) in }
+            }
 		}
 	}
 	override func onDeactivate(_ complete: @escaping ()->()) {
