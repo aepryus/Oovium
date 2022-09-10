@@ -98,6 +98,20 @@ class BootPond: Pond {
             Space.cloud = CloudSpace({ complete(true) })
 		}
 	}()
+    
+    lazy var loadSettings: Pebble = {
+        pebble(name: "loadSettings") { (complete: @escaping (Bool) -> ()) in
+            if let iden: String = Loom.get(key: "settingsIden"),
+               let settings: Settings = Loom.selectBy(iden: iden) {
+                Oovium.settings = settings
+            } else {
+                Loom.transact { Oovium.settings = Loom.create() }
+                Loom.set(key: "settingsIden", value: Oovium.settings.iden)
+            }
+            Skin.skin = Oovium.settings.skin.skin
+            complete(true)
+        }
+    }()
 	lazy var startOovium: Pebble = {
 		pebble(name: "Start Oovium") { (complete: @escaping (Bool) -> ()) in
 			Launch.shiftToOovium()
@@ -109,8 +123,9 @@ class BootPond: Pond {
             guard let aetherURL: String = Pequod.get(key: "aetherURL") else { complete(false); return }
             let facade: Facade = Facade.create(url: URL(fileURLWithPath: aetherURL))
             Space.digest(facade: facade) { (aether: Aether?) in
-                guard let aether: Aether = aether else { return }
+                guard let aether: Aether = aether else { complete(false); return }
                 Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                complete(true)
             }
         }
     }()
@@ -130,6 +145,7 @@ class BootPond: Pond {
 		loadUser.ready = { true }
 		needNotMigrate.ready = { true }
 		ping.ready = { true }
+        loadSettings.ready = { true }
 		queryCloud.ready = { true }
 
 		migrate.ready = { self.needNotMigrate.failed }
@@ -141,7 +157,8 @@ class BootPond: Pond {
 		}
 
         startOovium.ready = {
-			(self.needNotMigrate.succeeded || self.migrate.succeeded)
+            self.loadSettings.succeeded
+			&& (self.needNotMigrate.succeeded || self.migrate.succeeded)
 			&& self.queryCloud.succeeded
 		}
         

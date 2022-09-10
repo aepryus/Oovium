@@ -42,6 +42,10 @@
 		D83D490827DA0A930078C828 /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490127DA0A930078C828 /* iCloud.swift */; };
 		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
+		D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53DA28CB3DD000F84008 /* Settings.swift */; };
+		D89A53E628CB488100F84008 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E328CB488100F84008 /* ScaleView.swift */; };
+		D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E428CB488100F84008 /* SettingsHover.swift */; };
+		D89A53E828CB488100F84008 /* SwapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E528CB488100F84008 /* SwapButton.swift */; };
 		D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8427DDAB1200D46874 /* Article.swift */; };
 		D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */; };
 		D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */; };
@@ -115,6 +119,10 @@
 		D83D490127DA0A930078C828 /* iCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
 		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		D89A53DA28CB3DD000F84008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D89A53E328CB488100F84008 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		D89A53E428CB488100F84008 /* SettingsHover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHover.swift; sourceTree = "<group>"; };
+		D89A53E528CB488100F84008 /* SwapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapButton.swift; sourceTree = "<group>"; };
 		D8B5BB8427DDAB1200D46874 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOLabel.swift; sourceTree = "<group>"; };
 		D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -274,9 +282,20 @@
 		D83D490427DA0A930078C828 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				D89A53DA28CB3DD000F84008 /* Settings.swift */,
 				D83D490527DA0A930078C828 /* Shell.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		D89A53DC28CB47C500F84008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D89A53E328CB488100F84008 /* ScaleView.swift */,
+				D89A53E428CB488100F84008 /* SettingsHover.swift */,
+				D89A53E528CB488100F84008 /* SwapButton.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		D8B5BB8E27DDD1BD00D46874 /* Resources */ = {
@@ -373,6 +392,7 @@
 		D8CC68A927D64EE400D25FF1 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				D89A53DC28CB47C500F84008 /* Settings */,
 				D83D48EB27DA00BA0078C828 /* Other */,
 				D83D48D827D8E5B00078C828 /* Antechamber */,
 				D83D48CB27D8E4EF0078C828 /* Menu */,
@@ -511,12 +531,14 @@
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
 				D83D490A27DA0A930078C828 /* Shell.swift in Sources */,
 				D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */,
+				D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */,
 				D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */,
 				D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */,
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
 				D83D48C527D8E1540078C828 /* BlankState.swift in Sources */,
 				D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */,
 				D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */,
+				D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */,
 				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
 				D83D48EF27DA00E20078C828 /* BackView.swift in Sources */,
 				D83D490627DA0A930078C828 /* Security.swift in Sources */,
@@ -528,6 +550,7 @@
 				D83D490827DA0A930078C828 /* iCloud.swift in Sources */,
 				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,
 				D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */,
+				D89A53E828CB488100F84008 /* SwapButton.swift in Sources */,
 				D83D48BA27D8E1240078C828 /* NUXView.swift in Sources */,
 				D83D48C627D8E1540078C828 /* SubscribeButton.swift in Sources */,
 				D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */,
@@ -538,6 +561,7 @@
 				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
 				D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */,
 				D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */,
+				D89A53E628CB488100F84008 /* ScaleView.swift in Sources */,
 				D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */,
 				D83D48BB27D8E1240078C828 /* NUXPageView.swift in Sources */,
 			);

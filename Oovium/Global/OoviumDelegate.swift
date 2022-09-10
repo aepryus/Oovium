@@ -26,27 +26,13 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
 		return true
 	}
-	func applicationDidBecomeActive(_ application: UIApplication) {
-		Oovium.bootPond.addCompletionTask {
-//			Oovium.iCloudDownload()
-			iCloud.uploadClassic()
-		}
-	}
 	func applicationWillResignActive(_ application: UIApplication) {
 		Log.print("==================== [ Oovium - Exiting ] =======================================")
 		Oovium.exitPond.start()
 	}
-	func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-		return [.all]
-	}
+	func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask { [.all] }
     
-//    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {}
-
 // MacOS ===========================================================================================
-	@objc func onAbout() {
-		if let backView = Oovium.aetherView.backView as? BackView { backView.fade(aboutOn: true) }
-	}
-
 	override func buildMenu(with builder: UIMenuBuilder) {
 		super.buildMenu(with: builder)
 
@@ -60,7 +46,8 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [action]))
 
 		action = UIAction(title: "Preferences...", handler: { (action: UIAction) in
-			print("Preferences...")
+            let settingsHover: SettingsHover = SettingsHover(aetherView: Oovium.aetherView)
+            settingsHover.invoke()
 		})
 
 		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
@@ -79,6 +66,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
     func onOpen(aetherView: AetherView, aether: Aether) {
         guard let facade: Facade = aetherView.facade else { return }
         Pequod.set(key: "aetherURL", value: facade.url.path)
+        OoviumState.behindView.leftExplorer.facade = facade.parent!
         aetherView.orb.chainEditor.customSchematic?.render(aether: aether)
     }
     func onSave(aetherView: AetherView, aether: Aether) {}

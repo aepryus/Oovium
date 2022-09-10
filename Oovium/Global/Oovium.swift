@@ -38,6 +38,8 @@ public class Oovium {
 	static let bootPond: BootPond = BootPond()
 	static let exitPond: ExitPond = ExitPond()
     
+    static var settings: Settings = Settings()
+    
     static var facade: Facade {
         set { OoviumState.behindView.leftExplorer.facade = newValue }
         get { OoviumState.behindView.leftExplorer.facade }
