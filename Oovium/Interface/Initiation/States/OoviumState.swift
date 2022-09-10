@@ -20,11 +20,12 @@ class OoviumState: LaunchState {
 
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
+            Oovium.aetherView.backgroundColor = .white.shade(0.04)
 			Oovium.aetherView.backView = BackView()
             Oovium.aetherView.aetherViewDelegate = UIApplication.shared.delegate as! OoviumDelegate
             Oovium.redDot = RedDot(aetherView: Oovium.aetherView)
 
-			Oovium.aetherController = OoviumController()
+            Oovium.aetherController = OoviumController()
 
 			Oovium.aetherController.view.addSubview(OoviumState.behindView)
 			OoviumState.behindView.frame = CGRect(x: 0, y: 0, width: Screen.width, height: Screen.height)

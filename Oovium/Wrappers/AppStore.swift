@@ -61,7 +61,7 @@ class AppStore: NSObject, SKPaymentTransactionObserver, SKProductsRequestDelegat
 			
 			guard Pequod.token == nil else {
 				if expired {
-					Launch.shiftToSubscribe()
+//					Launch.shiftToSubscribe()
 				} else {
 					Launch.shiftToOovium()
 				}
@@ -71,7 +71,7 @@ class AppStore: NSObject, SKPaymentTransactionObserver, SKProductsRequestDelegat
 			Pequod.loginAccount(otid: otid, user: Pequod.user, email: Pequod.email, {
 				Log.print("logged in via otid")
 				if expired {
-					Launch.shiftToSubscribe()
+//					Launch.shiftToSubscribe()
 				} else if Pequod.user == nil {
 					Launch.shiftToSignUp()
 				} else {
@@ -83,7 +83,7 @@ class AppStore: NSObject, SKPaymentTransactionObserver, SKProductsRequestDelegat
 			}
 		}) {
 			Log.print("verifyReceipt failure")
-			Launch.shiftToSubscribe()
+//			Launch.shiftToSubscribe()
 		}
 	}
 	
@@ -97,13 +97,13 @@ class AppStore: NSObject, SKPaymentTransactionObserver, SKProductsRequestDelegat
 					if let error = transaction.error?.localizedDescription {
 						Log.print("failed: [\(error)]")
 						DispatchQueue.main.async { Oovium.alert(message: error) {
-							Launch.shiftToSubscribe()
+//							Launch.shiftToSubscribe()
 							self.validateReceipt()
 						}}
 					} else {
 						Log.print("failed")
 						DispatchQueue.main.async { Oovium.alert(message: "Unknown Error, please try again later.") {
-							Launch.shiftToSubscribe()
+//							Launch.shiftToSubscribe()
 							self.validateReceipt()
 						} }
 					}

@@ -11,11 +11,8 @@ import OoviumKit
 import UIKit
 
 class OoviumController: UIViewController {
-	let backView: UIView = UIView()
-	let shieldView: UIView = UIView()
-	let canopyView: UIView = UIView()
-	
-	func stretch() {
+
+    func stretch() {
 		Oovium.aetherView.stretch()
 		Oovium.aetherView.needsStretch = false
 	}
@@ -53,7 +50,8 @@ class OoviumController: UIViewController {
 		super.viewWillTransition(to: size, with: coordinator)
 
 		if Screen.mac {
-			Oovium.aetherView.frame = CGRect(x: 0, y: Oovium.window.safeAreaInsets.top, width: size.width, height: size.height-Oovium.window.safeAreaInsets.top)
+            Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Oovium.aetherView.top, width: size.width-Oovium.aetherView.left, height: size.height-Oovium.aetherView.top)
+            OoviumState.behindView.frame = CGRect(origin: OoviumState.behindView.frame.origin, size: CGSize(width: OoviumState.behindView.width, height: size.height-OoviumState.behindView.top))
 		} else {
 			Oovium.aetherView.frame = CGRect(origin: .zero, size: size)
 		}

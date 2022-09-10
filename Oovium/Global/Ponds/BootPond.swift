@@ -72,20 +72,7 @@ class BootPond: Pond {
 	lazy var userLogin: Pebble = {
 		pebble(name: "User Login") { (complete: @escaping (Bool) -> ()) in
 			Pequod.loginAccount(user: Pequod.user, {
-
-				if Pequod.token != nil {
-					if let expired = Pequod.expired, !expired {
-						Launch.shiftToOovium()
-					} else {
-						Launch.shiftToSubscribe()
-					}
-					complete(true)
-				} else if Pequod.otid == nil {
-					Launch.shiftToSubscribe()
-					complete(false)
-				} else {
-					complete(false)
-				}
+                complete(true)
 			}) {
 				Log.print("recovery user login failed")
 				complete(false)

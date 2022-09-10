@@ -57,11 +57,9 @@ class Launch {
 	static let offline: OfflineState = OfflineState()
 	static let oovium: OoviumState = OoviumState()
 	static let signUp: SignUpState = SignUpState()
-	static let subscribe: SubscribeState = SubscribeState()
 	
 	static func shiftToBlank() { shiftTo(blank) }
 	static func shiftToOffline() { shiftTo(offline) }
 	static func shiftToOovium() { shiftTo(oovium) }
 	static func shiftToSignUp() { shiftTo(signUp) }
-	static func shiftToSubscribe() { shiftTo(subscribe) }
 }

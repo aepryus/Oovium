@@ -26,7 +26,9 @@ class BackView: UIView {
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)
+        renderImage()
 		reload()
+        contentMode = .topLeft
 	}
 	required init?(coder aDecoder: NSCoder) {fatalError()}
 
@@ -73,11 +75,22 @@ class BackView: UIView {
         
         return UIImage(named: name)!
 	}
+    private func renderImage() {
+        let size: CGSize = UIScreen.main.nativeBounds.size
+        
+        UIGraphicsBeginImageContextWithOptions(size, true, 0)
+        let c = UIGraphicsGetCurrentContext()!
+        c.setFillColor(UIColor.black.cgColor)
+        c.fill(CGRect(origin: .zero, size: size))
+        grabImage().draw(at: .zero)
+        image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+    }
 
 	func reload() {
 		if Oovium.screenBurn {
 			backgroundColor = Skin.backColor
-			image = grabImage()
+            renderImage()
 		} else {
 			backgroundColor = UIColor.clear
 		}
@@ -89,13 +102,12 @@ class BackView: UIView {
 		lastAboutOn = aboutOn
 		lastStart = Date().addingTimeInterval(-timeToFade*(1-percent))
 		_ = tally.increment(key: "fades")
-		let image = grabImage()
 		let rect = frame
 		fade = UIImageView(frame: rect)
 
 		UIGraphicsBeginImageContext(rect.size)
-		if Screen.iPhone { image.draw(in: rect) }
-		else { image.draw(at: CGPoint.zero) }
+		if Screen.iPhone { image?.draw(in: rect) }
+		else { image?.draw(at: CGPoint.zero) }
 		if aboutOn {
 			let aboutView = AboutView()
 			aboutView.tagline = tagline
@@ -136,9 +148,6 @@ class BackView: UIView {
 	}
 
 // UIView ==========================================================================================
-	override var frame: CGRect {
-		didSet { setNeedsDisplay() }
-	}
 	override func draw(_ rect: CGRect) {
 		if Oovium.screenBurn, let image = image {
 			if Screen.iPhone {
