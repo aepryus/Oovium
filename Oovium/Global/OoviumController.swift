@@ -50,11 +50,10 @@ class OoviumController: UIViewController {
 		super.viewWillTransition(to: size, with: coordinator)
 
 		if Screen.mac {
-            Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Oovium.aetherView.top, width: size.width-Oovium.aetherView.left, height: size.height-Oovium.aetherView.top)
+            Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Oovium.aetherView.top, width: size.width, height: size.height-Oovium.aetherView.top)
             OoviumState.behindView.frame = CGRect(origin: OoviumState.behindView.frame.origin, size: CGSize(width: OoviumState.behindView.width, height: size.height-OoviumState.behindView.top))
 		} else {
 			Oovium.aetherView.frame = CGRect(origin: .zero, size: size)
 		}
-		Oovium.aetherView.stretch()
 	}
 }
