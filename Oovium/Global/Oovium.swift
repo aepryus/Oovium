@@ -51,7 +51,7 @@ public class Oovium {
 	}
 	public static var screenBurn: Bool = true
 
-	static let taglines = ["objects to the people!", "Bringing Sexy Back", "cogito ergo Oovium", "μή μου τούς κύκλους τάραττε", "Math 2.0", "a bicycle for the mind"]
+	static let taglines = ["objects to the people!", "bringing sexy back", "cogito ergo Oovium", "μή μου τούς κύκλους τάραττε", "a bicycle for the mind"]
 
 	static func tagline() -> String {
 		return taglines.randomElement()!

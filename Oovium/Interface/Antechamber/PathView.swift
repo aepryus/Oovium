@@ -12,7 +12,7 @@ import UIKit
 class PathView: UIView {
 	var path: CGPath? = nil {
 		didSet {
-			guard let path = path else {return}
+			guard let path = path else { return }
 			let box = path.boundingBox.insetBy(dx: -2, dy: -2)
 			var transform = CGAffineTransform(translationX: -box.origin.x, y: -box.origin.y)
 			self.path = path.copy(using: &transform)!
@@ -41,7 +41,7 @@ class PathView: UIView {
 	
 // UIView ==========================================================================================
 	override func draw(_ rect: CGRect) {
-		guard let path = path else {return}
+		guard let path = path else { return }
 
 		let w: CGFloat = 4/3
 		let c = UIGraphicsGetCurrentContext()!

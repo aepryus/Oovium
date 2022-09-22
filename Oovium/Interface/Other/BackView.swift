@@ -139,11 +139,11 @@ class BackView: UIView {
 		}
 	}
 	func fadeRestart() {
-		guard pausePercent > 0 else {return}
+		guard pausePercent > 0 else { return }
 		fade(aboutOn: pauseAboutOn, percent: pausePercent)
 	}
 	func fadeToBack() {
-		guard let fade = fade else {return}
+		guard let fade = fade else { return }
 		sendSubviewToBack(fade)
 	}
 

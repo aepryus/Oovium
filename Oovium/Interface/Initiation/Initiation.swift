@@ -43,7 +43,7 @@ class Launch {
 	static var currentState: LaunchState? = nil
 	
 	static func shiftTo(_ state: LaunchState) {
-		guard state !== currentState else {return}
+		guard state !== currentState else { return }
 		Log.print("Switching to [\(String(describing: type(of: state)))]")
 		let oldState: LaunchState? = currentState
 		currentState = state

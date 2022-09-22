@@ -15,7 +15,7 @@ class ArticlesView: AETableView, UITableViewDataSource {
 	var articles: [Article] = []
 	var selected: Article? = nil {
 		didSet {
-			guard let aether = selected?.aether else {return}
+			guard let aether = selected?.aether else { return }
 			antechamber.articleView.lockVerticalScrolling = true
 			antechamber.articleView.swapToAether(aether: aether)
 		}
