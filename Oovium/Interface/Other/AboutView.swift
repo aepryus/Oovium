@@ -17,7 +17,7 @@ class AboutView: UIView {
 		super.init(frame: UIScreen.main.bounds)
 		backgroundColor = UIColor.clear
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 
 	func draw320x480() {draw375x667()}
 	func draw320x568() {draw375x667()}

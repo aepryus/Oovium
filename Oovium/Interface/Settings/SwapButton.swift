@@ -24,7 +24,7 @@ fileprivate class SwapView: UIView {
         backgroundColor = UIColor.clear
         isUserInteractionEnabled = false
     }
-    required init?(coder aDecoder: NSCoder) {fatalError()}
+    required init?(coder aDecoder: NSCoder) { fatalError() }
     
 // UIView ==========================================================================================
     override func draw(_ rect: CGRect) {
@@ -77,7 +77,7 @@ class SwapButton: UIControl {
         addSubview(swapView)
         backgroundColor = .green.shade(0.5).alpha(0.3)
     }
-    required init?(coder aDecoder: NSCoder) {fatalError()}
+    required init?(coder aDecoder: NSCoder) { fatalError() }
     
     public var position: Int { swapView.transform == CGAffineTransform.identity ? 0 : 1 }
     

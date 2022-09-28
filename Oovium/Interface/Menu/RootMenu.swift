@@ -39,7 +39,7 @@ class RootMenu: Hover {
 			addSubview(keySlot.key)
 		}
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 	
 	static func renderPath() -> CGPath {
 		

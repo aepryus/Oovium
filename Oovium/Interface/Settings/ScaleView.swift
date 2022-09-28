@@ -27,7 +27,7 @@ class ScaleView: UIView, UIGestureRecognizerDelegate {
 		gesture.delegate = self
 		addGestureRecognizer(gesture)
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 
 	// Events ==========================================================================================
 	@objc func onPan(gesture: UIPanGestureRecognizer) {

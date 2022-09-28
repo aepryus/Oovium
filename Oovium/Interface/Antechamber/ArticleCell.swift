@@ -52,7 +52,7 @@ class ArticleCell: UITableViewCell {
 		let gesture = UITapGestureRecognizer(target: self, action: #selector(onTap))
 		addGestureRecognizer(gesture)
 	}
-	required init?(coder: NSCoder) {fatalError()}
+	required init?(coder: NSCoder) { fatalError() }
 	
 	var uiColor: UIColor {
 		if antechamber.selected !== article {

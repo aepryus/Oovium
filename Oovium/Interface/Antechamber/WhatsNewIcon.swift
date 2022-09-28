@@ -14,5 +14,5 @@ class WhatsNewIcon: StickyIcon {
 		
 		text = "What's New".localized
 	}
-	required init?(coder: NSCoder) {fatalError()}
+	required init?(coder: NSCoder) { fatalError() }
 }

@@ -50,7 +50,7 @@ public class SettingsHover: Modal {
         
         print("Settings: \(Oovium.settings.unload().toJSON())")
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 
 // Hover ===========================================================================================
 //	public override func rescale() {}

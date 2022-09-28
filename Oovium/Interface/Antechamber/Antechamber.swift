@@ -114,7 +114,7 @@ class Antechamber: Modal {
 			self.dismiss()
 		}
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 	
 	func reset() {
 		guard Oo.iPhone else { return }

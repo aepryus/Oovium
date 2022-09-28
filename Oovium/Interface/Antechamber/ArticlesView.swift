@@ -63,7 +63,7 @@ class ArticlesView: AETableView, UITableViewDataSource {
 			selected = articles[0]
 		}
 	}
-	required init?(coder: NSCoder) {fatalError()}
+	required init?(coder: NSCoder) { fatalError() }
 	
 // UITableViewDataSource ===========================================================================
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

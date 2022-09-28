@@ -30,7 +30,7 @@ class BackView: UIView {
 		reload()
         contentMode = .topLeft
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 
 	private func rerender(view: UIView) {
 		view.setNeedsDisplay()

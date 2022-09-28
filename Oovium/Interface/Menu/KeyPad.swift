@@ -22,7 +22,7 @@ public class KeyPad: Hover {
 		self.schematic = schematic
 		super.init(aetherView: redDot.aetherView, anchor: anchor, size: size, offset: offset, fixed: fixed)
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 
 	private func renderSchematic() {
 		for view in subviews {

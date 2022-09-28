@@ -14,5 +14,5 @@ class ToDoIcon: StickyIcon {
 
 		text = "To Do".localized
 	}
-	required init?(coder: NSCoder) {fatalError()}
+	required init?(coder: NSCoder) { fatalError() }
 }

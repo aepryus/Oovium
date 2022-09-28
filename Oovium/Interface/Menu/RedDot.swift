@@ -29,7 +29,7 @@ class RedDot: Hover, UIGestureRecognizerDelegate {
 		gesture.delegate = self
 		addGestureRecognizer(gesture)
 	}
-	required init?(coder aDecoder: NSCoder) {fatalError()}
+	required init?(coder aDecoder: NSCoder) { fatalError() }
 	
 	func fade() {
 		alpha = 1
