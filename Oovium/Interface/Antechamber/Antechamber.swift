@@ -54,7 +54,7 @@ class Antechamber: Modal {
 	}
 	
 	init() {
-		articleView = AetherView(aether: Aether(), toolsOn: false, burn: false)
+        articleView = AetherView(aether: Aether(), toolsOn: false, burn: false, oldPicker: true)
 		if Screen.mac { articleView.makePannable() }
 
 		super.init(anchor: .center, orientations: Screen.iPhone ? .portrait : .landscape)

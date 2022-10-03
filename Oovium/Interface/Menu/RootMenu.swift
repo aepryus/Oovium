@@ -28,8 +28,8 @@ class RootMenu: Hover {
 		schematic.add(row: 0, col: 0, key: Key(text: "aether", uiColor: apricot, { self.redDot.toggleAetherMenu() }))
 		schematic.add(row: 1, col: 0, key: Key(text: "lobby", uiColor: apricot, {
 			self.dismiss()
-//			Oovium.aetherView.invokeAntechamper()
-//			Hovers.invokeAntechamber()
+            let antechamber: Antechamber = Antechamber()
+            antechamber.invoke()
 		}))
 		schematic.add(row: 2, col: 0, key: Key(text: "help", uiColor: apricot, { self.redDot.toggleHelpMenu() }))
 		

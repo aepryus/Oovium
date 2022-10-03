@@ -41,7 +41,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 		builder.remove(menu: .toolbar)
 
 		var action: UIAction = UIAction(title: "About Oovium", handler: { (action: UIAction) in
-			if let backView = Oovium.aetherView.backView as? BackView { backView.fade(aboutOn: true) }
+			if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
 		})
 		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [action]))
 
@@ -52,6 +52,14 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
 		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
 		builder.insertSibling(menu, afterMenu: .about)
+        
+        action = UIAction(title: "Lobby...", handler: { (action: UIAction) in
+            let antechamber: Antechamber = Antechamber()
+            antechamber.invoke()
+        })
+
+        let menu2: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
+        builder.insertSibling(menu2, afterMenu: menu.identifier)
 	}
     
 // AetherViewDelegate ==============================================================================
@@ -65,7 +73,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
     }
     func onOpen(aetherView: AetherView, aether: Aether) {
         guard let facade: Facade = aetherView.facade else { return }
-        Pequod.set(key: "aetherURL", value: facade.url.path)
+        Pequod.set(key: "aetherURL", value: facade.ooviumKey)
         OoviumState.behindView.leftExplorer.facade = facade.parent!
         aetherView.orb.chainEditor.customSchematic?.render(aether: aether)
     }

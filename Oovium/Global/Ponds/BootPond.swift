@@ -108,7 +108,7 @@ class BootPond: Pond {
     lazy var loadAether: Pebble = {
         pebble(name: "Load Aether") { (complete: @escaping (Bool) -> ()) in
             guard let aetherURL: String = Pequod.get(key: "aetherURL") else { complete(false); return }
-            let facade: Facade = Facade.create(url: URL(fileURLWithPath: aetherURL))
+            let facade: Facade = Facade.create(ooviumKey: aetherURL)
             Space.digest(facade: facade) { (aether: Aether?) in
                 guard let aether: Aether = aether else { complete(false); return }
                 Oovium.aetherView.swapToAether(facade: facade, aether: aether)

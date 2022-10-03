@@ -21,7 +21,7 @@ class OoviumState: LaunchState {
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
             Oovium.aetherView.backgroundColor = .white.shade(0.04)
-			Oovium.aetherView.backView = BackView()
+			Oovium.aetherView.backView = AboutView()
             Oovium.aetherView.aetherViewDelegate = UIApplication.shared.delegate as! OoviumDelegate
             Oovium.redDot = RedDot(aetherView: Oovium.aetherView)
 
@@ -37,6 +37,8 @@ class OoviumState: LaunchState {
             if !Screen.mac { Oovium.redDot.invoke() }
 
 			Oovium.window.backgroundColor = UIColor(red: 32/255, green: 34/255, blue: 36/255, alpha: 1)
+            
+            DispatchQueue.main.async { (Oovium.aetherView.backView as! AboutView).fade(aboutOn: false) }
 		}
 	}
 	override func onDeactivate(_ complete: @escaping ()->()) {

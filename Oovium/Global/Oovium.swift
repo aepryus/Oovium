@@ -189,7 +189,7 @@ public class Oovium {
 		AppStore.start()
 
 		_ = UIFont.registerFont(bundle: fontBundle, fontName: "ChicagoFLF", fontExtension: "ttf")
-		_ = UIFont.registerFont(bundle: fontBundle, fontName: "Roboto-Medium", fontExtension: "ttf")
+        _ = UIFont.registerFont(bundle: fontBundle, fontName: "cambria", fontExtension: "ttc")
 
 		Loom.start(basket: Pequod.basket, namespaces: ["Oovium", "OoviumKit", "OoviumEngine"])
 		Pequod.basket.associate(type: "shell", only: "name")

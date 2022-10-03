@@ -11,116 +11,90 @@ import OoviumKit
 import UIKit
 
 class AboutView: UIView {
-	var tagline: String = ""
+    let graphImage: UIImageView = UIImageView()
+    let ooviumLabel: UILabel = UILabel()
+    let aepryusLabel: UILabel = UILabel()
+    let versionLabel: UILabel = UILabel()
+    let tagLineLabel: UILabel = UILabel()
+    let copyrightLabel: UILabel = UILabel()
+    
+    let pen80: Pen = Pen(font: UIFont.ooMath(size: 89*Screen.s), color: .white)
+    let pen23: Pen = Pen(font: UIFont(name: "Palatino", size: 23*Screen.s)!, color: .white)
+    let penItalic: Pen = Pen(font: UIFont(name: "Palatino-Italic", size: 23*Screen.s)!, color: .white, alignment: .center)
 
-	init() {
-		super.init(frame: UIScreen.main.bounds)
-		backgroundColor = UIColor.clear
-	}
-	required init?(coder aDecoder: NSCoder) { fatalError() }
-
-	func draw320x480() {draw375x667()}
-	func draw320x568() {draw375x667()}
-	func draw375x667() {
-		Skin.about(text: "Version \(Oovium.version)", x: 163*s, y: (97+41+36)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
-		Skin.about(text: tagline, x: 40*s, y: 254*s, uiColor: UIColor.green, font: UIFont(name: "Palatino-Italic", size: 20*s)!)
-		Skin.about(text: "\u{00A9} 2022", x: (15+10)*s, y: (285+51+2)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
-		Skin.about(text: "Aepryus", x: 15*s, y: (321+55-21)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
-		Skin.about(text: "Software", x: (15+11)*s, y: (321+55)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
-
-		UIGraphicsBeginImageContext(CGSize(width: 70*s, height: 70*s))
-		let image = UIGraphicsGetImageFromCurrentImageContext()
-		UIGraphicsEndImageContext()
-		image?.draw(in: CGRect(x: 84*s, y: (104+41)*s, width: 70*s, height: 70*s))
-	}
-	func draw414x736() {draw375x667()}
-	func draw375x812() {
-		Skin.about(text: "Version \(Oovium.version)", x: 190*s, y: 170*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
-		Skin.about(text: tagline, x: 40*s, y: 294*s, uiColor: UIColor.green, font: UIFont(name: "Palatino-Italic", size: 20*s)!)
-		Skin.about(text: "\u{00A9} 2022", x: (5+10)*s, y: (285+51+2+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 19*s)!)
-		Skin.about(text: "Aepryus", x: 5*s, y: (321+55-21+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
-		Skin.about(text: "Software", x: 8*s, y: (321+55+157)*s, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 21*s)!)
-	}
-	func draw414x896() {draw375x812()}
-	func draw768x1024() {
-		var text = "Version \(Oovium.version)"
-
-		var pen = Pen(font: UIFont(name: "Palatino", size: 23*s)!)
-		var size = (text as NSString).size(withAttributes: pen.attributes)
-		var box = CGRect(x: 208*s, y: (173+42)*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		text = tagline
-		pen = Pen(font: UIFont(name: "Palatino-Italic", size: 24*s)!)
-		size = (text as NSString).size(withAttributes: pen.attributes)
-		box = CGRect(x: 200*s-size.width/2, y: 342*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		let p1: CGPoint = CGPoint(x: 686*s, y: 971*s)
-		let p2: CGPoint = CGPoint(x: 558*s, y: 991*s)
-
-		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
-		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
-	}
-	func draw834x1112() {draw768x1024()}
-	func draw834x1194() {
-		var text = "Version \(Oovium.version)"
-
-		var pen = Pen(font: UIFont(name: "Palatino", size: 23*s)!)
-		var size = (text as NSString).size(withAttributes: pen.attributes)
-		var box = CGRect(x: 218*s, y: 213*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		text = tagline
-		pen = Pen(font: UIFont(name: "Palatino-Italic", size: 24*s)!)
-		size = (text as NSString).size(withAttributes: pen.attributes)
-		box = CGRect(x: 200*s-size.width/2, y: 372*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		let p1: CGPoint = CGPoint(x: 686*s, y: 1021*s)
-		let p2: CGPoint = CGPoint(x: 558*s, y: 1041*s)
-
-		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
-		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
-	}
-	func draw1024x1366() {draw768x1024()}
-	func drawOther() {draw375x667()}
-	func drawMac() {
-		let s: CGFloat = 1
-		var text: String = "Version \(Oovium.version)"
-
-		var pen: Pen = Pen(font: UIFont(name: "Palatino", size: 23*s)!)
-		var size: CGSize = (text as NSString).size(withAttributes: pen.attributes)
-		var box: CGRect = CGRect(x: 268*s, y: 173*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		text = tagline
-		pen = Pen(font: UIFont(name: "Palatino-Italic", size: 24*s)!)
-		size = (text as NSString).size(withAttributes: pen.attributes)
-		box = CGRect(x: 200*s-size.width/2, y: 342*s, width: size.width, height: size.height)
-		Skin.about(text: text, x: box.origin.x, y: box.origin.y, uiColor: UIColor.green, font: pen.font)
-
-		let p1: CGPoint = CGPoint(x: 686*s, y: 996*s)
-		let p2: CGPoint = CGPoint(x: 572*s, y: 1016*s)
-
-		Skin.about(text: "\u{00A9} 2022", x: p1.x, y: p1.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 18*s)!)
-		Skin.about(text: "Aepryus Software", x: p2.x, y: p2.y, uiColor: UIColor.green, font: UIFont(name: "Palatino", size: 23*s)!)
-	}
-
+    init() {
+        super.init(frame: .zero)
+        backgroundColor = Skin.backColor
+        
+        graphImage.image = UIImage(named: "Graph")!
+        graphImage.contentMode = .scaleAspectFill
+        addSubview(graphImage)
+        
+        ooviumLabel.text = "Oovium"
+        ooviumLabel.pen = pen80
+        ooviumLabel.shadowColor = .green.alpha(0.7)
+        addSubview(ooviumLabel)
+        
+        versionLabel.text = "\("Version".localized) \(Oovium.version)"
+        versionLabel.pen = pen23
+        versionLabel.shadowColor = .green.alpha(0.4)
+        addSubview(versionLabel)
+        
+        tagLineLabel.text = Oovium.tagline()
+        tagLineLabel.pen = penItalic
+        tagLineLabel.shadowColor = .green.alpha(0.4)
+        addSubview(tagLineLabel)
+        
+        aepryusLabel.text = "Aepryus Software"
+        aepryusLabel.pen = pen23
+        aepryusLabel.shadowColor = .green.alpha(0.4)
+        addSubview(aepryusLabel)
+        
+        copyrightLabel.text = "\u{00A9} 2022"
+        copyrightLabel.pen = pen23
+        copyrightLabel.shadowColor = .green.alpha(0.4)
+        addSubview(copyrightLabel)
+    }
+    required init?(coder: NSCoder) { fatalError() }
+    
+    private func faded() {
+        graphImage.alpha = 0.2
+        ooviumLabel.alpha = 0.2
+        versionLabel.alpha = 0
+        tagLineLabel.alpha = 0
+        aepryusLabel.alpha = 0
+        copyrightLabel.alpha = 0
+    }
+    private func brighten(aboutOn: Bool) {
+        graphImage.alpha = 1
+        ooviumLabel.alpha = 1
+        versionLabel.alpha = aboutOn ? 1 : 0
+        tagLineLabel.alpha = aboutOn ? 1 : 0
+        aepryusLabel.alpha = aboutOn ? 1 : 0
+        copyrightLabel.alpha = aboutOn ? 1 : 0
+    }
+    
+    func fade(aboutOn: Bool) {
+        tagLineLabel.text = Oovium.tagline()
+        brighten(aboutOn: aboutOn)
+        UIView.animate(withDuration: 8.0) {
+            self.faded()
+        }
+    }
+    
+    private func layoutOther() {
+        graphImage.topLeft(dx: 56*s, dy: 220*s, width: 740*s, height: 740*s * graphImage.image!.ratio)
+        ooviumLabel.topLeft(dx: 32*s, dy: 110*s, width: 300*s, height: 80*s)
+        versionLabel.topLeft(dx: 200*s, dy: ooviumLabel.bottom, width: 160*s, height: 23*s)
+        tagLineLabel.topLeft(dx: 20*s, dy: 380*s, width: 360*s, height: 30*s)
+        copyrightLabel.topLeft(dx: 640*s, dy: 1000*s, width: 72*s, height: 23*s)
+        aepryusLabel.topLeft(dx: 540*s, dy: copyrightLabel.bottom, width: 188*s, height: 23*s)
+    }
+    
 // UIView ==========================================================================================
-	override func draw(_ rect: CGRect) {
-		let height = Screen.height
-		if !Screen.iPhone { drawMac() }
-		else if height == 480 { draw320x480() }
-		else if height == 568 { draw320x568() }
-		else if height == 667 { draw375x667() }
-		else if height == 736 { draw414x736() }
-		else if height == 812 { draw375x812() }
-		else if height == 896 { draw414x896() }
-		else if height == 1024 { draw768x1024() }
-		else if height == 1112 { draw834x1112() }
-		else if height == 1194 { draw834x1194() }
-		else if height == 1366 { draw1024x1366() }
-		else { drawOther() }
-	}
+    override func layoutSubviews() {
+        switch Screen.ratio {
+            default: layoutOther()
+        }
+    }
 }
