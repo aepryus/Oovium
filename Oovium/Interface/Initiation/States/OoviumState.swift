@@ -20,7 +20,7 @@ class OoviumState: LaunchState {
 
 		if Oovium.aetherController == nil {
 			Oovium.aetherView = AetherView()
-            Oovium.aetherView.backgroundColor = .white.shade(0.04)
+            Oovium.aetherView.backgroundColor = Skin.backColor
 			Oovium.aetherView.backView = AboutView()
             Oovium.aetherView.aetherViewDelegate = UIApplication.shared.delegate as! OoviumDelegate
             Oovium.redDot = RedDot(aetherView: Oovium.aetherView)

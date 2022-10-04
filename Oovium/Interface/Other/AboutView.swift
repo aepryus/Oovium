@@ -24,7 +24,8 @@ class AboutView: UIView {
 
     init() {
         super.init(frame: .zero)
-        backgroundColor = Skin.backColor
+        backgroundColor = .black
+        clipsToBounds = true
         
         graphImage.image = UIImage(named: "Graph")!
         graphImage.contentMode = .scaleAspectFill
@@ -60,16 +61,14 @@ class AboutView: UIView {
     required init?(coder: NSCoder) { fatalError() }
     
     private func faded() {
-        graphImage.alpha = 0.2
-        ooviumLabel.alpha = 0.2
+        alpha = Skin.fadePercent
         versionLabel.alpha = 0
         tagLineLabel.alpha = 0
         aepryusLabel.alpha = 0
         copyrightLabel.alpha = 0
     }
     private func brighten(aboutOn: Bool) {
-        graphImage.alpha = 1
-        ooviumLabel.alpha = 1
+        alpha = 1
         versionLabel.alpha = aboutOn ? 1 : 0
         tagLineLabel.alpha = aboutOn ? 1 : 0
         aepryusLabel.alpha = aboutOn ? 1 : 0
@@ -88,7 +87,7 @@ class AboutView: UIView {
         graphImage.topLeft(dx: -60*s, dy: 120*s, width: 740*s, height: 740*s * graphImage.image!.ratio)
         ooviumLabel.topLeft(dx: 12*s, dy: 110*s, width: 300*s, height: 80*s)
         versionLabel.topLeft(dx: 180*s, dy: ooviumLabel.bottom, width: 160*s, height: 23*s)
-        tagLineLabel.topLeft(dx: -46*s, dy: 296*s, width: 360*s, height: 30*s)
+        tagLineLabel.topLeft(dx: -42*s, dy: 298*s, width: 360*s, height: 30*s)
         copyrightLabel.topLeft(dx: 640*s, dy: 1000*s, width: 72*s, height: 23*s)
         aepryusLabel.topLeft(dx: 540*s, dy: copyrightLabel.bottom, width: 188*s, height: 23*s)
     }
