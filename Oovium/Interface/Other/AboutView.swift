@@ -54,6 +54,8 @@ class AboutView: UIView {
         copyrightLabel.pen = pen23
         copyrightLabel.shadowColor = .green.alpha(0.4)
         addSubview(copyrightLabel)
+        
+        faded()
     }
     required init?(coder: NSCoder) { fatalError() }
     
@@ -82,6 +84,14 @@ class AboutView: UIView {
         }
     }
     
+    private func layout046() {
+        graphImage.topLeft(dx: -60*s, dy: 120*s, width: 740*s, height: 740*s * graphImage.image!.ratio)
+        ooviumLabel.topLeft(dx: 12*s, dy: 110*s, width: 300*s, height: 80*s)
+        versionLabel.topLeft(dx: 180*s, dy: ooviumLabel.bottom, width: 160*s, height: 23*s)
+        tagLineLabel.topLeft(dx: -46*s, dy: 296*s, width: 360*s, height: 30*s)
+        copyrightLabel.topLeft(dx: 640*s, dy: 1000*s, width: 72*s, height: 23*s)
+        aepryusLabel.topLeft(dx: 540*s, dy: copyrightLabel.bottom, width: 188*s, height: 23*s)
+    }
     private func layoutOther() {
         graphImage.topLeft(dx: 56*s, dy: 220*s, width: 740*s, height: 740*s * graphImage.image!.ratio)
         ooviumLabel.topLeft(dx: 32*s, dy: 110*s, width: 300*s, height: 80*s)
@@ -94,7 +104,10 @@ class AboutView: UIView {
 // UIView ==========================================================================================
     override func layoutSubviews() {
         switch Screen.ratio {
-            default: layoutOther()
+            case .rat046:   layout046()
+            case .rat056:   layout046()
+            case .rat067:   layout046()
+            default:        layoutOther()
         }
     }
 }

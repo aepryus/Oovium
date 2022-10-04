@@ -319,8 +319,10 @@ class Antechamber: Modal {
 	func layout360x780() { layout375x812() }
 	func layout375x812() { layout375x667() }
 	func layout390x844() { layout375x812() }
+    func layout393x852() { layout375x812() }
 	func layout414x896() { layout375x812() }
 	func layout428x926() { layout375x812() }
+    func layout430x932() { layout375x812() }
 	func layout1024x768() {
 		renderPaths1024x768()
 		articleView.reload()
@@ -350,8 +352,10 @@ class Antechamber: Modal {
 				case .dim360x780:	layout360x780()
 				case .dim375x812:	layout375x812()
 				case .dim390x844:	layout390x844()
+                case .dim393x852:   layout393x852()
 				case .dim414x896:	layout414x896()
 				case .dim428x926:	layout428x926()
+                case .dim430x932:   layout430x932()
 				case .dim1024x768:	layout1024x768()
 				case .dim1080x810:	layout1080x810()
 				case .dim1112x834:	layout1112x834()
@@ -360,7 +364,7 @@ class Antechamber: Modal {
 				case .dim1194x834:	layout1194x834()
 				case .dim1133x744:	layout1133x744()
 				case .dimOther:		layout375x667()
-			}
+            }
 		}
 	}
 	

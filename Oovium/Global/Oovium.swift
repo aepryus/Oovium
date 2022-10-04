@@ -53,9 +53,7 @@ public class Oovium {
 
 	static let taglines = ["objects to the people!", "bringing sexy back", "cogito ergo Oovium", "μή μου τούς κύκλους τάραττε", "a bicycle for the mind"]
 
-	static func tagline() -> String {
-		return taglines.randomElement()!
-	}
+    static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
 
 	static func format(value: Double) -> String {
 		let formatter = NumberFormatter()
@@ -88,14 +86,6 @@ public class Oovium {
 		let hardware = String(bytes: Data(bytes: &systemInfo.machine, count: Int(_SYS_NAMELEN)), encoding: .ascii)!.trimmingCharacters(in: .controlCharacters)
 		return "\(hardware);"
 //		return "\(hardware); \(UIDevice.current.systemName) \(UIDevice.current.systemVersion)"
-	}
-
-	static var hasExternalKeyboard: Bool {
-		if #available(iOS 14.0, *) {
-			return GCKeyboard.coalesced != nil
-		} else {
-			return false
-		}
 	}
 
 // =================================================================================================
@@ -187,6 +177,8 @@ public class Oovium {
 
 	static func start() {
 		AppStore.start()
+        
+        _ = ChainResponder.hasExternalKeyboard
 
 		_ = UIFont.registerFont(bundle: fontBundle, fontName: "ChicagoFLF", fontExtension: "ttf")
         _ = UIFont.registerFont(bundle: fontBundle, fontName: "cambria", fontExtension: "ttc")
