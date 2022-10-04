@@ -56,11 +56,11 @@ class AboutView: UIView {
         copyrightLabel.shadowColor = .green.alpha(0.4)
         addSubview(copyrightLabel)
         
-        faded()
+        fade()
     }
     required init?(coder: NSCoder) { fatalError() }
     
-    private func faded() {
+    func fade() {
         alpha = Skin.fadePercent
         versionLabel.alpha = 0
         tagLineLabel.alpha = 0
@@ -79,7 +79,7 @@ class AboutView: UIView {
         tagLineLabel.text = Oovium.tagline()
         brighten(aboutOn: aboutOn)
         UIView.animate(withDuration: 8.0) {
-            self.faded()
+            self.fade()
         }
     }
     

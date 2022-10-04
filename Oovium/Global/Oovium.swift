@@ -105,6 +105,8 @@ public class Oovium {
 	static func reRender() {
 //		Oovium.ooviumWindow.reload()
 //		aetherView.rescale()
+        Oovium.aetherView.backgroundColor = Skin.backColor
+        (Oovium.aetherView.backView as! AboutView).fade()
 		aetherView.hovers.forEach {
 			Oovium.redisplay(view: $0)
 			$0.reRender()
