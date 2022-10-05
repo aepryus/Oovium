@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835F15028ECF1600086E533 /* SkinMenu.swift */; };
 		D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BC27D8E12F0078C828 /* Initiation.swift */; };
 		D83D48C527D8E1540078C828 /* BlankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BF27D8E1540078C828 /* BlankState.swift */; };
 		D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C127D8E1540078C828 /* OfflineState.swift */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		D832029428B6B5DE00164F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Oovium/Info.plist; sourceTree = SOURCE_ROOT; };
+		D835F15028ECF1600086E533 /* SkinMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMenu.swift; sourceTree = "<group>"; };
 		D83D48BC27D8E12F0078C828 /* Initiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initiation.swift; sourceTree = "<group>"; };
 		D83D48BF27D8E1540078C828 /* BlankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankState.swift; sourceTree = "<group>"; };
 		D83D48C127D8E1540078C828 /* OfflineState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineState.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				D83D48CC27D8E5230078C828 /* LinksMenu.swift */,
 				D83D48CE27D8E5230078C828 /* RedDot.swift */,
 				D83D48D027D8E5230078C828 /* RootMenu.swift */,
+				D835F15028ECF1600086E533 /* SkinMenu.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */,
 				D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */,
 				D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */,
+				D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */,
 				D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */,
 				D83D490827DA0A930078C828 /* iCloud.swift in Sources */,
 				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,

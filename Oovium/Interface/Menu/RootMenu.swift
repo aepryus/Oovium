@@ -26,11 +26,7 @@ class RootMenu: Hover {
 		let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
 		
 		schematic.add(row: 0, col: 0, key: Key(text: "aether", uiColor: apricot, { self.redDot.toggleAetherMenu() }))
-		schematic.add(row: 1, col: 0, key: Key(text: "lobby", uiColor: apricot, {
-			self.dismiss()
-            let antechamber: Antechamber = Antechamber()
-            antechamber.invoke()
-		}))
+        schematic.add(row: 1, col: 0, key: Key(text: "skin", uiColor: apricot, {  self.redDot.toggleSkinMenu() }))
 		schematic.add(row: 2, col: 0, key: Key(text: "help", uiColor: apricot, { self.redDot.toggleHelpMenu() }))
 		
 		schematic.render(rect: CGRect(x: 0, y: 0, width: 78*Oo.s, height: 177*Oo.s))
@@ -61,9 +57,10 @@ class RootMenu: Hover {
 // Events ==========================================================================================
 	override func onDismiss() {
 		self.redDot.dismissAetherMenu()
-		self.redDot.dismissLinksMenu()
+		self.redDot.dismissSkinMenu()
 		self.redDot.dismissHelpMenu()
 		(schematic.keySlots[0].key as! Key).active = false
+        (schematic.keySlots[1].key as! Key).active = false
 		(schematic.keySlots[2].key as! Key).active = false
 	}
 	

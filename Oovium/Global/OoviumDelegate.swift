@@ -40,26 +40,37 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 		builder.remove(menu: .format)
 		builder.remove(menu: .toolbar)
 
-		var action: UIAction = UIAction(title: "About Oovium", handler: { (action: UIAction) in
+		let aboutAction: UIAction = UIAction(title: "About Oovium", handler: { (action: UIAction) in
 			if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
 		})
-		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [action]))
-
-		action = UIAction(title: "Preferences...", handler: { (action: UIAction) in
-            let settingsHover: SettingsHover = SettingsHover(aetherView: Oovium.aetherView)
-            settingsHover.invoke()
-		})
-
-		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
-		builder.insertSibling(menu, afterMenu: .about)
+		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [aboutAction]))
         
-        action = UIAction(title: "Lobby...", handler: { (action: UIAction) in
-            let antechamber: Antechamber = Antechamber()
-            antechamber.invoke()
+        let tronAction = UIAction(title: "Tron", handler: { (action: UIAction) in
+            Oovium.setSkin(.tron)
         })
 
-        let menu2: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
-        builder.insertSibling(menu2, afterMenu: menu.identifier)
+        let ivoryAction = UIAction(title: "Ivory", handler: { (action: UIAction) in
+            Oovium.setSkin(.ivory)
+        })
+
+        let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [tronAction, ivoryAction])
+        builder.insertSibling(menu, afterMenu: .about)
+
+//		action = UIAction(title: "Preferences...", handler: { (action: UIAction) in
+//            let settingsHover: SettingsHover = SettingsHover(aetherView: Oovium.aetherView)
+//            settingsHover.invoke()
+//		})
+//
+//		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
+//		builder.insertSibling(menu, afterMenu: .about)
+//
+//        action = UIAction(title: "Lobby...", handler: { (action: UIAction) in
+//            let antechamber: Antechamber = Antechamber()
+//            antechamber.invoke()
+//        })
+//
+//        let menu2: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
+//        builder.insertSibling(menu2, afterMenu: menu.identifier)
 	}
     
 // AetherViewDelegate ==============================================================================

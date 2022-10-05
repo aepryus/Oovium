@@ -13,6 +13,7 @@ import UIKit
 class RedDot: Hover, UIGestureRecognizerDelegate {
 	lazy var rootMenu: RootMenu = { RootMenu(redDot: self) }()
 	lazy var aetherMenu: AetherMenu = { AetherMenu(redDot: self) }()
+    lazy var skinMenu: SkinMenu = { SkinMenu(redDot: self) }()
 	lazy var helpMenu: HelpMenu = { HelpMenu(redDot: self) }()
 	lazy var linksMenu: LinksMenu = { LinksMenu(redDot: self) }()
 
@@ -43,6 +44,9 @@ class RedDot: Hover, UIGestureRecognizerDelegate {
 
 	func toggleAetherMenu() { aetherMenu.toggle() }
 	func dismissAetherMenu() { aetherMenu.dismiss() }
+
+    func toggleSkinMenu() { skinMenu.toggle() }
+    func dismissSkinMenu() { skinMenu.dismiss() }
 
 	func toggleHelpMenu() { helpMenu.toggle() }
 	func dismissHelpMenu() { helpMenu.dismiss() }

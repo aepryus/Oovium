@@ -12,7 +12,7 @@ import UIKit
 
 class AetherMenu: KeyPad {
 	init(redDot: RedDot) {
-		let schematic = Schematic(rows: 3, cols: 1)
+		let schematic = Schematic(rows: 1, cols: 1)
 		super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 94, height: 214), offset: UIOffset(horizontal: 78+6, vertical: -6), fixed: RedDot.fixed, schematic: schematic)
 		
 		let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
@@ -23,19 +23,6 @@ class AetherMenu: KeyPad {
 				self.aetherView.clearAether()
 			})
 		}))
-		schematic.add(row: 1, col: 0, key: Key(text: "tron", uiColor: apricot, {
-			self.redDot.dismissRootMenu()
-			Skin.skin = TronSkin()
-			Oovium.reRender()
-		}))
-		schematic.add(row: 2, col: 0, key: Key(text: "ivory", uiColor: apricot, {
-			self.redDot.dismissRootMenu()
-			Skin.skin = IvorySkin()
-			Oovium.reRender()
-		}))
-//		schematic.add(row: 1, col: 0, key: Key(text: "album", uiColor: apricot, {}))
-//		schematic.add(row: 2, col: 0, key: Key(text: "dropbox", uiColor: apricot, {}))
-//		schematic.add(row: 3, col: 0, key: Key(text: "logoff", uiColor: apricot, {}))
 		
 		self.schematic = schematic
 	}
@@ -43,7 +30,7 @@ class AetherMenu: KeyPad {
 
 // Events ==========================================================================================
 	override func onInvoke() {
-		self.redDot.dismissLinksMenu()
+        self.redDot.dismissSkinMenu()
 		self.redDot.dismissHelpMenu()
 		(self.redDot.rootMenu.schematic.keySlots[0].key as! Key).active = true
 	}

@@ -97,6 +97,12 @@ public class Oovium {
 		})
 		Screen.keyWindow?.rootViewController?.present(controller, animated: true, completion: nil)
 	}
+    
+    static func setSkin(_ skin: Settings.Skin) {
+        Loom.transact { Oovium.settings.skin = skin }
+        Skin.skin = Oovium.settings.skin.skin
+        Oovium.reRender()
+    }
 
 	static func redisplay(view: UIView) {
 		view.setNeedsDisplay()
