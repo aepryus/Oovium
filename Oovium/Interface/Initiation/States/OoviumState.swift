@@ -29,7 +29,7 @@ class OoviumState: LaunchState {
 
 			Oovium.aetherController.view.addSubview(OoviumState.behindView)
 			OoviumState.behindView.frame = CGRect(x: 0, y: 0, width: Screen.width, height: Screen.height)
-            OoviumState.behindView.controller.viewController = Oovium.aetherController
+            OoviumState.behindView.leftExplorer.controller.viewController = Oovium.aetherController
 
 			Oovium.aetherController.view.addSubview(Oovium.aetherView)
 			Oovium.window.rootViewController = Oovium.aetherController
