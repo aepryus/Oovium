@@ -40,7 +40,7 @@ public class Oovium {
     
     static var settings: Settings = Settings()
     
-    static var facade: Facade {
+    static var facade: DirFacade {
         set { OoviumState.behindView.leftExplorer.facade = newValue }
         get { OoviumState.behindView.leftExplorer.facade }
     }

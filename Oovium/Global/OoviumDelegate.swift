@@ -83,9 +83,9 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 //        aetherView.space?.storeAether(aether)
     }
     func onOpen(aetherView: AetherView, aether: Aether) {
-        guard let facade: Facade = aetherView.facade else { return }
+        guard let facade: AetherFacade = aetherView.facade else { return }
         Pequod.set(key: "aetherURL", value: facade.ooviumKey)
-        OoviumState.behindView.leftExplorer.facade = facade.parent!
+        OoviumState.behindView.leftExplorer.facade = facade.parent
         aetherView.orb.chainEditor.customSchematic?.render(aether: aether)
     }
     func onSave(aetherView: AetherView, aether: Aether) {}
