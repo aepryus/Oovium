@@ -8,15 +8,4 @@
 
 import UIKit
 
-class OoviumWindow: UIWindow {
-	var delayGesture: UIGestureRecognizer?
-
-	override init(frame: CGRect) {
-		super.init(frame: frame)
-		delayGesture = gestureRecognizers?.first(where: { $0.delaysTouchesBegan == true })
-	}
-	required init?(coder: NSCoder) { fatalError() }
-
-	func turnOffDelay() { delayGesture?.delaysTouchesBegan = false }
-	func turnOnDelay() { delayGesture?.delaysTouchesBegan = true }
-}
+class OoviumWindow: UIWindow {}

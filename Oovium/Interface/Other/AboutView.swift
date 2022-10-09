@@ -78,7 +78,7 @@ class AboutView: UIView {
     func fade(aboutOn: Bool) {
         tagLineLabel.text = Oovium.tagline()
         brighten(aboutOn: aboutOn)
-        UIView.animate(withDuration: 8.0) {
+        UIView.animate(withDuration: 8.0, delay: 0, options: [.allowUserInteraction]) {
             self.fade()
         }
     }

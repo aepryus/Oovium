@@ -17,7 +17,7 @@ class RedDot: Hover, UIGestureRecognizerDelegate {
 	lazy var helpMenu: HelpMenu = { HelpMenu(redDot: self) }()
 	lazy var linksMenu: LinksMenu = { LinksMenu(redDot: self) }()
 
-	static let fixed: UIOffset = Screen.iPhone ? UIOffset(horizontal: Screen.safeBottom/4, vertical: -Screen.safeBottom/2) : .zero
+    static let fixed: UIOffset = UIOffset(horizontal: Screen.safeLeft+2*Screen.s, vertical: -Screen.safeBottom+8*Screen.s)
 
 	init(aetherView: AetherView) {
 		super.init(aetherView: aetherView, anchor: .bottomLeft, size: CGSize(width: 46, height: 46), offset: .zero, fixed: RedDot.fixed)
@@ -68,7 +68,7 @@ class RedDot: Hover, UIGestureRecognizerDelegate {
 	
 // UIView ==========================================================================================
 	override func draw(_ rect: CGRect) {
-		let rect = CGRect(x: 13*Oo.s, y: 13*Oo.s, width: 20*Oo.s, height: 20*Oo.s)
+		let rect = CGRect(x: (13-6)*Oo.s, y: (13+6)*Oo.s, width: 20*Oo.s, height: 20*Oo.s)
 		let path = CGPath(roundedRect: rect, cornerWidth: 10*Oo.s, cornerHeight: 10*Oo.s, transform: nil)
 		let c = UIGraphicsGetCurrentContext()!
 		

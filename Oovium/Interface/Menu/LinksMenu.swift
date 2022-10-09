@@ -13,8 +13,8 @@ import UIKit
 class LinksMenu: KeyPad {
 	init(redDot: RedDot) {
 		let schematic = Schematic(rows: 3, cols: 1)
-		super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 104, height: 214), offset: UIOffset(horizontal: 78+6+114+1, vertical: -6), fixed: RedDot.fixed, schematic: schematic)
-		
+        super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 104, height: 214), offset: UIOffset(horizontal: 78+114+1, vertical: 0), fixed: RedDot.fixed, schematic: schematic)
+
 		let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
 
 		schematic.add(row: 0, col: 0, key: Key(text: NSLocalizedString("oovium", tableName: nil, bundle: Bundle(for: type(of: self)), value: "", comment: ""), uiColor: apricot, {

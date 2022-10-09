@@ -21,7 +21,7 @@ class RootMenu: Hover {
 		
 		path = RootMenu.renderPath()
 
-		super.init(aetherView: redDot.aetherView, anchor: .bottomLeft, size: CGSize(width: 78, height: 214), offset: UIOffset(horizontal: 6, vertical: -6), fixed: RedDot.fixed)
+        super.init(aetherView: redDot.aetherView, anchor: .bottomLeft, size: CGSize(width: 78, height: 214), offset: .zero, fixed: RedDot.fixed)
 
 		let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
 		

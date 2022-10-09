@@ -12,7 +12,7 @@ import UIKit
 class SkinMenu: KeyPad {
     init(redDot: RedDot) {
         let schematic = Schematic(rows: 2, cols: 1)
-        super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 104, height: 214), offset: UIOffset(horizontal: 78+6, vertical: -6), fixed: RedDot.fixed, schematic: schematic)
+        super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 104, height: 214), offset: UIOffset(horizontal: 78, vertical: 0), fixed: RedDot.fixed, schematic: schematic)
         
         let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
 
