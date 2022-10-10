@@ -17,7 +17,7 @@ class RedDot: Hover, UIGestureRecognizerDelegate {
 	lazy var helpMenu: HelpMenu = { HelpMenu(redDot: self) }()
 	lazy var linksMenu: LinksMenu = { LinksMenu(redDot: self) }()
 
-    static let fixed: UIOffset = UIOffset(horizontal: Screen.safeLeft+2*Screen.s, vertical: -Screen.safeBottom+8*Screen.s)
+    static let fixed: UIOffset = .zero
 
 	init(aetherView: AetherView) {
 		super.init(aetherView: aetherView, anchor: .bottomLeft, size: CGSize(width: 46, height: 46), offset: .zero, fixed: RedDot.fixed)
