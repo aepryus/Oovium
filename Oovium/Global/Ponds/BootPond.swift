@@ -33,12 +33,24 @@ class BootPond: Pond {
 
 	lazy var migrate: Pebble = {
 		pebble(name: "Migrate") { (complete: @escaping (Bool) -> ()) in
-			if Pequod.basket.get(key: "version") == nil {
-				Local.wipeSplashBoard()
-				Local.archiveXML()
-				Local.migrateXML()
-			}
-			Pequod.basket.set(key: "version", value: Oovium.version)
+            var needsMigration: Bool = false
+            needsMigration = Pequod.get(key: "version") == nil
+            if needsMigration {
+                print("Migrating to 2.0.2")
+                Local.wipeSplashBoard()
+                Local.archiveXML()
+                Local.migrateXML()
+            }
+            
+            needsMigration = Pequod.get(key: "version") == "2.0.2"
+            if needsMigration {
+                print("Migrating to 3.0")
+                Local.moveAetherFor30()
+                Pequod.unset(key: "aetherURL")
+            }
+
+            Pequod.basket.set(key: "version", value: Oovium.version)
+            
 			complete(true)
 		}
 	}()
@@ -116,6 +128,26 @@ class BootPond: Pond {
             }
         }
     }()
+    lazy var initializeAether: Pebble = {
+        pebble(name: "Initialize Aether") { (complete: @escaping (Bool) -> ()) in
+            let facade: AetherFacade = Facade.create(ooviumKey: "Local::aether01") as! AetherFacade
+            facade.load { (json: String?) in
+                if let json {
+                    let aether: Aether = Aether(json: json)
+                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                    complete(true)
+                } else {
+                    let aether: Aether = Aether()
+                    aether.name = "aether01"
+                    facade.store(aether: aether) { (success: Bool) in
+                        guard success else { complete(false); return }
+                        Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                        complete(true)
+                    }
+                }
+            }
+        }
+    }()
 
 	lazy var invalid: Pebble = {
 		pebble(name: "Invalid") { (complete: @escaping (Bool) -> ()) in
@@ -150,6 +182,7 @@ class BootPond: Pond {
 		}
         
         loadAether.ready = { self.startOovium.succeeded }
+        initializeAether.ready =  { self.loadAether.failed }
 
 		invalid.ready = {
 			self.loadToken.succeeded

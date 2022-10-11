@@ -46,12 +46,18 @@ public class Oovium {
     }
 
 	static var version: String {
-		guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {return "0.0"}
+		guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else { return "0.0" }
 		return version
 	}
 	public static var screenBurn: Bool = true
 
-	static let taglines = ["objects to the people!", "bringing sexy back", "cogito ergo Oovium", "μή μου τούς κύκλους τάραττε", "a bicycle for the mind"]
+	static let taglines = [
+        "objects to the people!",
+        "bringing sexy back",
+        "cogito ergo Oovium",
+        "μή μου τούς κύκλους τάραττε",
+        "a bicycle for the mind"
+    ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
 
@@ -119,68 +125,6 @@ public class Oovium {
 		}
 		Oovium.redisplay(view: Oovium.aetherView)
 		Oovium.aetherController.setNeedsStatusBarAppearanceUpdate()
-	}
-
-	static func aspectIsOn(_ aspect: Int) -> Bool {
-		return true
-	}
-
-	static func iCloudCopy() {
-		if let iCloudURL = FileManager.default.url(forUbiquityContainerIdentifier: nil)?.appendingPathComponent("Documents") {
-			if !FileManager.default.fileExists(atPath: iCloudURL.path) {
-				do {
-					try FileManager.default.createDirectory(at: iCloudURL, withIntermediateDirectories: true, attributes: nil)
-					Log.print("created directory")
-				} catch {
-					Log.print("error creating directory")
-				}
-			} else {
-				print("directory exists")
-			}
-
-			if let localURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
-				Log.print("local found")
-				do {
-					let contents = try FileManager.default.contentsOfDirectory(at: localURL, includingPropertiesForKeys: nil, options: []).filter({$0.pathExtension == "oo"})
-					try contents.forEach {
-						let toURL = iCloudURL.appendingPathComponent($0.lastPathComponent)
-						try? FileManager.default.removeItem(at: toURL)
-						try FileManager.default.copyItem(at: $0, to: toURL)
-					}
-					Log.print("seemed to work")
-				} catch {
-					Log.print("error:\(error)")
-				}
-			}
-
-		} else {
-			Log.print("iCloud is NOT working!")
-		}
-	}
-	static func iCloudDownload() {
-		if let iCloudURL = FileManager.default.url(forUbiquityContainerIdentifier: nil)?.appendingPathComponent("Documents") {
-			if let localURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
-				Log.print("local found")
-				do {
-					let contents = try FileManager.default.contentsOfDirectory(at: iCloudURL, includingPropertiesForKeys: nil, options: []).filter({$0.pathExtension == "oo"})
-					try contents.forEach {
-						let toURL = localURL.appendingPathComponent($0.lastPathComponent)
-						if !FileManager.default.fileExists(atPath: toURL.path) {
-							try FileManager.default.copyItem(at: $0, to: toURL)
-						}
-					}
-					Log.print("seemed to work")
-					if let aetherView = Oovium.aetherView {
-						aetherView.aetherPicker?.rerender()
-					}
-				} catch {
-					Log.print("error:\(error)")
-				}
-			}
-
-		} else {
-			Log.print("iCloud is NOT working!")
-		}
 	}
 
 	static func start() {
