@@ -17,34 +17,10 @@ class OoviumController: UIViewController {
 		Oovium.aetherView.needsStretch = false
 	}
 
-//// External Keyboard ===============================================================================
-//	private let secretResponder: UITextField = UITextField()
-//	func checkForExternalKeyboard() {
-//		Oovium.hasExternalKeyboard = true
-//		NotificationCenter.default.addObserver(self, selector: #selector(onKeyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-//		view.addSubview(secretResponder)
-//		secretResponder.becomeFirstResponder()
-//	}
-//	@objc func onKeyboardWillShow(_ notification: Notification) {
-////		Oovium.hasExternalKeyboard = false
-//		NotificationCenter.default.removeObserver(self)
-//		secretResponder.resignFirstResponder()
-//		secretResponder.removeFromSuperview()
-//	}
-	
 // UIViewController ================================================================================
-	override var preferredStatusBarStyle: UIStatusBarStyle {
-		return Skin.statusBarStyle
-	}
-	override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
-		return .fade
-	}
-	override var prefersHomeIndicatorAutoHidden: Bool {
-		return true
-	}
-//	override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-//		return Hovers.forcedOrientation
-//	}
+	override var preferredStatusBarStyle: UIStatusBarStyle { Skin.statusBarStyle }
+	override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { .fade }
+    override var prefersHomeIndicatorAutoHidden: Bool { true }
 	
 	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		super.viewWillTransition(to: size, with: coordinator)

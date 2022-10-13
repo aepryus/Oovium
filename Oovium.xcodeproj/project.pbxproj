@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */; };
 		D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835F15028ECF1600086E533 /* SkinMenu.swift */; };
 		D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BC27D8E12F0078C828 /* Initiation.swift */; };
-		D83D48C527D8E1540078C828 /* BlankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BF27D8E1540078C828 /* BlankState.swift */; };
-		D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C127D8E1540078C828 /* OfflineState.swift */; };
-		D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C227D8E1540078C828 /* SignUpState.swift */; };
 		D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C327D8E1540078C828 /* OoviumState.swift */; };
 		D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CC27D8E5230078C828 /* LinksMenu.swift */; };
 		D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CD27D8E5230078C828 /* AetherMenu.swift */; };
@@ -19,13 +17,6 @@
 		D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48CF27D8E5230078C828 /* KeyPad.swift */; };
 		D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D027D8E5230078C828 /* RootMenu.swift */; };
 		D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D127D8E5230078C828 /* HelpMenu.swift */; };
-		D83D48E027D8E5DA0078C828 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D927D8E5D90078C828 /* ArticlesView.swift */; };
-		D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DA27D8E5D90078C828 /* PathView.swift */; };
-		D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DB27D8E5D90078C828 /* ArticleCell.swift */; };
-		D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DC27D8E5D90078C828 /* StickyIcon.swift */; };
-		D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */; };
-		D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DE27D8E5DA0078C828 /* Antechamber.swift */; };
-		D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */; };
 		D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EC27DA00CE0078C828 /* AboutView.swift */; };
 		D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */; };
 		D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */; };
@@ -33,16 +24,12 @@
 		D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F927DA0A790078C828 /* BootPond.swift */; };
 		D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FA27DA0A790078C828 /* ExitPond.swift */; };
 		D83D490627DA0A930078C828 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FE27DA0A930078C828 /* Security.swift */; };
-		D83D490727DA0A930078C828 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490027DA0A930078C828 /* AppStore.swift */; };
-		D83D490827DA0A930078C828 /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490127DA0A930078C828 /* iCloud.swift */; };
 		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
 		D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53DA28CB3DD000F84008 /* Settings.swift */; };
 		D89A53E628CB488100F84008 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E328CB488100F84008 /* ScaleView.swift */; };
 		D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E428CB488100F84008 /* SettingsHover.swift */; };
 		D89A53E828CB488100F84008 /* SwapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E528CB488100F84008 /* SwapButton.swift */; };
-		D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8427DDAB1200D46874 /* Article.swift */; };
-		D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */; };
 		D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */; };
 		D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9627DDD24000D46874 /* Localizable.strings */; };
 		D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9B27DDD24000D46874 /* Assets.xcassets */; };
@@ -60,12 +47,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Oovium.swift"; sourceTree = "<group>"; };
 		D832029428B6B5DE00164F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Oovium/Info.plist; sourceTree = SOURCE_ROOT; };
 		D835F15028ECF1600086E533 /* SkinMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMenu.swift; sourceTree = "<group>"; };
 		D83D48BC27D8E12F0078C828 /* Initiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initiation.swift; sourceTree = "<group>"; };
-		D83D48BF27D8E1540078C828 /* BlankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankState.swift; sourceTree = "<group>"; };
-		D83D48C127D8E1540078C828 /* OfflineState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineState.swift; sourceTree = "<group>"; };
-		D83D48C227D8E1540078C828 /* SignUpState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpState.swift; sourceTree = "<group>"; };
 		D83D48C327D8E1540078C828 /* OoviumState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumState.swift; sourceTree = "<group>"; };
 		D83D48CC27D8E5230078C828 /* LinksMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksMenu.swift; sourceTree = "<group>"; };
 		D83D48CD27D8E5230078C828 /* AetherMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AetherMenu.swift; sourceTree = "<group>"; };
@@ -73,13 +58,6 @@
 		D83D48CF27D8E5230078C828 /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
 		D83D48D027D8E5230078C828 /* RootMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootMenu.swift; sourceTree = "<group>"; };
 		D83D48D127D8E5230078C828 /* HelpMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
-		D83D48D927D8E5D90078C828 /* ArticlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
-		D83D48DA27D8E5D90078C828 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
-		D83D48DB27D8E5D90078C828 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
-		D83D48DC27D8E5D90078C828 /* StickyIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyIcon.swift; sourceTree = "<group>"; };
-		D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoIcon.swift; sourceTree = "<group>"; };
-		D83D48DE27D8E5DA0078C828 /* Antechamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antechamber.swift; sourceTree = "<group>"; };
-		D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewIcon.swift; sourceTree = "<group>"; };
 		D83D48EC27DA00CE0078C828 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumDelegate.swift; sourceTree = "<group>"; };
 		D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumWindow.swift; sourceTree = "<group>"; };
@@ -87,16 +65,12 @@
 		D83D48F927DA0A790078C828 /* BootPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootPond.swift; sourceTree = "<group>"; };
 		D83D48FA27DA0A790078C828 /* ExitPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitPond.swift; sourceTree = "<group>"; };
 		D83D48FE27DA0A930078C828 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
-		D83D490027DA0A930078C828 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
-		D83D490127DA0A930078C828 /* iCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
 		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		D89A53DA28CB3DD000F84008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D89A53E328CB488100F84008 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		D89A53E428CB488100F84008 /* SettingsHover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHover.swift; sourceTree = "<group>"; };
 		D89A53E528CB488100F84008 /* SwapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapButton.swift; sourceTree = "<group>"; };
-		D8B5BB8427DDAB1200D46874 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOLabel.swift; sourceTree = "<group>"; };
 		D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D8B5BB9727DDD24000D46874 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8B5BB9827DDD24000D46874 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -128,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D81898C328F80418004F52D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D83D48B527D8E1060078C828 /* Initiation */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,10 +122,7 @@
 		D83D48BE27D8E13B0078C828 /* States */ = {
 			isa = PBXGroup;
 			children = (
-				D83D48BF27D8E1540078C828 /* BlankState.swift */,
-				D83D48C127D8E1540078C828 /* OfflineState.swift */,
 				D83D48C327D8E1540078C828 /* OoviumState.swift */,
-				D83D48C227D8E1540078C828 /* SignUpState.swift */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -160,21 +139,6 @@
 				D835F15028ECF1600086E533 /* SkinMenu.swift */,
 			);
 			path = Menu;
-			sourceTree = "<group>";
-		};
-		D83D48D827D8E5B00078C828 /* Antechamber */ = {
-			isa = PBXGroup;
-			children = (
-				D83D48DE27D8E5DA0078C828 /* Antechamber.swift */,
-				D83D48DB27D8E5D90078C828 /* ArticleCell.swift */,
-				D83D48D927D8E5D90078C828 /* ArticlesView.swift */,
-				D8B5BB8627DDAD0F00D46874 /* OOLabel.swift */,
-				D83D48DA27D8E5D90078C828 /* PathView.swift */,
-				D83D48DC27D8E5D90078C828 /* StickyIcon.swift */,
-				D83D48DD27D8E5D90078C828 /* ToDoIcon.swift */,
-				D83D48DF27D8E5DA0078C828 /* WhatsNewIcon.swift */,
-			);
-			path = Antechamber;
 			sourceTree = "<group>";
 		};
 		D83D48EB27DA00BA0078C828 /* Other */ = {
@@ -194,27 +158,10 @@
 			path = Ponds;
 			sourceTree = "<group>";
 		};
-		D83D48FD27DA0A930078C828 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				D83D48FE27DA0A930078C828 /* Security.swift */,
-				D8B5BB8427DDAB1200D46874 /* Article.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		D83D48FF27DA0A930078C828 /* Wrappers */ = {
-			isa = PBXGroup;
-			children = (
-				D83D490027DA0A930078C828 /* AppStore.swift */,
-				D83D490127DA0A930078C828 /* iCloud.swift */,
-			);
-			path = Wrappers;
-			sourceTree = "<group>";
-		};
 		D83D490227DA0A930078C828 /* Pequod */ = {
 			isa = PBXGroup;
 			children = (
+				D83D48FE27DA0A930078C828 /* Security.swift */,
 				D83D490327DA0A930078C828 /* Pequod.swift */,
 				D83D490427DA0A930078C828 /* Domain */,
 			);
@@ -288,8 +235,7 @@
 		D8CC689427D64EB500D25FF1 /* Oovium */ = {
 			isa = PBXGroup;
 			children = (
-				D83D48FF27DA0A930078C828 /* Wrappers */,
-				D83D48FD27DA0A930078C828 /* Utility */,
+				D81898C328F80418004F52D6 /* Extensions */,
 				D83D490227DA0A930078C828 /* Pequod */,
 				D8CC68A927D64EE400D25FF1 /* Interface */,
 				D8CC68AA27D64EFC00D25FF1 /* Global */,
@@ -302,7 +248,6 @@
 			children = (
 				D89A53DC28CB47C500F84008 /* Settings */,
 				D83D48EB27DA00BA0078C828 /* Other */,
-				D83D48D827D8E5B00078C828 /* Antechamber */,
 				D83D48CB27D8E4EF0078C828 /* Menu */,
 				D83D48B527D8E1060078C828 /* Initiation */,
 			);
@@ -414,40 +359,27 @@
 				D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */,
 				D83D48D327D8E5230078C828 /* AetherMenu.swift in Sources */,
 				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
-				D83D48E327D8E5DA0078C828 /* StickyIcon.swift in Sources */,
-				D83D48E627D8E5DA0078C828 /* WhatsNewIcon.swift in Sources */,
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
 				D83D490A27DA0A930078C828 /* Shell.swift in Sources */,
 				D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */,
 				D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */,
-				D83D48E127D8E5DA0078C828 /* PathView.swift in Sources */,
 				D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */,
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
-				D83D48C527D8E1540078C828 /* BlankState.swift in Sources */,
-				D83D48C727D8E1540078C828 /* OfflineState.swift in Sources */,
 				D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */,
 				D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */,
 				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
 				D83D490627DA0A930078C828 /* Security.swift in Sources */,
 				D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */,
-				D83D48E427D8E5DA0078C828 /* ToDoIcon.swift in Sources */,
-				D83D48E227D8E5DA0078C828 /* ArticleCell.swift in Sources */,
 				D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */,
 				D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */,
-				D83D48E527D8E5DA0078C828 /* Antechamber.swift in Sources */,
-				D83D490827DA0A930078C828 /* iCloud.swift in Sources */,
 				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,
-				D8B5BB8527DDAB1200D46874 /* Article.swift in Sources */,
 				D89A53E828CB488100F84008 /* SwapButton.swift in Sources */,
 				D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */,
-				D83D490727DA0A930078C828 /* AppStore.swift in Sources */,
-				D83D48E027D8E5DA0078C828 /* ArticlesView.swift in Sources */,
 				D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */,
 				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
-				D83D48C827D8E1540078C828 /* SignUpState.swift in Sources */,
+				D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */,
 				D83D48D627D8E5230078C828 /* RootMenu.swift in Sources */,
 				D89A53E628CB488100F84008 /* ScaleView.swift in Sources */,
-				D8B5BB8727DDAD0F00D46874 /* OOLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +529,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
@@ -634,7 +566,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;

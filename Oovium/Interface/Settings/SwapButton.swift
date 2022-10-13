@@ -28,11 +28,7 @@ fileprivate class SwapView: UIView {
     
 // UIView ==========================================================================================
     override func draw(_ rect: CGRect) {
-//        if !isHighlighted {
-            icon.draw(at: CGPoint.zero)
-//        } else {
-//            highlight.draw(at: CGPoint.zero)
-//        }
+        icon.draw(at: CGPoint.zero)
     }
     
 // Static ==========================================================================================

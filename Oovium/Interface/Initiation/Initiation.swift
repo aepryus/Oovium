@@ -20,17 +20,11 @@ class LaunchWindow: UIWindow {
 }
 class LaunchViewController: UIViewController {
 // UIViewController ================================================================================
-	override var preferredStatusBarStyle: UIStatusBarStyle {
-		return .darkContent
-	}
-	override var prefersHomeIndicatorAutoHidden: Bool {
-		return true
-	}
-	override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-		return Screen.iPhone ? .portrait : .landscape
-	}
+	override var preferredStatusBarStyle: UIStatusBarStyle { .darkContent }
+	override var prefersHomeIndicatorAutoHidden: Bool { true }
+	override var supportedInterfaceOrientations: UIInterfaceOrientationMask { Screen.iPhone ? .portrait : .landscape }
 	override func viewDidLoad() {
-		view.backgroundColor = .clear
+        view.backgroundColor = .clear
 	}
 }
 
@@ -53,13 +47,7 @@ class Launch {
 		}
 	}
 	
-	static let blank: BlankState = BlankState()
-	static let offline: OfflineState = OfflineState()
 	static let oovium: OoviumState = OoviumState()
-	static let signUp: SignUpState = SignUpState()
 	
-	static func shiftToBlank() { shiftTo(blank) }
-	static func shiftToOffline() { shiftTo(offline) }
 	static func shiftToOovium() { shiftTo(oovium) }
-	static func shiftToSignUp() { shiftTo(signUp) }
 }

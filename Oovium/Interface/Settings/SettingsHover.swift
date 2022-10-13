@@ -20,12 +20,10 @@ public class SettingsHover: Modal {
 	
 	public init(aetherView: AetherView) {
         super.init(anchor: .center, size: CGSize(width: 200, height: 200))
-//		super.init(aetherView: aetherView, anchor: .center, size: CGSize(width: 200, height: 200), offset: .zero)
 		super.render()
 		
 		scaleView.onChange = {(scale: CGFloat) in
 			Oo.s = scale
-//			Hovers.rescale()
 		}
 		addSubview(scaleView)
 
@@ -52,9 +50,6 @@ public class SettingsHover: Modal {
 	}
 	required init?(coder aDecoder: NSCoder) { fatalError() }
 
-// Hover ===========================================================================================
-//	public override func rescale() {}
-	
 // UIView ==========================================================================================
     public override func layoutSubviews() {
         scaleView.frame = CGRect(x: 50, y: 50, width: 200, height: 100)

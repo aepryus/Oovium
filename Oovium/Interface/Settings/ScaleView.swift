@@ -29,7 +29,7 @@ class ScaleView: UIView, UIGestureRecognizerDelegate {
 	}
 	required init?(coder aDecoder: NSCoder) { fatalError() }
 
-	// Events ==========================================================================================
+// Events ==========================================================================================
 	@objc func onPan(gesture: UIPanGestureRecognizer) {
 		let p: CGFloat = 3
 		let dw: CGFloat = 0
@@ -49,7 +49,7 @@ class ScaleView: UIView, UIGestureRecognizerDelegate {
 		setNeedsDisplay()
 	}
 	
-	// UIView ==========================================================================================
+// UIView ==========================================================================================
 	override func draw(_ rect: CGRect) {
 		let p: CGFloat = 3;
 		let dw: CGFloat = 0
@@ -83,14 +83,11 @@ class ScaleView: UIView, UIGestureRecognizerDelegate {
 		c?.setLineWidth(3)
 		c?.strokePath()
 		
-		//		let x6 = rect.size.width - dw + p
-		//		let x7 = rect.size.width - p
-		
 		let pen = Pen(font: UIFont(name: "Avenir-Heavy", size: 13)!, alignment: .center)
 		(String(format: "%0.1lf", current) as NSString).draw(in: CGRect(x: x2+6, y: y1+3, width: 20, height: 16), withAttributes: pen.attributes)
 	}
 	
-	// UIGestureRecognizerDelegate =====================================================================
+// UIGestureRecognizerDelegate =====================================================================
 	func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
 		if touch.phase != .began {return true}
 		

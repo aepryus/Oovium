@@ -17,10 +17,6 @@ class ExitPond: BackgroundPond {
 			aetherView.saveAether { (success: Bool) in
 				complete(success)
 			}
-
-//			Pequod.synchronize()
-//			aetherView.markPositions()
-//			print("\(aetherView.aether.unload().toJSON())")
 		}
 	}()
 

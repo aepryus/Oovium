@@ -123,8 +123,6 @@ public class Pequod {
 		packet["fork"] = Pequod.basket.fork
 		request.httpBody = packet.toJSON().data(using: .utf8)
 		
-//		print(packet.toJSON())
-		
 		let documentCount = (packet["documents"] as! [[String:Any]]).count
 		sb += " sending: \(documentCount)"
 		
@@ -335,7 +333,7 @@ public class Pequod {
 		request(path: "/logoutAccount", method: "POST", params: ["token":Pequod.token!], { (attributes: [String:Any]) in
 			print(attributes.toJSON())
 			DispatchQueue.main.async { success() }
-		}) {failure()}
+		}) { failure() }
 	}
 	static func verifyReceipt(receipt: String,  _ success: @escaping (String, Date, Bool, Bool)->(), _ failure: @escaping ()->()) {
 		request(path: "/verifyReceipt", method: "POST", params: ["receipt":receipt], { (attributes: [String:Any]) in
@@ -353,6 +351,6 @@ public class Pequod {
 			} else {
 				DispatchQueue.main.async { failure() }
 			}
-		}) {failure()}
+		}) { failure() }
 	}
 }

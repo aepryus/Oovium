@@ -55,32 +55,14 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
         let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [tronAction, ivoryAction])
         builder.insertSibling(menu, afterMenu: .about)
-
-//		action = UIAction(title: "Preferences...", handler: { (action: UIAction) in
-//            let settingsHover: SettingsHover = SettingsHover(aetherView: Oovium.aetherView)
-//            settingsHover.invoke()
-//		})
-//
-//		let menu: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
-//		builder.insertSibling(menu, afterMenu: .about)
-//
-//        action = UIAction(title: "Lobby...", handler: { (action: UIAction) in
-//            let antechamber: Antechamber = Antechamber()
-//            antechamber.invoke()
-//        })
-//
-//        let menu2: UIMenu = UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [action])
-//        builder.insertSibling(menu2, afterMenu: menu.identifier)
 	}
     
 // AetherViewDelegate ==============================================================================
     func onNew(aetherView: AetherView, aether: Aether) {
         aetherView.markPositions()
-//        aetherView.space?.storeAether(aether, complete: { (success: Bool) in })
     }
     func onClose(aetherView: AetherView, aether: Aether) {
         aetherView.markPositions()
-//        aetherView.space?.storeAether(aether)
     }
     func onOpen(aetherView: AetherView, aether: Aether) {
         guard let facade: AetherFacade = aetherView.facade else { return }
