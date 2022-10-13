@@ -60,20 +60,6 @@ public class Oovium {
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
 
-	static func format(value: Double) -> String {
-		let formatter = NumberFormatter()
-		if (abs(value) < 0.00000001 && value != 0) || abs(value) > 999999999999 {
-			formatter.maximumIntegerDigits = 1
-			formatter.maximumFractionDigits = 8
-			formatter.exponentSymbol = "e"
-			formatter.numberStyle = .scientific
-		} else {
-			formatter.positiveFormat = "#,##0.########"
-			formatter.negativeFormat = "#,##0.########"
-		}
-		return formatter.string(from: NSNumber(value: value))!
-	}
-
 	static func color(for def: Def) -> UIColor {
 		if def === RealDef.def { return UIColor.green }
 		else if def === ComplexDef.def { return UIColor.cyan }
