@@ -59,5 +59,8 @@ class OoviumController: UIViewController {
             Oovium.aetherView.frame = CGRect(x: x, y: Oovium.aetherView.top, width: size.width, height: size.height-Oovium.aetherView.top)
             OoviumState.behindView.frame = CGRect(origin: OoviumState.behindView.frame.origin, size: CGSize(width: OoviumState.behindView.width, height: size.height-OoviumState.behindView.top))
         }
+        coordinator.animate { (context: UIViewControllerTransitionCoordinatorContext) in
+            Modal.shieldView.render()
+        }
 	}
 }
