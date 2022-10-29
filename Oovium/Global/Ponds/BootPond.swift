@@ -123,6 +123,9 @@ class BootPond: Pond {
             let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as! AetherFacade
             facade.load { (json: String?) in
                 guard let json else { complete(false); return }
+                print("====================================================================")
+                print(json)
+                print("====================================================================")
                 let aether: Aether = Aether(json: json)
                 Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                 complete(true)
