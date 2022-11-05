@@ -44,7 +44,7 @@ public class SettingsHover: Modal {
         }
 
         addSubview(cancel)
-        cancel.addAction { [weak self] in self?.dismiss() }
+        cancel.addAction { [unowned self] in self.dismiss() }
         
         print("Settings: \(Oovium.settings.unload().toJSON())")
 	}
