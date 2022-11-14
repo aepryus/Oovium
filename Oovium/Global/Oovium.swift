@@ -78,6 +78,13 @@ public class Oovium {
 		return "\(hardware);"
 	}
 
+    static func openStaticAether(name: String) {
+        Oovium.aetherView.closeCurrentAether()
+        Oovium.aetherView.facade = nil
+        let aether: Aether = Aether(json: Local.aetherJSONFromBundle(name: name))
+        Oovium.aetherView.openAether(aether)
+    }
+
 // =================================================================================================
 
 	static func alert(title: String? = nil, message: String, complete: @escaping ()->() = {}) {

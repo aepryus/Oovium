@@ -1,0 +1,425 @@
+
+{
+  "modified" : "2022-11-14T09:58:10+0900",
+  "iden" : "83613482-4867-4025-82A5-1AD07718798B",
+  "name" : "CheatSheet",
+  "yOffset" : 1372,
+  "height" : 1515,
+  "type" : "aether",
+  "width" : 2086,
+  "xOffset" : 1914,
+  "readOnly" : true,
+  "version" : "3.0",
+  "aexels" : [
+    {
+      "y" : 1480,
+      "chain" : "dg:8;dg:9;dg:3",
+      "no" : 1,
+      "iden" : "E65D9A04-D088-478D-B17D-CF9E29130B50",
+      "label" : "",
+      "x" : 2473.4290462646486,
+      "name" : "",
+      "type" : "object"
+    },
+    {
+      "iden" : "2D9A7F79-58D2-444D-9F1D-352F470EC878",
+      "no" : 1,
+      "shape" : 2,
+      "color" : 14,
+      "x" : 2524.7785155029301,
+      "type" : "text",
+      "name" : "[]",
+      "y" : 1512.5113677978516
+    },
+    {
+      "type" : "text",
+      "no" : 2,
+      "y" : 1558.2487640380859,
+      "x" : 2617.777096801758,
+      "shape" : 1,
+      "edges" : [
+        {
+          "textNo" : 1,
+          "type" : "edge",
+          "iden" : "DD6BAEFC-5EEF-464C-84FD-C5B63B28C719"
+        }
+      ],
+      "iden" : "75DBE1C6-63B7-46A4-8AF8-59FDBF85EA31",
+      "color" : 9,
+      "name" : "ObjectBub - Generally this is for storing a number.  But, it can be an instance of any object in Oovium.  It can also be a calculation."
+    },
+    {
+      "name" : "",
+      "x" : 2640.7735744628908,
+      "iden" : "BCB08C2E-4DE3-4D6F-B53A-EC10D29F6240",
+      "ifChain" : "",
+      "y" : 1681.7290802001953,
+      "no" : 1,
+      "type" : "gate",
+      "thenChain" : "",
+      "elseChain" : ""
+    },
+    {
+      "type" : "text",
+      "y" : 1712.8831176757812,
+      "color" : 14,
+      "iden" : "D037E36F-DFB2-422E-AF07-2DF90A878069",
+      "x" : 2594.1687132568363,
+      "shape" : 2,
+      "no" : 3,
+      "name" : "[]"
+    },
+    {
+      "color" : 14,
+      "shape" : 2,
+      "x" : 2399.2874724121098,
+      "type" : "text",
+      "y" : 1812.4011993408203,
+      "iden" : "22384630-267C-49C4-B5BD-C4EF37AA8829",
+      "name" : "[]",
+      "no" : 4
+    },
+    {
+      "type" : "text",
+      "y" : 2052.31591796875,
+      "x" : 2826.1086699218754,
+      "iden" : "8AD6E476-3835-4DC2-817B-115CE658F8E6",
+      "no" : 5,
+      "shape" : 2,
+      "name" : "[]",
+      "color" : 14
+    },
+    {
+      "name" : "[]",
+      "color" : 14,
+      "y" : 2043.3874053955078,
+      "type" : "text",
+      "no" : 6,
+      "shape" : 2,
+      "iden" : "DE5D65EE-B432-4FA8-B42C-7C0669CC4C41",
+      "x" : 2227.792904541016
+    },
+    {
+      "no" : 7,
+      "y" : 2271.7609558105469,
+      "x" : 2377.9705015869145,
+      "shape" : 2,
+      "type" : "text",
+      "name" : "[]",
+      "color" : 14,
+      "iden" : "1C3A09D0-75F0-427F-968C-33F0CD24463F"
+    },
+    {
+      "no" : 8,
+      "iden" : "67FD12BD-AD55-46E7-AAE4-CA4710D43250",
+      "shape" : 2,
+      "color" : 14,
+      "name" : "[]",
+      "x" : 2783.5102507324223,
+      "y" : 2436.8989715576172,
+      "type" : "text"
+    },
+    {
+      "shape" : 1,
+      "iden" : "BB9118C3-2541-4581-BC73-15A3A3B38C7C",
+      "no" : 9,
+      "y" : 1603.4401397705078,
+      "x" : 2071.6829028076172,
+      "color" : 9,
+      "name" : "GateBub - or IfBub, this is a visual if-then-else statement.  Oovium also has a if() function, but the GateBub has a major advantage over the if function: the ‘if’ is evaluated first and the ‘then’ or ‘else’ evaluated only when appropriate.  This makes it a great tool for creating recursive mechs.",
+      "edges" : [
+        {
+          "textNo" : 3,
+          "type" : "edge",
+          "iden" : "BDA9F218-1243-4A3F-B8A0-6D2308C55B03"
+        }
+      ],
+      "type" : "text"
+    },
+    {
+      "iden" : "1172D22B-2465-4507-9A16-9A72E31F8A72",
+      "no" : 1,
+      "x" : 2301.0410305175783,
+      "inputs" : [
+        {
+          "type" : "input",
+          "iden" : "65335C7F-951A-44FC-BDB2-FDD9C79F454B",
+          "no" : 1,
+          "name" : "x"
+        }
+      ],
+      "type" : "mech",
+      "name" : "mech",
+      "y" : 1779.2433166503906,
+      "resultChain" : "",
+      "modified" : "2022-11-13T21:34:42+0900"
+    },
+    {
+      "whileChain" : "",
+      "y" : 2008.1260070800781,
+      "resultChain" : "",
+      "vertebras" : [
+        {
+          "name" : "x",
+          "no" : 1,
+          "chain" : "",
+          "type" : "vertebra",
+          "iden" : "3C685D71-91F7-453D-B480-D0E83B7CFA31"
+        },
+        {
+          "iden" : "84183681-E83B-466E-80F5-FA47763D53E1",
+          "name" : "y",
+          "no" : 2,
+          "type" : "vertebra",
+          "chain" : ""
+        }
+      ],
+      "type" : "tail",
+      "x" : 2834.3748165283205,
+      "iden" : "5F832A9D-CA63-4EC9-A64B-8998BD3A9560",
+      "modified" : "2022-11-13T21:35:06+0900",
+      "no" : 1,
+      "name" : "tail"
+    },
+    {
+      "type" : "cron",
+      "endMode" : 1,
+      "name" : "",
+      "stepsChain" : "",
+      "x" : 2046.4186245117189,
+      "stopChain" : "",
+      "exposed" : true,
+      "startChain" : "",
+      "y" : 1894.894287109375,
+      "rateChain" : "",
+      "deltaChain" : "",
+      "whileChain" : "",
+      "iden" : "200F67FE-A80D-438B-B58B-1036215691A8",
+      "no" : 1
+    },
+    {
+      "typeID" : 0,
+      "x" : 2421.9641262207033,
+      "cells" : [
+        {
+          "rowNo" : 0,
+          "chain" : "dg:1",
+          "colNo" : 0,
+          "modified" : "2022-11-13T21:35:24+0900",
+          "type" : "cell",
+          "no" : 1,
+          "iden" : "E054F9EC-E8B2-48CF-AEB3-01FBF260B521"
+        },
+        {
+          "rowNo" : 0,
+          "modified" : "2022-11-13T21:35:24+0900",
+          "type" : "cell",
+          "iden" : "F1D1D989-358C-439C-957F-25EF24081837",
+          "no" : 2,
+          "colNo" : 1,
+          "chain" : "dg:2"
+        },
+        {
+          "colNo" : 2,
+          "rowNo" : 0,
+          "iden" : "F4DBCD77-BBFD-49D0-8CE4-DE0A123999A2",
+          "type" : "cell",
+          "chain" : "va:Gr1.Ce1;op:+;va:Gr1.Ce2",
+          "modified" : "2022-11-13T21:35:26+0900",
+          "no" : 3
+        },
+        {
+          "rowNo" : 1,
+          "type" : "cell",
+          "modified" : "2022-11-13T21:35:27+0900",
+          "chain" : "dg:3",
+          "iden" : "11D709F8-51F8-400E-96A6-FA3DA92E3B2F",
+          "colNo" : 0,
+          "no" : 4
+        },
+        {
+          "colNo" : 1,
+          "iden" : "EAEA87DD-87DF-4C58-A370-FD131FB9D2C7",
+          "type" : "cell",
+          "rowNo" : 1,
+          "no" : 5,
+          "chain" : "dg:4",
+          "modified" : "2022-11-13T21:35:27+0900"
+        },
+        {
+          "no" : 6,
+          "rowNo" : 1,
+          "type" : "cell",
+          "iden" : "537C658C-CFCA-4BF1-B574-8D7D856044AD",
+          "chain" : "va:Gr1.Ce4;op:+;va:Gr1.Ce5",
+          "colNo" : 2,
+          "modified" : "2022-11-13T21:35:27+0900"
+        },
+        {
+          "no" : 7,
+          "colNo" : 0,
+          "chain" : "dg:5",
+          "rowNo" : 2,
+          "iden" : "A46189F0-FB98-41F6-928F-E36E0ABFC4AB",
+          "type" : "cell",
+          "modified" : "2022-11-13T21:35:27+0900"
+        },
+        {
+          "modified" : "2022-11-13T21:35:27+0900",
+          "iden" : "0336FF54-9A72-4CD8-819B-E4B0ACBFD871",
+          "type" : "cell",
+          "rowNo" : 2,
+          "no" : 8,
+          "chain" : "dg:6",
+          "colNo" : 1
+        },
+        {
+          "no" : 9,
+          "colNo" : 2,
+          "iden" : "8D589F87-21E0-441E-AA71-441093D51017",
+          "type" : "cell",
+          "chain" : "va:Gr1.Ce7;op:+;va:Gr1.Ce8",
+          "modified" : "2022-11-13T21:35:27+0900",
+          "rowNo" : 2
+        }
+      ],
+      "columns" : [
+        {
+          "aggregate" : 0,
+          "modified" : "2022-11-13T21:35:24+0900",
+          "type" : "column",
+          "chain" : "",
+          "no" : 1,
+          "justify" : 2,
+          "iden" : "1EAB4091-33E7-4B71-86AE-B1F498C0F861",
+          "name" : "A",
+          "format" : ""
+        },
+        {
+          "format" : "",
+          "chain" : "",
+          "aggregate" : 0,
+          "justify" : 2,
+          "name" : "B",
+          "no" : 2,
+          "type" : "column",
+          "modified" : "2022-11-13T21:35:24+0900",
+          "iden" : "8A79D4DD-CC60-4B2F-A566-4A176AFA5265"
+        },
+        {
+          "iden" : "4667A7BA-0939-4E1A-B4A0-E413B5CE925B",
+          "chain" : "cl:Gr1.Co1;op:+;cl:Gr1.Co2",
+          "name" : "C",
+          "aggregate" : 0,
+          "no" : 3,
+          "type" : "column",
+          "modified" : "2022-11-13T21:35:26+0900",
+          "justify" : 2,
+          "format" : ""
+        }
+      ],
+      "name" : "",
+      "exposed" : true,
+      "no" : 1,
+      "y" : 2204.4317932128906,
+      "type" : "grid",
+      "iden" : "597459D5-025D-4646-B101-DE1372396390",
+      "rows" : 3
+    },
+    {
+      "y" : 1834.4423522949219,
+      "color" : 9,
+      "shape" : 1,
+      "iden" : "3B3CAC42-97F2-4BD7-B0E8-03B01885DC0D",
+      "type" : "text",
+      "no" : 10,
+      "name" : "MechBub - Allows users to create custom functions.  Specify the number and names of the parameters and then define the result.  The result may reference other bubbles.",
+      "x" : 2711.2484415283207,
+      "edges" : [
+        {
+          "textNo" : 4,
+          "type" : "edge",
+          "iden" : "D3CBAD2B-49A5-4806-839F-78A2CB744936"
+        }
+      ]
+    },
+    {
+      "y" : 1981.2771759033203,
+      "x" : 2436.5506392822267,
+      "iden" : "2EE04D44-038F-4056-BB39-08C2D0012782",
+      "shape" : 1,
+      "type" : "text",
+      "no" : 11,
+      "name" : "TailBub - Allows for the creation of tail optimized recursive functions which can be very useful when wanting to loop within a calculation.",
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "50DDEB61-CBAC-40CE-88DE-0BB1CC3079DE",
+          "textNo" : 5
+        }
+      ],
+      "color" : 9
+    },
+    {
+      "color" : 9,
+      "name" : "CronBub - Is a time bubble that allows a user to define a dynamic value that changes some number of times per second.",
+      "type" : "text",
+      "edges" : [
+        {
+          "type" : "edge",
+          "textNo" : 6,
+          "iden" : "307EB70A-F666-4E55-9124-DB9AA9DD1DD9"
+        }
+      ],
+      "iden" : "2DC1739F-A182-48F6-957D-33F1C941E23D",
+      "no" : 12,
+      "y" : 2174.4417724609375,
+      "shape" : 1,
+      "x" : 1986.0000000000002
+    },
+    {
+      "iden" : "BB4F4908-79F4-4FD6-BC13-7C281B1A284C",
+      "type" : "text",
+      "y" : 2388.7743530273438,
+      "edges" : [
+        {
+          "textNo" : 7,
+          "iden" : "B8A0421B-8F06-49DE-80EA-CFB2670E9DF0",
+          "type" : "edge"
+        }
+      ],
+      "name" : "GridBub - a spreadsheet like grid that allows for columner data and calculations.  Calculations can be defined at the column automatically apply for each cell in the column.  Aggregate functions can also be defined in for the footer.  All values can be referenced from other bubbles.",
+      "color" : 9,
+      "no" : 13,
+      "x" : 2090.3690991455078,
+      "shape" : 1
+    },
+    {
+      "color" : 10,
+      "no" : 14,
+      "x" : 2711.7959118652348,
+      "name" : "TextBub",
+      "iden" : "F0E99E88-B661-4A07-9E31-89EA9AC12BB7",
+      "y" : 2372.1723007812502,
+      "shape" : 3,
+      "type" : "text"
+    },
+    {
+      "y" : 2512.4860076904297,
+      "edges" : [
+        {
+          "iden" : "CBD6D8A5-808D-4F65-9E67-58EC24BE0E5C",
+          "type" : "edge",
+          "textNo" : 8
+        }
+      ],
+      "x" : 2577.6706245117189,
+      "color" : 9,
+      "shape" : 1,
+      "no" : 15,
+      "iden" : "FA733BB3-1A77-4CEF-9311-FA561C8C32DC",
+      "type" : "text",
+      "name" : "TextBub - a non mathematical bit of text that can be linked to other TextBubs in order to create directed graphs or just anotate aspects of your aether."
+    }
+  ]
+}

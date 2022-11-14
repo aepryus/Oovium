@@ -7,13 +7,14 @@
 //
 
 import Acheron
+import OoviumEngine
 import OoviumKit
 import UIKit
 
 class AetherMenu: KeyPad {
 	init(redDot: RedDot) {
-		let schematic = Schematic(rows: 1, cols: 1)
-		super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 94, height: 214), offset: UIOffset(horizontal: 78, vertical: 0), fixed: RedDot.fixed, schematic: schematic)
+		let schematic = Schematic(rows: 4, cols: 1)
+		super.init(redDot: redDot, anchor: .bottomLeft, size: CGSize(width: 124, height: 214), offset: UIOffset(horizontal: 78, vertical: 0), fixed: RedDot.fixed, schematic: schematic)
 		
 		let apricot = UIColor(red: 1, green: 0.4, blue: 0.2, alpha: 1)
 
@@ -23,7 +24,22 @@ class AetherMenu: KeyPad {
 				self.aetherView.clearAether()
 			})
 		}))
-		
+
+        schematic.add(row: 1, col: 0, key: Key(text: "cheat sheet", uiColor: apricot, {
+            self.redDot.dismissRootMenu()
+            Oovium.openStaticAether(name: "CheatSheet")
+        }))
+
+        schematic.add(row: 2, col: 0, key: Key(text: "what's new", uiColor: apricot, {
+            self.redDot.dismissRootMenu()
+            Oovium.openStaticAether(name: "WhatsNew")
+        }))
+
+        schematic.add(row: 3, col: 0, key: Key(text: "horizon", uiColor: apricot, {
+            self.redDot.dismissRootMenu()
+            Oovium.openStaticAether(name: "Horizon")
+        }))
+
 		self.schematic = schematic
 	}
 	required init?(coder aDecoder: NSCoder) { fatalError() }
