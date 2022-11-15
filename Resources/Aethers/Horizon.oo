@@ -1,169 +1,167 @@
 {
+  "xOffset" : 2196.5,
+  "modified" : "2022-11-15T16:02:17+0900",
+  "name" : "Horizon 3.0",
   "aexels" : [
     {
-      "x" : 2457.302186035156,
-      "iden" : "17C22481-0E4B-4A46-8EAD-A2F6416E6BAE",
-      "y" : 1441.7030151367187,
-      "name" : "Horizon 3.0",
-      "type" : "text",
       "no" : 1,
       "color" : 12,
+      "y" : 1695,
+      "x" : 2792.6607523193356,
       "shape" : 0,
+      "name" : "Horizon 3.0",
       "edges" : [
         {
-          "iden" : "76103EAE-A52C-4C68-8584-9C0F30213559",
           "type" : "edge",
-          "textNo" : 2
+          "textNo" : 2,
+          "iden" : "76103EAE-A52C-4C68-8584-9C0F30213559"
         }
-      ]
+      ],
+      "iden" : "17C22481-0E4B-4A46-8EAD-A2F6416E6BAE",
+      "type" : "text"
     },
     {
-      "type" : "text",
-      "no" : 2,
+      "x" : 2820.6123100585942,
       "name" : "So… where do we go from here?",
+      "no" : 2,
+      "iden" : "DE5D0C4A-1B34-4BE3-9C80-73650B535B2B",
+      "y" : 1823.8179931640627,
+      "color" : 9,
+      "shape" : 1,
       "edges" : [
         {
-          "iden" : "3C0C8450-1290-4AC8-997A-BFFC25816BF1",
+          "textNo" : 3,
           "type" : "edge",
-          "textNo" : 3
+          "iden" : "3C0C8450-1290-4AC8-997A-BFFC25816BF1"
         },
         {
-          "iden" : "AC81E70B-68FC-4725-936C-5EB825697BAB",
           "textNo" : 4,
+          "iden" : "AC81E70B-68FC-4725-936C-5EB825697BAB",
           "type" : "edge"
         }
       ],
-      "y" : 1567.9033172607421,
-      "shape" : 1,
-      "x" : 2471.6123100585942,
-      "iden" : "DE5D0C4A-1B34-4BE3-9C80-73650B535B2B",
-      "color" : 9
-    },
-    {
-      "name" : "Oovium",
-      "y" : 1714.6897869873046,
-      "shape" : 3,
-      "edges" : [
-        {
-          "type" : "edge",
-          "iden" : "4260A81E-20C2-451E-B65C-E748DF7243D7",
-          "textNo" : 8
-        }
-      ],
-      "x" : 2554.4894431152338,
-      "iden" : "D3EEB2BF-EBE4-4256-99F8-51E6DDB6E6B0",
-      "no" : 3,
-      "color" : 12,
       "type" : "text"
     },
     {
-      "name" : "Aepryus",
       "type" : "text",
-      "x" : 2836.5079938964841,
-      "no" : 4,
-      "iden" : "68F05C7E-B031-48FC-B3EE-2ECC8A182524",
+      "y" : 1970.604462890625,
+      "x" : 2903.4894431152338,
+      "iden" : "D3EEB2BF-EBE4-4256-99F8-51E6DDB6E6B0",
+      "no" : 3,
       "color" : 12,
-      "y" : 1483.9747421874999,
       "shape" : 3,
+      "name" : "Oovium",
       "edges" : [
         {
-          "type" : "edge",
-          "iden" : "3D82BCA9-2415-4D0B-ADEB-85AE0CE4C2FB",
-          "textNo" : 5
-        },
-        {
-          "iden" : "C264EBC0-0A7E-4E8E-93C7-CFE24D204329",
-          "type" : "edge",
-          "textNo" : 6
-        },
-        {
-          "type" : "edge",
-          "iden" : "87429349-222E-4F34-864B-4B94FE7200F7",
-          "textNo" : 7
+          "iden" : "4260A81E-20C2-451E-B65C-E748DF7243D7",
+          "textNo" : 8,
+          "type" : "edge"
         }
       ]
     },
     {
-      "name" : "Aexels",
-      "iden" : "0FC9AF60-CA8B-40B4-9420-61A0B3B0B486",
-      "color" : 13,
-      "x" : 3072.4696042480459,
+      "color" : 12,
+      "no" : 4,
+      "iden" : "68F05C7E-B031-48FC-B3EE-2ECC8A182524",
+      "shape" : 3,
+      "edges" : [
+        {
+          "iden" : "3D82BCA9-2415-4D0B-ADEB-85AE0CE4C2FB",
+          "textNo" : 5,
+          "type" : "edge"
+        },
+        {
+          "textNo" : 6,
+          "type" : "edge",
+          "iden" : "C264EBC0-0A7E-4E8E-93C7-CFE24D204329"
+        },
+        {
+          "textNo" : 7,
+          "iden" : "87429349-222E-4F34-864B-4B94FE7200F7",
+          "type" : "edge"
+        }
+      ],
+      "name" : "Aepryus",
+      "x" : 3639.4954206542966,
       "type" : "text",
-      "no" : 5,
-      "y" : 1419,
-      "shape" : 0
+      "y" : 1737.8043656005859
     },
     {
-      "shape" : 0,
-      "name" : "Evolizer",
-      "x" : 3043.1981046142569,
-      "iden" : "A894CEEC-0817-448B-94C3-1E4FFFC6C8D0",
+      "name" : "Aexels",
       "color" : 13,
-      "no" : 6,
-      "y" : 1530.8455505371094,
+      "shape" : 0,
+      "iden" : "0FC9AF60-CA8B-40B4-9420-61A0B3B0B486",
+      "no" : 5,
+      "x" : 3842.9539792480459,
+      "y" : 1730.0080291748047,
       "type" : "text"
     },
     {
-      "no" : 7,
-      "iden" : "0E41D5CA-40EC-4CD5-AC0E-C711036C7788",
-      "y" : 1650.7094116210938,
+      "iden" : "A894CEEC-0817-448B-94C3-1E4FFFC6C8D0",
+      "x" : 3838.91078161621,
+      "name" : "Evolizer",
       "color" : 13,
-      "shape" : 0,
+      "no" : 6,
       "type" : "text",
-      "name" : "Lethe",
-      "x" : 3075.2577664794912
+      "shape" : 0,
+      "y" : 1796.8200866699219
     },
     {
-      "name" : "Polishing",
-      "iden" : "D4710604-8AE5-4E1F-8FF9-E52FD887C3BB",
-      "y" : 1842.0091400146484,
-      "color" : 13,
+      "iden" : "0E41D5CA-40EC-4CD5-AC0E-C711036C7788",
       "type" : "text",
-      "shape" : 0,
+      "name" : "Lethe",
+      "x" : 3832.9885098876944,
+      "y" : 1871.4576751708987,
+      "no" : 7,
+      "color" : 13,
+      "shape" : 0
+    },
+    {
+      "color" : 13,
+      "iden" : "D4710604-8AE5-4E1F-8FF9-E52FD887C3BB",
+      "x" : 2859.7467806396476,
       "edges" : [
         {
-          "type" : "edge",
           "textNo" : 10,
+          "type" : "edge",
           "iden" : "39D64D1D-2796-49B8-A647-D0CBDE6040FC"
         },
         {
           "iden" : "01ADDC02-7B72-431A-8F94-5D9B5C7AD02B",
-          "textNo" : 21,
-          "type" : "edge"
+          "type" : "edge",
+          "textNo" : 21
         }
       ],
+      "name" : "Polishing",
+      "y" : 2097.9238159179686,
+      "type" : "text",
       "no" : 8,
-      "x" : 2510.7467806396476
+      "shape" : 0
     },
     {
-      "x" : 2122.0284654541015,
-      "iden" : "AFBCB05A-C635-49A0-8AC3-9BF2FF74771A",
-      "color" : 9,
-      "shape" : 1,
-      "no" : 10,
-      "name" : "The primary priority for the foreseeable future is to perfect the current Oovium",
-      "type" : "text",
       "edges" : [
         {
-          "type" : "edge",
+          "iden" : "6B8536A4-6F4A-4206-A547-602B0404BC09",
           "textNo" : 13,
-          "iden" : "6B8536A4-6F4A-4206-A547-602B0404BC09"
+          "type" : "edge"
         },
         {
-          "iden" : "FDC5A209-2E80-42D8-B773-CA5854267227",
           "textNo" : 17,
+          "iden" : "FDC5A209-2E80-42D8-B773-CA5854267227",
           "type" : "edge"
         }
       ],
-      "y" : 1801.59931640625
+      "no" : 10,
+      "type" : "text",
+      "x" : 2471.0284654541015,
+      "y" : 2057.5139923095703,
+      "iden" : "AFBCB05A-C635-49A0-8AC3-9BF2FF74771A",
+      "name" : "The primary priority for the foreseeable future is to perfect the current Oovium",
+      "shape" : 1,
+      "color" : 9
     },
     {
-      "iden" : "C98FE3B9-DFED-42CD-9230-AF8055E8AE51",
-      "x" : 2233.9443240966798,
-      "no" : 13,
       "shape" : 1,
-      "y" : 1948.9418151855468,
-      "type" : "text",
       "edges" : [
         {
           "type" : "edge",
@@ -171,261 +169,287 @@
           "textNo" : 14
         },
         {
-          "textNo" : 15,
           "iden" : "C23491EF-B8AD-4C3A-95E5-72DFCE140ABF",
-          "type" : "edge"
+          "type" : "edge",
+          "textNo" : 15
         },
         {
-          "iden" : "52707AD7-0142-4474-86A2-F8131B5BAE9B",
           "type" : "edge",
-          "textNo" : 16
+          "textNo" : 16,
+          "iden" : "52707AD7-0142-4474-86A2-F8131B5BAE9B"
         }
       ],
+      "y" : 2204.8564910888672,
+      "color" : 9,
       "name" : "eliminate",
-      "color" : 9
+      "iden" : "C98FE3B9-DFED-42CD-9230-AF8055E8AE51",
+      "type" : "text",
+      "x" : 2582.9443240966798,
+      "no" : 13
     },
     {
-      "name" : "crashes",
-      "no" : 14,
       "iden" : "3C4812CC-1AEB-4E1B-8D18-51B829B6AEB0",
-      "color" : 9,
+      "y" : 2172.3382415771484,
       "type" : "text",
-      "y" : 1916.4235656738281,
-      "x" : 2394.7603685302734,
-      "shape" : 1
+      "color" : 9,
+      "x" : 2743.7603685302734,
+      "no" : 14,
+      "shape" : 1,
+      "name" : "crashes"
     },
     {
       "no" : 15,
-      "color" : 9,
-      "type" : "text",
       "shape" : 1,
-      "name" : "bugs and quirks",
+      "color" : 9,
       "iden" : "0FD131A0-C51D-4A0B-9AB2-C110A3833947",
-      "x" : 2405.7345976562497,
-      "y" : 1963.9678161621093
-    },
-    {
-      "name" : "performance issues",
-      "no" : 16,
-      "iden" : "CE0C56E6-4028-4053-8F70-28B528EC08D4",
+      "y" : 2219.8824920654297,
       "type" : "text",
-      "y" : 2028.4513824462892,
-      "color" : 9,
-      "shape" : 1,
-      "x" : 2402.9603253173823
+      "name" : "bugs and quirks",
+      "x" : 2754.7345976562497
     },
     {
-      "x" : 2062.4854271240229,
-      "y" : 1931.1222198486328,
+      "color" : 9,
+      "y" : 2284.3660583496094,
+      "no" : 16,
+      "type" : "text",
+      "x" : 2751.9603253173823,
+      "name" : "performance issues",
+      "shape" : 1,
+      "iden" : "CE0C56E6-4028-4053-8F70-28B528EC08D4"
+    },
+    {
+      "x" : 2411.4854271240229,
+      "y" : 2187.0368957519531,
+      "type" : "text",
       "shape" : 1,
       "edges" : [
         {
-          "iden" : "B0E6A9F6-CB5E-4DDF-B585-F550531A3F12",
+          "type" : "edge",
           "textNo" : 18,
-          "type" : "edge"
-        },
-        {
-          "iden" : "462DF1A2-DF0B-4218-BADA-9C083843DE94",
-          "type" : "edge",
-          "textNo" : 19
+          "iden" : "B0E6A9F6-CB5E-4DDF-B585-F550531A3F12"
         },
         {
           "type" : "edge",
-          "iden" : "83F2D9C9-998B-4C65-9FAB-336A24D2BFFC",
-          "textNo" : 20
+          "textNo" : 19,
+          "iden" : "462DF1A2-DF0B-4218-BADA-9C083843DE94"
+        },
+        {
+          "textNo" : 20,
+          "type" : "edge",
+          "iden" : "83F2D9C9-998B-4C65-9FAB-336A24D2BFFC"
         }
       ],
       "no" : 17,
       "color" : 9,
       "iden" : "2710D0C0-4F75-4583-BC8C-D253B45F8B37",
-      "name" : "Perfect the Code Base",
-      "type" : "text"
+      "name" : "Perfect the Code Base"
     },
     {
-      "no" : 18,
-      "name" : "Elegant",
-      "x" : 2178.3151027832032,
-      "color" : 9,
-      "shape" : 1,
       "iden" : "D34AFF13-72DA-46A9-92A1-052DF5E1C2B2",
+      "name" : "Elegant",
+      "no" : 18,
       "type" : "text",
-      "y" : 2027.6121032714843
+      "x" : 2527.3151027832032,
+      "shape" : 1,
+      "y" : 2283.5267791748047,
+      "color" : 9
     },
     {
-      "no" : 19,
-      "name" : "Beautiful",
-      "type" : "text",
-      "iden" : "AA23DF65-A1D3-4C90-B13E-F03EDE97AF8A",
-      "y" : 2067.7450378417971,
-      "x" : 2159.9396097412105,
       "color" : 9,
-      "shape" : 1
+      "iden" : "AA23DF65-A1D3-4C90-B13E-F03EDE97AF8A",
+      "x" : 2508.9396097412105,
+      "no" : 19,
+      "shape" : 1,
+      "type" : "text",
+      "y" : 2323.6597137451172,
+      "name" : "Beautiful"
     },
     {
-      "no" : 20,
       "iden" : "298537BB-B4D6-4507-9BE7-59A3A4C5C933",
+      "type" : "text",
+      "x" : 2503.3753897705078,
       "shape" : 1,
       "color" : 9,
-      "type" : "text",
+      "no" : 20,
       "name" : "Tight",
-      "x" : 2154.3753897705078,
-      "y" : 2107.5532501220705
+      "y" : 2363.4679260253906
     },
     {
-      "name" : "Revisit Existing UIUX",
-      "x" : 2574.586794921875,
-      "type" : "text",
-      "color" : 13,
-      "y" : 1945.2588836669922,
       "shape" : 0,
+      "name" : "Revisit Existing UIUX",
+      "y" : 2201.4880889892584,
       "no" : 21,
-      "iden" : "2BA89075-3559-4125-8AAB-6C0EF2BB042A",
+      "color" : 13,
+      "x" : 2923.586794921875,
       "edges" : [
         {
+          "iden" : "74B9564C-4D38-4F39-AE7B-2CB998516E0C",
           "textNo" : 22,
-          "type" : "edge",
-          "iden" : "74B9564C-4D38-4F39-AE7B-2CB998516E0C"
+          "type" : "edge"
         },
         {
           "iden" : "68DD33C9-92D1-4919-8870-3FFB05258D42",
           "type" : "edge",
           "textNo" : 25
+        },
+        {
+          "iden" : "AA42BDB4-9BB4-4686-86B1-BA82B8F877A0",
+          "textNo" : 177,
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 178,
+          "iden" : "EB81F225-DF8D-4053-A0F7-0B673A812879"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 180,
+          "iden" : "CF5E13BF-2D9F-4827-B139-E1A1F7E9B779"
+        },
+        {
+          "iden" : "2F81B23A-3ECE-443A-9BA5-01D540CC59C7",
+          "type" : "edge",
+          "textNo" : 181
+        },
+        {
+          "textNo" : 182,
+          "type" : "edge",
+          "iden" : "508DB0A6-7F6D-41DC-BDFE-604FC6EF9849"
+        },
+        {
+          "iden" : "CED7D7FD-38F3-4EF7-884A-776586FEE232",
+          "textNo" : 185,
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 184,
+          "iden" : "05AC85E8-4FE6-4B72-BDC8-2E92CD856DF9"
+        },
+        {
+          "iden" : "A7FC3D0A-C619-45B5-BBB3-0182734EAA86",
+          "type" : "edge",
+          "textNo" : 183
+        },
+        {
+          "textNo" : 179,
+          "iden" : "39D02072-F804-41CB-A13E-DC821CA2A618",
+          "type" : "edge"
         }
-      ]
+      ],
+      "iden" : "2BA89075-3559-4125-8AAB-6C0EF2BB042A",
+      "type" : "text"
     },
     {
       "edges" : [
         {
-          "textNo" : 23,
           "type" : "edge",
+          "textNo" : 23,
           "iden" : "75C4CA0B-1083-4DA2-8393-E31CB763D576"
         }
       ],
       "no" : 22,
-      "iden" : "D642CC7D-49D6-4151-9B17-475A64F2A011",
-      "name" : "I want to spend sometime on each of the existing bubbles and determine what ui\/ux improvements, if any, can be made.",
-      "color" : 9,
       "type" : "text",
+      "y" : 1973.9273529052737,
+      "color" : 9,
+      "x" : 3072.14494152832,
+      "name" : "I want to spend some time on each of the existing bubbles and determine what ui\/ux improvements, if any, can be made.",
       "shape" : 1,
-      "y" : 1795.6253021240234,
-      "x" : 2816.8259117431639
+      "iden" : "D642CC7D-49D6-4151-9B17-475A64F2A011"
     },
     {
-      "iden" : "7C0ABD32-9C87-45B6-8399-1D70EEDF3B43",
+      "type" : "text",
+      "y" : 1848.2018737792971,
       "name" : "One area that will perhaps be partiularly fruitful is improving the interaction between the bubbles and the keyboard.",
-      "shape" : 1,
       "color" : 9,
-      "no" : 23,
-      "y" : 1916.7291534423828,
-      "type" : "text",
-      "x" : 2867.1202061767576
+      "iden" : "7C0ABD32-9C87-45B6-8399-1D70EEDF3B43",
+      "x" : 3265.5165074462889,
+      "shape" : 1,
+      "no" : 23
     },
     {
-      "name" : "Mac’ification of the macOS version.",
-      "type" : "text",
-      "y" : 2102.7567352294923,
-      "color" : 13,
-      "shape" : 0,
-      "iden" : "80AEECFC-83A5-44DA-BFB3-D863C60BE317",
       "no" : 25,
-      "x" : 2516.9389562988276,
+      "iden" : "80AEECFC-83A5-44DA-BFB3-D863C60BE317",
+      "shape" : 0,
+      "y" : 2358.6714111328129,
+      "x" : 2865.9389562988276,
       "edges" : [
         {
           "type" : "edge",
-          "iden" : "491E4DCD-7334-47F1-9866-1C9DAC53C01D",
-          "textNo" : 27
+          "textNo" : 27,
+          "iden" : "491E4DCD-7334-47F1-9866-1C9DAC53C01D"
         },
         {
           "textNo" : 32,
           "type" : "edge",
           "iden" : "F92D6B01-AA36-46A2-A22B-FCB63A70C8D8"
-        }
-      ]
-    },
-    {
-      "edges" : [
-        {
-          "textNo" : 28,
-          "type" : "edge",
-          "iden" : "407E6636-83AB-4BC0-ADC5-3BD564404293"
         },
         {
           "textNo" : 29,
           "type" : "edge",
-          "iden" : "0F604310-8DE7-448E-AEA7-CDEE96EA8C16"
+          "iden" : "532CE0FD-3B82-4E5A-B265-D4FF864319C9"
         },
         {
-          "textNo" : 30,
-          "iden" : "260403F0-D9C3-4D7A-B9F1-6509546EAA66",
+          "type" : "edge",
+          "textNo" : 31,
+          "iden" : "49FA03A4-5018-4EB6-A602-7AE164B4EAFB"
+        },
+        {
+          "textNo" : 175,
+          "iden" : "82C663D3-483B-479E-9194-46CC4D4E5BF0",
           "type" : "edge"
         },
         {
-          "type" : "edge",
-          "iden" : "519E9841-DB89-47F5-A688-6CF61DD0EA5F",
-          "textNo" : 31
+          "textNo" : 176,
+          "iden" : "107AA8B5-07CE-41A0-B68D-24B7A4DF2700",
+          "type" : "edge"
         }
       ],
-      "x" : 2814.3341088378907,
-      "no" : 27,
-      "shape" : 1,
-      "color" : 9,
-      "name" : "There are a number of areas where the Mac version of Oovium does not adhere to standard macOS ui\/ux paradigms.  I’d like to fix these instances.",
-      "type" : "text",
-      "y" : 2052.0269775390625,
-      "iden" : "CA586B79-720A-467A-929A-BBAF2C13F2EE"
+      "color" : 13,
+      "name" : "Mac’ification of the macOS version.",
+      "type" : "text"
     },
     {
-      "iden" : "A13CC06F-185C-4DA8-9049-252E1EA070DC",
-      "name" : "copy \/ paste",
-      "no" : 28,
-      "x" : 3178.8676325683587,
-      "y" : 2065.3702850341797,
-      "color" : 9,
+      "y" : 2304.0404846191404,
       "type" : "text",
-      "shape" : 1
+      "no" : 27,
+      "iden" : "CA586B79-720A-467A-929A-BBAF2C13F2EE",
+      "shape" : 1,
+      "color" : 9,
+      "x" : 3103.7308220947266,
+      "name" : "There are a number of areas where the Mac version of Oovium does not adhere to standard macOS ui\/ux paradigms.  I’d like to fix these instances."
     },
     {
       "name" : "handling multiple documents simultaneously",
-      "y" : 2168.9616546630859,
       "no" : 29,
-      "color" : 9,
-      "shape" : 1,
       "iden" : "F6F33105-BB53-4CDA-9B9D-4E3CAA802F9C",
+      "color" : 7,
       "type" : "text",
-      "x" : 3184.8344277343745
-    },
-    {
+      "x" : 3413.9328316650385,
       "shape" : 1,
-      "iden" : "868E51F5-6E02-4D54-B46A-A6978960B855",
-      "type" : "text",
-      "x" : 3260.8011103515623,
-      "name" : "undo \/ redo",
-      "y" : 2108.3035736083984,
-      "no" : 30,
-      "color" : 9
+      "y" : 2401.0989562988279
     },
     {
-      "name" : "Print",
+      "type" : "text",
+      "color" : 7,
+      "y" : 2423.3602783203123,
+      "x" : 3317.0159704589837,
       "no" : 31,
-      "type" : "text",
-      "iden" : "54517D1B-23CF-40C5-9673-3B772BE46E0A",
-      "x" : 3234.346124877929,
-      "y" : 2246.6511688232422,
-      "color" : 9,
-      "shape" : 1
+      "shape" : 1,
+      "name" : "Print",
+      "iden" : "54517D1B-23CF-40C5-9673-3B772BE46E0A"
     },
     {
-      "no" : 32,
-      "x" : 2543.32068371582,
       "edges" : [
         {
-          "type" : "edge",
           "iden" : "F2EEB4C9-67DF-4AEB-AB4F-88F68B47C379",
+          "type" : "edge",
           "textNo" : 34
         },
         {
-          "type" : "edge",
           "iden" : "E6E2F89B-B846-4AEB-8E75-96D83A0AD584",
+          "type" : "edge",
           "textNo" : 38
         },
         {
@@ -434,19 +458,18 @@
           "iden" : "4C3A6162-8E95-4199-BB28-CD97FF5C2127"
         }
       ],
-      "iden" : "AB8577ED-2A39-4DC5-97A5-556E5BC3472E",
-      "y" : 2250.808660888672,
+      "y" : 2506.7233367919926,
       "type" : "text",
-      "name" : "Improving the Oovium Navigator",
+      "no" : 32,
       "color" : 13,
-      "shape" : 0
+      "x" : 2892.32068371582,
+      "iden" : "AB8577ED-2A39-4DC5-97A5-556E5BC3472E",
+      "shape" : 0,
+      "name" : "Improving the Oovium Navigator"
     },
     {
       "type" : "text",
-      "x" : 2185.7783459472653,
-      "name" : "The existing navigator is rudimentary.  I want to add many additional features.",
-      "iden" : "FF22D4F6-116E-40F3-B309-2B1A083CCB6E",
-      "color" : 9,
+      "y" : 2438.4061462402342,
       "edges" : [
         {
           "iden" : "9E94D277-8DD9-4194-B66A-9B02FACF3D84",
@@ -454,147 +477,957 @@
           "textNo" : 35
         },
         {
+          "iden" : "B1BA2FC5-0644-4C1B-A773-9511E5CA2800",
           "type" : "edge",
-          "textNo" : 37,
-          "iden" : "B1BA2FC5-0644-4C1B-A773-9511E5CA2800"
+          "textNo" : 37
         }
       ],
+      "color" : 9,
+      "x" : 2534.7783459472653,
       "no" : 34,
       "shape" : 1,
-      "y" : 2182.4914703369141
+      "iden" : "FF22D4F6-116E-40F3-B309-2B1A083CCB6E",
+      "name" : "The existing navigator is rudimentary.  I want to add many additional features."
     },
     {
-      "iden" : "4D00B1D4-9288-4B80-9C48-0A43B64C7F53",
       "shape" : 1,
-      "name" : "delete an aether or folder",
+      "iden" : "4D00B1D4-9288-4B80-9C48-0A43B64C7F53",
       "type" : "text",
-      "x" : 2033.1465083007811,
-      "no" : 35,
-      "y" : 2346.8689117431641,
-      "color" : 9
+      "color" : 9,
+      "name" : "delete an aether or folder",
+      "x" : 2382.1465083007811,
+      "y" : 2602.7835876464842,
+      "no" : 35
     },
     {
+      "y" : 2522.1368591308592,
+      "shape" : 1,
       "no" : 37,
       "name" : "easily copy and move aethers from one folder to another",
-      "iden" : "3B06C198-7E4F-41DD-9081-04A561EBD20A",
-      "type" : "text",
-      "shape" : 1,
       "color" : 9,
-      "y" : 2266.2221832275391,
-      "x" : 1972
+      "iden" : "3B06C198-7E4F-41DD-9081-04A561EBD20A",
+      "x" : 2321,
+      "type" : "text"
     },
     {
+      "x" : 2618.8807434082032,
+      "iden" : "0A1A8452-98B4-4B66-9969-C7966CA4C49B",
+      "shape" : 1,
       "name" : "In addition to the current ‘Local’ and ‘iCloud’ spaces create new spaces:",
-      "color" : 9,
+      "y" : 2603.6506530761717,
       "no" : 38,
-      "type" : "text",
-      "y" : 2347.7359771728516,
       "edges" : [
         {
+          "textNo" : 39,
           "iden" : "6148412C-23E5-4E49-AA39-9D7F68FADEFA",
-          "type" : "edge",
-          "textNo" : 39
+          "type" : "edge"
         },
         {
-          "type" : "edge",
           "textNo" : 40,
+          "type" : "edge",
           "iden" : "E6169B84-3695-4D0E-BFD5-59B2F29B6106"
         }
       ],
-      "x" : 2269.8807434082032,
-      "iden" : "0A1A8452-98B4-4B66-9969-C7966CA4C49B",
-      "shape" : 1
+      "color" : 9,
+      "type" : "text"
     },
     {
-      "x" : 2042.1222498779291,
       "name" : "An Oovium space to store static aethers like this one going forward.",
       "color" : 9,
-      "y" : 2424.5906829833984,
-      "no" : 39,
-      "type" : "text",
       "iden" : "E8576654-DCC1-4168-A40A-BD345FC1599C",
-      "shape" : 1
+      "no" : 39,
+      "shape" : 1,
+      "y" : 2680.5053588867186,
+      "type" : "text",
+      "x" : 2391.1222498779289
     },
     {
+      "shape" : 1,
       "no" : 40,
-      "color" : 9,
-      "name" : "An Aepryus space where aethers can be stored encrypted end-to-end.",
       "iden" : "B890BDE9-DC7C-4E4B-ADE0-6942DECA4535",
+      "color" : 9,
       "type" : "text",
-      "y" : 2512.9378814697266,
-      "x" : 2085.9240819091788,
-      "shape" : 1
+      "name" : "An Aepryus space where aethers can be stored encrypted end-to-end.",
+      "x" : 2434.9240819091788,
+      "y" : 2768.8525573730467
     },
     {
-      "color" : 13,
-      "shape" : 0,
-      "y" : 2397.6127716064452,
-      "name" : "Returning and Greatly Improving the Import Function",
-      "no" : 41,
-      "type" : "text",
       "iden" : "A4F072F0-F76C-46FE-B248-67EFE8150C21",
+      "shape" : 0,
+      "name" : "Returning and Greatly Improving the Import Function",
+      "type" : "text",
       "edges" : [
+        {
+          "textNo" : 45,
+          "type" : "edge",
+          "iden" : "82B8F170-96FE-4C2C-8AA5-5D77691652A4"
+        },
+        {
+          "iden" : "9F3B849A-854D-4230-B67D-F985CF0ED129",
+          "type" : "edge",
+          "textNo" : 42
+        },
+        {
+          "iden" : "6D5D907E-87FD-443E-AFBA-8DB1DD17CF71",
+          "textNo" : 42,
+          "type" : "edge"
+        },
+        {
+          "textNo" : 42,
+          "iden" : "8E087049-909E-4E5D-BE90-74EC180C5C49",
+          "type" : "edge"
+        },
+        {
+          "iden" : "17464289-42B5-49F2-A38C-C52D39D76B0C",
+          "type" : "edge",
+          "textNo" : 42
+        },
+        {
+          "iden" : "51B95037-2C0B-41E5-996A-C91D1B91802B",
+          "type" : "edge",
+          "textNo" : 42
+        },
         {
           "type" : "edge",
           "textNo" : 42,
-          "iden" : "E19ED30A-2EA4-4F49-BEDD-BC4AB12E7FBB"
-        }
-      ],
-      "x" : 2548.5079555664061
-    },
-    {
-      "no" : 42,
-      "color" : 9,
-      "name" : "Since version 1.1, Oovium has had an import function.  However it has been plagued by bad ui\/ux and a buggy implementation through out its history.",
-      "iden" : "96A39F30-FBD3-4ECD-A402-5D0E85E3A3CF",
-      "edges" : [
+          "iden" : "9EBC0E62-5ED6-4F3E-8434-49C14F9A9345"
+        },
         {
+          "textNo" : 42,
+          "iden" : "12A63E34-1DD6-4B02-AA0B-62D49B34630A",
+          "type" : "edge"
+        },
+        {
+          "textNo" : 141,
           "type" : "edge",
-          "textNo" : 44,
-          "iden" : "59DE85CA-F001-4685-AE2E-F7E2632E7F5E"
+          "iden" : "7860A670-2D91-41B4-A77E-E3C743DAB193"
+        },
+        {
+          "iden" : "DB12A61C-AD3E-40F0-AB99-EDF9A0FD1F38",
+          "type" : "edge",
+          "textNo" : 170
         }
       ],
-      "y" : 2266.469970703125,
-      "shape" : 1,
-      "type" : "text",
-      "x" : 2832.514045288086
+      "y" : 2653.5274475097658,
+      "color" : 13,
+      "x" : 2897.5079555664061,
+      "no" : 41
     },
     {
-      "iden" : "3F8D1291-EAD8-40B8-A6B8-56BC76392A33",
-      "name" : "I have plans for a massively improved UI and UX and the ground work has already been laid for a massively improved implementation.",
-      "x" : 3023.9924193115235,
+      "no" : 43,
+      "y" : 2757.1857788085936,
       "color" : 9,
       "type" : "text",
-      "no" : 43,
-      "y" : 2501.2711029052734,
+      "x" : 3372.9924193115235,
+      "name" : "I have plans for a massively improved UI and UX and the ground work has already been laid for a massively improved implementation.",
+      "iden" : "3F8D1291-EAD8-40B8-A6B8-56BC76392A33",
       "shape" : 1
     },
     {
-      "x" : 2914.4751904296872,
-      "no" : 44,
-      "type" : "text",
       "iden" : "10EDF9A3-30B1-4DC7-AFD5-89951DA555DB",
+      "y" : 2638.6792785644529,
+      "color" : 9,
+      "x" : 3263.4751904296872,
+      "shape" : 1,
       "name" : "I have no evidence that anyone (aside from me) ever used the function.  With Oovium 3.0 I have temporarily removed the feature.",
-      "y" : 2382.7646026611328,
+      "edges" : [
+        {
+          "textNo" : 43,
+          "iden" : "83CD1B48-A66E-4E26-B44A-4ECF2085E9B6",
+          "type" : "edge"
+        }
+      ],
+      "no" : 44,
+      "type" : "text"
+    },
+    {
+      "iden" : "3925CDDA-E6C8-40F3-B57C-A20CF0227BED",
+      "no" : 45,
+      "edges" : [
+        {
+          "iden" : "00B88B83-CC78-4D93-A21B-5531AAAF79DB",
+          "type" : "edge",
+          "textNo" : 147
+        },
+        {
+          "type" : "edge",
+          "iden" : "DFFB96F7-78E8-47D2-B552-0B1724CF0B62",
+          "textNo" : 148
+        },
+        {
+          "type" : "edge",
+          "iden" : "06808BBA-D766-4CD7-ACEB-6DE1F94DCDE3",
+          "textNo" : 150
+        },
+        {
+          "iden" : "03EF339C-9ABC-4386-8F4C-DA7C6E2625C4",
+          "type" : "edge",
+          "textNo" : 146
+        },
+        {
+          "iden" : "69A380AB-8542-46A3-ACA4-E3C3F6D951B8",
+          "type" : "edge",
+          "textNo" : 145
+        },
+        {
+          "iden" : "5752C629-1EBB-4A49-A46E-6F46DCDDF073",
+          "textNo" : 144,
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 143,
+          "iden" : "F9EDBB0D-5373-4463-B7AE-5274126A1B00"
+        },
+        {
+          "textNo" : 142,
+          "iden" : "125B29BF-BAFF-4302-B331-A4CF6F60C6BC",
+          "type" : "edge"
+        },
+        {
+          "textNo" : 149,
+          "iden" : "B69A69D2-D270-4146-96C1-5EE9986D523E",
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "iden" : "BBA6D15D-6B18-45B2-A5F0-BFF159376E8C",
+          "textNo" : 162
+        },
+        {
+          "type" : "edge",
+          "iden" : "16243A41-A5FD-4338-8E2C-CBF90AEF19D6",
+          "textNo" : 163
+        },
+        {
+          "iden" : "252E2D10-2686-4A7F-A918-EBAD17F673F6",
+          "textNo" : 161,
+          "type" : "edge"
+        }
+      ],
+      "color" : 13,
+      "y" : 3005.7738891601566,
+      "type" : "text",
+      "name" : "New Functionality",
+      "shape" : 0,
+      "x" : 2987.5691322021485
+    },
+    {
+      "shape" : 1,
+      "no" : 130,
+      "type" : "text",
+      "color" : 8,
+      "iden" : "D72E0192-4C1E-466B-A7C8-1BFF21E05CAC",
+      "y" : 2019.3873748779297,
+      "name" : "Name",
+      "x" : 3463.1641248779297
+    },
+    {
+      "iden" : "2248A6CD-31CE-42AC-8459-665A4FE00AAB",
+      "shape" : 1,
+      "no" : 131,
+      "x" : 3475.6988454589846,
+      "color" : 8,
+      "y" : 2064.3650360107422,
+      "type" : "text",
+      "name" : "Else If"
+    },
+    {
+      "x" : 3700.530823852539,
+      "y" : 2014.9226684570312,
+      "shape" : 1,
+      "no" : 132,
+      "type" : "text",
+      "name" : "Arrow Keys",
+      "color" : 8,
+      "iden" : "37828A2C-58FF-411A-9BF1-5066F349F193"
+    },
+    {
+      "name" : "Types",
+      "y" : 2075.9011535644531,
+      "type" : "text",
+      "no" : 133,
+      "color" : 8,
+      "x" : 3714.3629183349608,
+      "shape" : 1,
+      "iden" : "EE14B2FC-CB8C-41F5-9BFB-061066F97B94"
+    },
+    {
+      "color" : 8,
+      "shape" : 1,
+      "x" : 3697.3550076904298,
+      "y" : 2119.0931243896484,
+      "name" : "Scrollable",
+      "iden" : "DD9E4CCD-54D0-41D2-B12E-E6328DFA7ADC",
+      "no" : 134,
+      "type" : "text"
+    },
+    {
+      "name" : "Clone \/ Clear",
+      "type" : "text",
+      "x" : 3684.704345703125,
+      "iden" : "4CF76435-CC41-43F3-B5EA-20881CC82C55",
+      "y" : 2159.5858154296875,
+      "shape" : 1,
+      "color" : 8,
+      "no" : 135
+    },
+    {
+      "name" : "Properties",
+      "y" : 2822.5326538085938,
+      "iden" : "0930C3E9-B1DD-4B67-B37C-AC4C83B99D5E",
+      "x" : 2670.0043897705077,
+      "no" : 136,
+      "type" : "text",
+      "shape" : 1,
+      "color" : 8
+    },
+    {
+      "name" : "Methods",
+      "x" : 2736.4681175537107,
+      "y" : 2767.1958160400391,
+      "shape" : 1,
+      "color" : 8,
+      "type" : "text",
+      "no" : 137,
+      "iden" : "C5C0CFEF-1B89-425B-A185-0976B9093182"
+    },
+    {
+      "name" : "Operator Overloading",
+      "x" : 2801.4411544189452,
+      "color" : 8,
+      "shape" : 1,
+      "iden" : "5B4D5330-16D0-44AD-9922-A889A842ADA8",
+      "y" : 2812.9340515136719,
+      "no" : 138,
+      "type" : "text"
+    },
+    {
+      "type" : "text",
+      "shape" : 1,
+      "name" : "Hover Scale",
+      "iden" : "F4F3732B-5DBB-4187-8A44-D95F5E3637DA",
+      "y" : 3121.9945068359375,
+      "no" : 139,
+      "color" : 8,
+      "x" : 2609.185823486328
+    },
+    {
+      "shape" : 1,
+      "no" : 140,
+      "color" : 8,
+      "iden" : "3009FBF7-734D-4C55-AAE9-FE2086CE2898",
+      "type" : "text",
+      "name" : "Aether Scale",
+      "y" : 3182.9573669433594,
+      "x" : 2605.8730659179687
+    },
+    {
+      "x" : 3167.9490733642579,
+      "no" : 141,
+      "iden" : "E1A293C8-2D11-4586-ABAB-B50591F253A4",
+      "name" : "Since version 1.1, Oovium has had an import function.  However it has been plagued by bad ui\/ux and a buggy implementation through out its history.",
+      "y" : 2525.4837646484375,
+      "type" : "text",
       "color" : 9,
       "shape" : 1,
       "edges" : [
         {
-          "iden" : "83CD1B48-A66E-4E26-B44A-4ECF2085E9B6",
+          "textNo" : 44,
           "type" : "edge",
-          "textNo" : 43
+          "iden" : "72E4218D-288E-49CB-A2F3-032E54ADB539"
         }
       ]
+    },
+    {
+      "y" : 2939.7869262695312,
+      "color" : 14,
+      "no" : 142,
+      "iden" : "07E78BBD-84B2-4A70-8A4F-0A45CBF1EE99",
+      "x" : 3500.4164256591798,
+      "type" : "text",
+      "name" : "Proof Engine",
+      "shape" : 1
+    },
+    {
+      "x" : 3496.622037841797,
+      "no" : 143,
+      "iden" : "51A1D866-F463-45AF-AB6A-B72F524D9B85",
+      "y" : 3002.1499481201172,
+      "type" : "text",
+      "name" : "Math Compiler",
+      "shape" : 1,
+      "color" : 14
+    },
+    {
+      "no" : 144,
+      "type" : "text",
+      "y" : 3069.8603668212891,
+      "color" : 14,
+      "shape" : 1,
+      "iden" : "F84B3EEE-A1E0-41F1-ADB6-10C82BBCD82C",
+      "x" : 3463.0785292968749,
+      "name" : "Geometry"
+    },
+    {
+      "color" : 14,
+      "y" : 3115.9689178466797,
+      "type" : "text",
+      "x" : 3419.4864549560548,
+      "shape" : 1,
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "0DCB5A3D-7FC4-4976-8052-17B73EFE6D21",
+          "textNo" : 172
+        },
+        {
+          "type" : "edge",
+          "iden" : "EB78364F-F530-477F-A67D-072B2262E625",
+          "textNo" : 173
+        },
+        {
+          "iden" : "984F757B-F249-416C-A52B-CA8174249265",
+          "type" : "edge",
+          "textNo" : 174
+        }
+      ],
+      "iden" : "C79FA50E-B443-4357-9717-ACB2211BB0D6",
+      "no" : 145,
+      "name" : "App Generation"
+    },
+    {
+      "y" : 3201.0592498779297,
+      "x" : 3380.5313092041015,
+      "name" : "Visuals and Simulations",
+      "type" : "text",
+      "no" : 146,
+      "color" : 14,
+      "shape" : 1,
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "0F6CB1A3-5DDE-4BFD-9FBA-CADC3D0D1A90",
+          "textNo" : 152
+        }
+      ],
+      "iden" : "DDD1B4CF-A862-4CAB-9757-A2C770C79D95"
+    },
+    {
+      "iden" : "734C72A7-6A91-4123-B6A1-BAFE0BFC87F7",
+      "x" : 2764.8925583496093,
+      "no" : 147,
+      "name" : "Visual Programming Language",
+      "y" : 3002.2510070800781,
+      "type" : "text",
+      "edges" : [
+        {
+          "iden" : "16D88AA8-94FD-484D-9393-7807E90385EB",
+          "type" : "edge",
+          "textNo" : 164
+        },
+        {
+          "type" : "edge",
+          "textNo" : 165,
+          "iden" : "538EA36B-441F-47EC-BFFD-1F303B31C2BF"
+        },
+        {
+          "type" : "edge",
+          "iden" : "22D7DC1D-D066-4AEF-9830-F6CE72A32525",
+          "textNo" : 166
+        },
+        {
+          "textNo" : 167,
+          "iden" : "A84B252D-6229-4FDE-9C2C-8838D27E3CA8",
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 168,
+          "iden" : "8BC70C43-F6AC-4DB9-BA97-5E2211A4277B"
+        },
+        {
+          "textNo" : 169,
+          "iden" : "7BB11548-6E70-4858-8B4E-DF7554C8C127",
+          "type" : "edge"
+        }
+      ],
+      "shape" : 1,
+      "color" : 14
+    },
+    {
+      "name" : "Object Oriented Spreadsheet",
+      "x" : 2992.7118312988282,
+      "edges" : [
+        {
+          "iden" : "5D924EDC-4840-4BCC-B106-1C1B2E0A02C0",
+          "textNo" : 160,
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "iden" : "F971139F-7B22-4BE0-9FFE-33E927861507",
+          "textNo" : 159
+        },
+        {
+          "type" : "edge",
+          "textNo" : 158,
+          "iden" : "3E8D4D3A-DAB8-449F-BD15-18E3DD650739"
+        }
+      ],
+      "shape" : 1,
+      "no" : 148,
+      "type" : "text",
+      "iden" : "CFB30DE1-32AC-4713-9A8E-9F98E9559E6E",
+      "y" : 3268.2010955810547,
+      "color" : 14
+    },
+    {
+      "shape" : 1,
+      "x" : 3434.1780590820313,
+      "y" : 2881.426513671875,
+      "iden" : "69BD0765-6580-4CFB-A7AA-66FFC418EBBA",
+      "no" : 149,
+      "name" : "Analytic Math",
+      "color" : 12,
+      "type" : "text"
+    },
+    {
+      "x" : 3283.8611910400391,
+      "no" : 150,
+      "edges" : [
+        {
+          "textNo" : 153,
+          "iden" : "9849504A-26FC-41B6-92C7-6A5B022D0390",
+          "type" : "edge"
+        },
+        {
+          "iden" : "8CECDA4A-6CC5-4FF7-8CC2-5CCDF6C74CCA",
+          "type" : "edge",
+          "textNo" : 154
+        },
+        {
+          "iden" : "B660313E-3C99-47A7-BA2A-4B9DEE65E93B",
+          "textNo" : 157,
+          "type" : "edge"
+        },
+        {
+          "type" : "edge",
+          "iden" : "8CAB3971-A3C0-4BF4-8B52-E4824E1E64DE",
+          "textNo" : 156
+        },
+        {
+          "textNo" : 155,
+          "iden" : "16A8A5E9-2587-4057-BA16-AE69BDE83DA7",
+          "type" : "edge"
+        }
+      ],
+      "name" : "Oovium Online",
+      "iden" : "6790646D-95E3-4597-8010-FB0FBE6C2483",
+      "color" : 12,
+      "type" : "text",
+      "y" : 3267.1103973388672,
+      "shape" : 1
+    },
+    {
+      "name" : "AepGraph",
+      "type" : "text",
+      "color" : 7,
+      "no" : 152,
+      "iden" : "03F8F945-FA9A-49DD-98DD-5FFF9F3F7582",
+      "x" : 3598.2429484863283,
+      "y" : 3255.4785003662109,
+      "shape" : 1
+    },
+    {
+      "x" : 3519.699228149414,
+      "no" : 153,
+      "color" : 7,
+      "name" : "Messageboard",
+      "shape" : 1,
+      "type" : "text",
+      "iden" : "DB115BCD-9EC4-4912-8820-CD2EB812B798",
+      "y" : 3315.8021240234375
+    },
+    {
+      "y" : 3356.5992126464844,
+      "no" : 154,
+      "x" : 3497.7635659179687,
+      "iden" : "E4A94C77-3CBF-454F-9CA1-D23F23941FFA",
+      "type" : "text",
+      "name" : "Personal end-to-end",
+      "shape" : 1,
+      "color" : 7
+    },
+    {
+      "iden" : "80DF360E-3905-465B-AB3D-AD47EE141A55",
+      "color" : 7,
+      "y" : 3409.3999481201172,
+      "type" : "text",
+      "no" : 155,
+      "shape" : 1,
+      "name" : "Library",
+      "x" : 3397.7004041748046
+    },
+    {
+      "type" : "text",
+      "no" : 156,
+      "color" : 7,
+      "iden" : "D2B9901C-C74C-43D8-95FF-7C91FC610508",
+      "y" : 3432.7765808105469,
+      "x" : 3317.4060734863283,
+      "shape" : 1,
+      "name" : "Shared"
+    },
+    {
+      "name" : "Feeds",
+      "color" : 7,
+      "iden" : "D3557451-D171-4699-BF26-900BAD898308",
+      "x" : 3260.951852294922,
+      "type" : "text",
+      "shape" : 1,
+      "y" : 3396.6818084716797,
+      "no" : 157
+    },
+    {
+      "type" : "text",
+      "no" : 158,
+      "y" : 3392.0044403076172,
+      "shape" : 1,
+      "iden" : "09BF279E-D01E-4630-B217-EBD27FC0226F",
+      "name" : "Improv",
+      "color" : 7,
+      "x" : 3099.0673969726563
+    },
+    {
+      "name" : "Units of Measure",
+      "iden" : "05D0ECE0-B2D5-4F3C-B4C5-B08E70747E8A",
+      "type" : "text",
+      "shape" : 1,
+      "x" : 3005.6329259033205,
+      "color" : 7,
+      "no" : 159,
+      "y" : 3426.8457794189453
+    },
+    {
+      "iden" : "3508E0CD-3CD6-4EA2-B38A-27F3911F5F61",
+      "name" : "Text Formatter",
+      "color" : 7,
+      "y" : 3372.3256683349609,
+      "type" : "text",
+      "no" : 160,
+      "x" : 2933.5094780273439,
+      "shape" : 1
+    },
+    {
+      "color" : 7,
+      "iden" : "4D9B75EE-6F27-4938-A61C-917E1EF10665",
+      "type" : "text",
+      "shape" : 1,
+      "no" : 161,
+      "name" : "Settings",
+      "x" : 2743.9862351074221,
+      "edges" : [
+        {
+          "iden" : "9EB911D7-DEAD-44BC-A492-AF4D17F24FEB",
+          "type" : "edge",
+          "textNo" : 139
+        },
+        {
+          "iden" : "15E0B969-5D27-4F23-B137-BCE97CF6FB47",
+          "type" : "edge",
+          "textNo" : 140
+        }
+      ],
+      "y" : 3120.9665222167969
+    },
+    {
+      "no" : 162,
+      "y" : 3172.5492706298828,
+      "iden" : "E180F05A-2962-40B2-BE97-9266C734306F",
+      "shape" : 1,
+      "name" : "ControlBub",
+      "color" : 7,
+      "x" : 2733.3698081054686,
+      "type" : "text"
+    },
+    {
+      "type" : "text",
+      "iden" : "BA27E0BC-468F-41E5-92ED-32B438BC4738",
+      "color" : 7,
+      "shape" : 1,
+      "name" : "Proprioception",
+      "x" : 2725.1084780273436,
+      "y" : 3223.0819854736328,
+      "no" : 163
+    },
+    {
+      "y" : 2888.8439483642578,
+      "iden" : "91EBE002-16FD-403F-9A5C-9B7434A819C6",
+      "no" : 164,
+      "x" : 2542.738955932617,
+      "color" : 7,
+      "shape" : 1,
+      "type" : "text",
+      "name" : "Date"
+    },
+    {
+      "iden" : "38E484CA-9D73-4246-8B75-B975C9C66C8D",
+      "no" : 165,
+      "color" : 7,
+      "type" : "text",
+      "name" : "Array",
+      "x" : 2530.8129564208984,
+      "y" : 2930.7422943115234,
+      "shape" : 1
+    },
+    {
+      "iden" : "14C98F59-E1AA-4E89-A60C-B657326CCE55",
+      "name" : "Map",
+      "y" : 2970.1142425537109,
+      "no" : 166,
+      "x" : 2525.3590959472658,
+      "color" : 7,
+      "type" : "text",
+      "shape" : 1
+    },
+    {
+      "type" : "text",
+      "shape" : 1,
+      "iden" : "17EE190A-805C-4D79-8766-DD571EA54F25",
+      "y" : 3006.462646484375,
+      "name" : "Matrix",
+      "color" : 7,
+      "no" : 167,
+      "x" : 2519.3846550292969
+    },
+    {
+      "x" : 2478.3813898925782,
+      "color" : 7,
+      "iden" : "E289E954-83F3-4429-B55E-55EBFC822785",
+      "no" : 168,
+      "y" : 3045.9153747558594,
+      "shape" : 1,
+      "name" : "Function Data Types",
+      "type" : "text"
+    },
+    {
+      "name" : "TypeBub",
+      "shape" : 1,
+      "no" : 169,
+      "iden" : "A6B05461-9D20-4025-B9C3-716E82B22CFD",
+      "y" : 2907.2134704589844,
+      "edges" : [
+        {
+          "iden" : "88EFD91C-E1F8-4130-984A-1783F573878D",
+          "type" : "edge",
+          "textNo" : 136
+        },
+        {
+          "textNo" : 137,
+          "iden" : "4AD5DCBD-35F6-41D3-AAE9-4926C1307168",
+          "type" : "edge"
+        },
+        {
+          "iden" : "87D047AC-F4E2-4E00-A394-FB8039C961D6",
+          "type" : "edge",
+          "textNo" : 138
+        }
+      ],
+      "x" : 2748.9628452148436,
+      "type" : "text",
+      "color" : 7
+    },
+    {
+      "no" : 170,
+      "y" : 2740.1528015136719,
+      "iden" : "DB529584-579A-4A58-B027-13EF6531A096",
+      "color" : 7,
+      "name" : "Public",
+      "type" : "text",
+      "shape" : 1,
+      "x" : 3169.5286397705077
+    },
+    {
+      "shape" : 1,
+      "x" : 3663.4282863769531,
+      "no" : 172,
+      "color" : 7,
+      "type" : "text",
+      "y" : 3075.4202423095703,
+      "iden" : "5A30C727-D43D-4E2D-886C-75D30F2DF837",
+      "name" : "Custom Keypad"
+    },
+    {
+      "x" : 3670.2674182128908,
+      "shape" : 1,
+      "y" : 3136.1653747558594,
+      "name" : "MySQL",
+      "iden" : "C539447A-8F29-4E7A-A73D-990E45A79307",
+      "color" : 7,
+      "type" : "text",
+      "no" : 173
+    },
+    {
+      "x" : 3647.8484777832032,
+      "color" : 7,
+      "shape" : 1,
+      "y" : 3180.73681640625,
+      "name" : "Query Builder",
+      "type" : "text",
+      "no" : 174,
+      "iden" : "A8BB802B-FCB3-40B5-9772-72B2A81063DF"
+    },
+    {
+      "color" : 7,
+      "x" : 3141.5330800781248,
+      "shape" : 1,
+      "type" : "text",
+      "name" : "Copy \/ Paste",
+      "y" : 2432.2081756591797,
+      "no" : 175,
+      "iden" : "FAF37DD0-D842-4644-9A22-7D66736BEEDA"
+    },
+    {
+      "y" : 2429.6568603515625,
+      "color" : 7,
+      "name" : "Undo",
+      "type" : "text",
+      "iden" : "82A4F37A-9D80-4F14-AF8C-83A2DD7CB7C3",
+      "x" : 3234.2461828613282,
+      "shape" : 1,
+      "no" : 176
+    },
+    {
+      "name" : "GateBub",
+      "shape" : 1,
+      "y" : 2065.3983459472656,
+      "no" : 177,
+      "iden" : "FA6CA56C-8BA5-4C7B-8CAE-965DAA7F498D",
+      "x" : 3346.1638669433592,
+      "color" : 7,
+      "edges" : [
+        {
+          "iden" : "BEBF6DE8-2F0F-4463-8D85-E2AC8118C064",
+          "type" : "edge",
+          "textNo" : 130
+        },
+        {
+          "iden" : "19767304-53C7-450B-BF7C-E69D8F204925",
+          "textNo" : 131,
+          "type" : "edge"
+        }
+      ],
+      "type" : "text"
+    },
+    {
+      "color" : 7,
+      "iden" : "BD91ACF6-8DA8-4387-BDFE-581B548E7CF0",
+      "y" : 2109.7063751220703,
+      "name" : "SubFunctions",
+      "x" : 3358.9976981201171,
+      "type" : "text",
+      "no" : 178,
+      "shape" : 1
+    },
+    {
+      "shape" : 1,
+      "iden" : "7B0CD0CA-CE3F-4F40-B181-1F76A50024C5",
+      "color" : 7,
+      "x" : 3558.3496031494142,
+      "edges" : [
+        {
+          "textNo" : 132,
+          "type" : "edge",
+          "iden" : "46D42C7A-364A-4E45-8554-084CB248EE90"
+        },
+        {
+          "textNo" : 133,
+          "iden" : "E0EB450B-4578-42DC-B74C-85BABD1179E9",
+          "type" : "edge"
+        },
+        {
+          "iden" : "9E14AA04-14D5-4D8E-A9C6-20166FFEA245",
+          "textNo" : 134,
+          "type" : "edge"
+        },
+        {
+          "iden" : "9CFF390E-251B-4AEB-ABAC-4630736D90F1",
+          "type" : "edge",
+          "textNo" : 135
+        }
+      ],
+      "no" : 179,
+      "name" : "GridBub",
+      "y" : 2106.7944488525391,
+      "type" : "text"
+    },
+    {
+      "iden" : "014B8F96-5B94-44C1-8ACE-D2D35EFB6607",
+      "type" : "text",
+      "name" : "Function Clouds",
+      "y" : 2150.2142791748047,
+      "color" : 7,
+      "x" : 3353.6551912841796,
+      "shape" : 1,
+      "no" : 180
+    },
+    {
+      "x" : 3332.305022705078,
+      "name" : "Recipe Viewer",
+      "y" : 2210.7002716064453,
+      "no" : 181,
+      "iden" : "440A4BD5-D4C4-44AF-BBDC-D2DB3BE803B2",
+      "color" : 7,
+      "type" : "text",
+      "shape" : 1
+    },
+    {
+      "no" : 182,
+      "type" : "text",
+      "iden" : "D1534226-D3CB-4732-A747-CA7035B7CFD3",
+      "name" : "Layout Managers",
+      "x" : 3459.0487493896485,
+      "y" : 2218.6041107177734,
+      "color" : 7,
+      "shape" : 1
+    },
+    {
+      "y" : 2287.1663818359375,
+      "x" : 3443.4489116210939,
+      "iden" : "116B48FA-C57B-4109-AB4E-3D0E027F3656",
+      "color" : 7,
+      "type" : "text",
+      "name" : "Error Messages",
+      "no" : 183,
+      "shape" : 1
+    },
+    {
+      "color" : 7,
+      "type" : "text",
+      "x" : 3557.996889770508,
+      "no" : 184,
+      "iden" : "A45FA332-952E-4731-A7F7-EBD5463615A9",
+      "name" : "Custom Coloring",
+      "y" : 2254.9068450927734,
+      "shape" : 1
+    },
+    {
+      "name" : "TextBub Styling Copy \/ Quick Store",
+      "x" : 3472.0354121093751,
+      "iden" : "E70271B2-7BC1-4357-9FF2-4A636F255E37",
+      "color" : 7,
+      "no" : 185,
+      "y" : 2158.1130065917969,
+      "shape" : 1,
+      "type" : "text"
     }
   ],
-  "height" : 1455,
-  "modified" : "2022-11-14T16:58:20+0900",
-  "version" : "3.0",
   "iden" : "044CCC1A-785A-4061-B883-4F6FFFA5B538",
-  "name" : "Horizon 3.0",
-  "readOnly" : true,
-  "yOffset" : 1339,
-  "width" : 2072,
   "type" : "aether",
-  "xOffset" : 1822
+  "version" : "3.0",
+  "width" : 2421,
+  "yOffset" : 1640.5,
+  "height" : 1731,
+  "readOnly" : true
 }
