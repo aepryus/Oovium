@@ -26,7 +26,7 @@ class OoviumController: UIViewController {
 		super.viewWillTransition(to: size, with: coordinator)
         
         if Screen.mac {
-            Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Oovium.aetherView.top, width: size.width, height: size.height-Oovium.aetherView.top)
+            Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Screen.safeTop, width: size.width, height: size.height-Screen.safeTop)
             OoviumState.behindView.frame = CGRect(origin: OoviumState.behindView.frame.origin, size: CGSize(width: OoviumState.behindView.width, height: size.height-OoviumState.behindView.top))
         } else {
             // [ Hack ] This assumes that safeTop == safeLeft in order to anticipate safeLeft before the animation occurs.  Can't use the coordinator because the Hovers get messed up. jjc 10/10/22
