@@ -563,41 +563,6 @@
           "iden" : "82B8F170-96FE-4C2C-8AA5-5D77691652A4"
         },
         {
-          "iden" : "9F3B849A-854D-4230-B67D-F985CF0ED129",
-          "type" : "edge",
-          "textNo" : 42
-        },
-        {
-          "iden" : "6D5D907E-87FD-443E-AFBA-8DB1DD17CF71",
-          "textNo" : 42,
-          "type" : "edge"
-        },
-        {
-          "textNo" : 42,
-          "iden" : "8E087049-909E-4E5D-BE90-74EC180C5C49",
-          "type" : "edge"
-        },
-        {
-          "iden" : "17464289-42B5-49F2-A38C-C52D39D76B0C",
-          "type" : "edge",
-          "textNo" : 42
-        },
-        {
-          "iden" : "51B95037-2C0B-41E5-996A-C91D1B91802B",
-          "type" : "edge",
-          "textNo" : 42
-        },
-        {
-          "type" : "edge",
-          "textNo" : 42,
-          "iden" : "9EBC0E62-5ED6-4F3E-8434-49C14F9A9345"
-        },
-        {
-          "textNo" : 42,
-          "iden" : "12A63E34-1DD6-4B02-AA0B-62D49B34630A",
-          "type" : "edge"
-        },
-        {
           "textNo" : 141,
           "type" : "edge",
           "iden" : "7860A670-2D91-41B4-A77E-E3C743DAB193"
