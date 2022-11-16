@@ -182,7 +182,7 @@ class BootPond: Pond {
         startOovium.ready = {
             self.loadSettings.succeeded
 			&& (self.needNotMigrate.succeeded || self.migrate.succeeded)
-			&& self.queryCloud.succeeded
+			&& self.queryCloud.completed
 		}
         
         loadAether.ready = { self.startOovium.succeeded }
