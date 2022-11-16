@@ -1,165 +1,153 @@
 {
-  "xOffset" : 1879,
-  "yOffset" : 1405.5,
   "readOnly" : true,
-  "height" : 1515,
-  "width" : 2086,
-  "modified" : "2022-11-14T15:26:48+0900",
-  "iden" : "5133CFFE-676A-4B9D-B03F-87A8A2C74832",
-  "version" : "3.0",
-  "type" : "aether",
   "aexels" : [
     {
-      "no" : 1,
-      "type" : "text",
-      "iden" : "D1E06E92-1886-4C09-A696-C3E36BA53ED4",
       "shape" : 1,
+      "color" : 13,
+      "type" : "text",
+      "x" : 2472.5347173535156,
       "edges" : [
         {
-          "iden" : "2C725BC7-E313-4605-A209-21AA120097A5",
           "type" : "edge",
+          "iden" : "2C725BC7-E313-4605-A209-21AA120097A5",
           "textNo" : 2
         }
       ],
-      "y" : 1479,
-      "x" : 2390.5347173535156,
       "name" : "Oovium 3.0",
-      "color" : 13
+      "no" : 1,
+      "y" : 1471,
+      "iden" : "D1E06E92-1886-4C09-A696-C3E36BA53ED4"
     },
     {
-      "x" : 2531.011829506836,
-      "type" : "text",
-      "iden" : "E9A93C34-668C-4285-A447-210070AB4B18",
-      "name" : "Welcome to Oovium 3.0!  This aether describes what is new and what has changed for Oovium.  I think the new version is quite exciting; hopefully, you’ll agree!",
-      "y" : 1492.7581024169922,
+      "x" : 2613.011829506836,
       "color" : 7,
       "shape" : 1,
+      "type" : "text",
       "edges" : [
         {
-          "type" : "edge",
           "textNo" : 3,
-          "iden" : "922029A1-C848-4822-B7A6-32D9D4B15570"
+          "iden" : "922029A1-C848-4822-B7A6-32D9D4B15570",
+          "type" : "edge"
         }
       ],
+      "name" : "Welcome to Oovium 3.0!  This aether describes what is new and what has changed for Oovium.  I think the new version is quite exciting; hopefully, you’ll agree!",
+      "y" : 1484.7581024169922,
+      "iden" : "E9A93C34-668C-4285-A447-210070AB4B18",
       "no" : 2
     },
     {
-      "color" : 13,
-      "shape" : 3,
-      "x" : 2647.3267982568359,
-      "y" : 1626.6849486083984,
-      "iden" : "FE2F5717-B216-45EB-8CB3-77928DCA71D2",
       "no" : 3,
+      "iden" : "FE2F5717-B216-45EB-8CB3-77928DCA71D2",
+      "color" : 13,
       "edges" : [
         {
+          "iden" : "E9418C67-0B5E-472E-ABB1-F38977D49B3C",
           "textNo" : 4,
-          "type" : "edge",
-          "iden" : "E9418C67-0B5E-472E-ABB1-F38977D49B3C"
+          "type" : "edge"
         },
         {
-          "iden" : "ED649921-2D8F-440A-9C5E-5648FD427949",
+          "textNo" : 5,
           "type" : "edge",
-          "textNo" : 5
+          "iden" : "ED649921-2D8F-440A-9C5E-5648FD427949"
         },
         {
+          "type" : "edge",
           "iden" : "D2906DE2-831C-4354-BE13-D00A590917C4",
-          "type" : "edge",
           "textNo" : 6
         }
       ],
+      "shape" : 3,
+      "y" : 1618.6849486083984,
+      "x" : 2729.3267982568359,
       "type" : "text",
       "name" : "3 Major Aspects"
     },
     {
+      "iden" : "2967AF7F-9C84-4B5A-A4DE-166934CA3F95",
+      "x" : 2292.3784758691409,
       "edges" : [
         {
-          "iden" : "6E05278A-CA74-46CE-A2FD-4C5EC8641D9C",
           "type" : "edge",
+          "iden" : "6E05278A-CA74-46CE-A2FD-4C5EC8641D9C",
           "textNo" : 7
         }
       ],
-      "x" : 2210.3784758691409,
       "color" : 12,
-      "y" : 1739.1883453369142,
-      "type" : "text",
-      "name" : "Subscriptions Removed!",
-      "no" : 4,
       "shape" : 0,
-      "iden" : "2967AF7F-9C84-4B5A-A4DE-166934CA3F95"
+      "name" : "Subscriptions Removed!",
+      "type" : "text",
+      "y" : 1731.1883453369142,
+      "no" : 4
     },
     {
-      "edges" : [
-        {
-          "iden" : "444875A9-117B-443B-B66C-9799123BEA60",
-          "type" : "edge",
-          "textNo" : 11
-        }
-      ],
+      "y" : 1767.9476837158204,
       "no" : 5,
-      "iden" : "C63A2352-3E35-4FC8-8BD2-AF374413ED50",
       "name" : "iCloud Support Added!",
-      "y" : 1775.9476837158204,
-      "x" : 2635.0122248925782,
+      "iden" : "C63A2352-3E35-4FC8-8BD2-AF374413ED50",
       "type" : "text",
       "color" : 12,
+      "edges" : [
+        {
+          "textNo" : 11,
+          "type" : "edge",
+          "iden" : "444875A9-117B-443B-B66C-9799123BEA60"
+        }
+      ],
+      "x" : 2717.0122248925782,
       "shape" : 0
     },
     {
+      "y" : 1502.332846069336,
+      "edges" : [
+        {
+          "textNo" : 16,
+          "iden" : "72C93504-B4EE-4964-A34F-ED8071308F8B",
+          "type" : "edge"
+        }
+      ],
       "no" : 6,
+      "type" : "text",
+      "x" : 3120.0474166650392,
+      "iden" : "AEA5C6E0-4654-4C44-886D-94B05880F201",
       "color" : 12,
-      "x" : 3038.0474166650392,
+      "name" : "macOS Support Added!",
+      "shape" : 0
+    },
+    {
+      "y" : 1843.2767486572266,
+      "color" : 9,
+      "type" : "text",
+      "shape" : 1,
+      "x" : 2150.4249724755869,
+      "iden" : "FDA7B08F-C2DD-4131-BFFC-12E8B18CC4DB",
+      "name" : "The subscription experiment has failed.  I have removed in-app-purchases and made Oovium entirely free.",
+      "no" : 7,
       "edges" : [
         {
           "type" : "edge",
-          "textNo" : 16,
-          "iden" : "72C93504-B4EE-4964-A34F-ED8071308F8B"
-        }
-      ],
-      "iden" : "AEA5C6E0-4654-4C44-886D-94B05880F201",
-      "y" : 1510.332846069336,
-      "type" : "text",
-      "shape" : 0,
-      "name" : "macOS Support Added!"
-    },
-    {
-      "x" : 2068.4249724755869,
-      "shape" : 1,
-      "type" : "text",
-      "iden" : "FDA7B08F-C2DD-4131-BFFC-12E8B18CC4DB",
-      "y" : 1851.2767486572266,
-      "edges" : [
-        {
           "textNo" : 8,
-          "iden" : "CED49427-2D89-44A2-A062-5F87E40BAB1C",
-          "type" : "edge"
+          "iden" : "CED49427-2D89-44A2-A062-5F87E40BAB1C"
         }
-      ],
-      "color" : 9,
-      "name" : "The subscription experiment has failed.  I have removed in-app-purchases and made Oovium entirely free.",
-      "no" : 7
+      ]
     },
     {
-      "shape" : 1,
-      "type" : "text",
-      "x" : 2061.929197089843,
       "iden" : "233A9A14-749E-4642-A1EF-B3653BE71234",
       "edges" : [
         {
-          "textNo" : 9,
           "iden" : "679DF39E-9C6C-42FB-9638-A8C934A38D5B",
+          "textNo" : 9,
           "type" : "edge"
         }
       ],
+      "y" : 1983.9470520019531,
+      "x" : 2143.929197089843,
       "no" : 8,
       "color" : 9,
-      "y" : 1991.9470520019531,
+      "shape" : 1,
+      "type" : "text",
       "name" : "It is possible that Oovium may charge for things in the future, but likely it won’t be for Oovium itself.  The most probable candidate is real time data feeds."
     },
     {
-      "iden" : "05B1C587-C236-4893-8A7E-A38F00A44B81",
-      "y" : 2140.9577941894531,
-      "color" : 9,
-      "type" : "text",
       "shape" : 1,
       "edges" : [
         {
@@ -168,82 +156,89 @@
           "iden" : "8AEBC9A8-5596-4DED-B103-9A52AC4DA893"
         }
       ],
-      "x" : 2018.0667741113291,
+      "x" : 2100.0667741113293,
+      "y" : 2132.9577941894531,
+      "no" : 9,
       "name" : "For those that have supported Oovium over the years I’m going to attempt to caluclate how much they have paid since 2009 and provide some form of extra benefit, such as feed credit and \/ or other things I haven’t fleshed out yet.",
-      "no" : 9
+      "type" : "text",
+      "iden" : "05B1C587-C236-4893-8A7E-A38F00A44B81",
+      "color" : 9
     },
     {
-      "no" : 10,
-      "type" : "text",
       "iden" : "AF090817-C3A6-4209-AF37-FFF22BDA46A0",
+      "no" : 10,
+      "x" : 2162.574048574219,
+      "type" : "text",
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "1DD2F8E8-EA37-41A7-9945-78F2B0CB1E12",
+          "textNo" : 22
+        }
+      ],
       "name" : "At any rate, if anyone wants to complain about any of this feel free to stop by the discord channel (link in the menu) to chat!",
-      "y" : 2307.2731170654297,
       "color" : 9,
-      "edges" : [
-        {
-          "type" : "edge",
-          "textNo" : 22,
-          "iden" : "1DD2F8E8-EA37-41A7-9945-78F2B0CB1E12"
-        }
-      ],
-      "x" : 2080.574048574219,
+      "y" : 2299.2731170654297,
       "shape" : 1
     },
     {
-      "y" : 1861.2885131835938,
-      "iden" : "1FABA4D7-3AF8-4EF6-9188-2C8D131250B1",
-      "name" : "I’m not sure about other Oovium users, but with all of my devices (and the development of many different versions of Oovium), my aethers became totally messed up.  I had at least 8 different sets of aethers and could never remember on what device or what version of Oovium I had created them.",
-      "type" : "text",
-      "no" : 11,
-      "color" : 9,
+      "y" : 1853.2885131835938,
       "edges" : [
         {
-          "type" : "edge",
+          "textNo" : 12,
           "iden" : "1EA4D8AD-1C93-4722-AD34-952E2831B848",
-          "textNo" : 12
+          "type" : "edge"
         }
       ],
-      "x" : 2458.5876409326183,
+      "x" : 2540.5876409326183,
+      "shape" : 1,
+      "name" : "I’m not sure about other Oovium users, but with all of my devices (and the development of many different versions of Oovium), my aethers became totally messed up.  I had at least 8 different sets of aethers and could never remember on what device or what version of Oovium I had created them.",
+      "color" : 9,
+      "iden" : "1FABA4D7-3AF8-4EF6-9188-2C8D131250B1",
+      "type" : "text",
+      "no" : 11
+    },
+    {
+      "type" : "text",
+      "no" : 12,
+      "iden" : "F6F065CE-7989-470E-9174-6DC1D16BEBA4",
+      "edges" : [
+        {
+          "iden" : "A8F742C8-3A6B-4DBD-B736-6BD64AC0E84D",
+          "type" : "edge",
+          "textNo" : 13
+        }
+      ],
+      "color" : 9,
+      "name" : "This was a massive issue that was greatly inhibiting my own usage of Oovium if noone elses.  Something needed to be done.",
+      "x" : 2570.933766054688,
+      "y" : 2020.4362640380859,
       "shape" : 1
     },
     {
-      "y" : 2028.4362640380859,
       "shape" : 1,
       "edges" : [
         {
-          "textNo" : 13,
-          "iden" : "A8F742C8-3A6B-4DBD-B736-6BD64AC0E84D",
-          "type" : "edge"
-        }
-      ],
-      "type" : "text",
-      "color" : 9,
-      "iden" : "F6F065CE-7989-470E-9174-6DC1D16BEBA4",
-      "name" : "This was a massive issue that was greatly inhibiting my own usage of Oovium if noone elses.  Something needed to be done.",
-      "x" : 2488.933766054688,
-      "no" : 12
-    },
-    {
-      "x" : 2527.2439706445321,
-      "color" : 9,
-      "shape" : 1,
-      "type" : "text",
-      "no" : 13,
-      "edges" : [
-        {
+          "type" : "edge",
           "iden" : "4A88242E-8958-429E-8FF2-F6BE1DFD4FD5",
-          "textNo" : 14,
-          "type" : "edge"
+          "textNo" : 14
         }
       ],
-      "iden" : "FA886599-A864-4556-B699-36EEFE3DA3D5",
-      "name" : "So, I have finally added iCloud support into Oovium and created the new Oovium Navigator.",
-      "y" : 2161.1726684570312
+      "name" : "So, I have finally added iCloud support into Oovium and created the new Oovium Explorer.",
+      "x" : 2609.2439706445321,
+      "type" : "text",
+      "y" : 2153.1726684570312,
+      "no" : 13,
+      "color" : 9,
+      "iden" : "FA886599-A864-4556-B699-36EEFE3DA3D5"
     },
     {
+      "x" : 2573.7373096337892,
+      "type" : "text",
+      "y" : 2279.4797058105469,
       "no" : 14,
-      "shape" : 1,
-      "y" : 2287.4797058105469,
+      "name" : "The Oovium Explorer is rudimentary, but I believe high quality.  I have ambitions to flesh out its functionality in the future which I hope will make it the easiest to use, most powerful file management system ever devised!",
+      "iden" : "C6D8CA6B-7525-47DD-B72A-372A516C7918",
       "edges" : [
         {
           "type" : "edge",
@@ -251,132 +246,133 @@
           "iden" : "B66D3D4E-568C-4EDB-9D2F-A526FA7A29A4"
         }
       ],
-      "type" : "text",
-      "name" : "The Oovium Navigator is rudimentary, but I believe high quality.  I have ambitions to flesh out its functionality in the future which I hope will make it the easiest to use, most powerful file management system ever devised!",
-      "iden" : "C6D8CA6B-7525-47DD-B72A-372A516C7918",
-      "x" : 2491.7373096337892,
-      "color" : 9
+      "color" : 9,
+      "shape" : 1
     },
     {
-      "y" : 2448.4981536865234,
-      "edges" : [
-        {
-          "type" : "edge",
-          "textNo" : 22,
-          "iden" : "830D4E2B-7DDA-40A9-95E5-6D781058769D"
-        }
-      ],
+      "y" : 2440.4981536865234,
       "no" : 15,
-      "shape" : 1,
-      "name" : "Well that’s the plan anyway...",
-      "color" : 9,
-      "type" : "text",
       "iden" : "8E4A2B57-8045-4073-AD98-0872B9D64372",
-      "x" : 2533.5076914697274
-    },
-    {
-      "shape" : 1,
-      "y" : 1598.527587890625,
-      "type" : "text",
-      "no" : 16,
       "color" : 9,
+      "x" : 2615.5076914697274,
+      "shape" : 1,
       "edges" : [
         {
-          "iden" : "133F3947-7E0C-4F71-A778-F0B9A2FB3DBD",
-          "textNo" : 17,
+          "textNo" : 22,
+          "iden" : "830D4E2B-7DDA-40A9-95E5-6D781058769D",
           "type" : "edge"
         }
       ],
-      "x" : 3035.465338930665,
-      "name" : "There is now a single code base for both the iOS and macOS version of Oovium!",
-      "iden" : "F7CEDFC0-1D03-4D5C-ABF0-7E1F7A941228"
-    },
-    {
-      "x" : 3037.6123624902348,
-      "type" : "text",
-      "y" : 1709.4596405029297,
-      "shape" : 1,
-      "no" : 17,
-      "name" : "Back in 2013 before I headed off to Silicon Valley, I spent 3 months converting iOS Oovium to the Mac.",
-      "color" : 9,
-      "edges" : [
-        {
-          "textNo" : 18,
-          "iden" : "D8975FE7-069E-407E-8958-3E45A4AF052B",
-          "type" : "edge"
-        }
-      ],
-      "iden" : "FFE7D8B9-06F3-4B8C-9991-06EC9711A068"
-    },
-    {
-      "name" : "I didn’t have a tremendous amount of time to work on that project and after I went to SF I didn’t have time to do a lot of follow up work on Oovium in general, but the macOS version in particular.",
-      "iden" : "A365F444-9B2E-42ED-9BE4-2EA3C38230F5",
-      "color" : 9,
-      "x" : 2971.3101236230477,
-      "shape" : 1,
-      "type" : "text",
-      "y" : 1834.5860137939453,
-      "no" : 18,
-      "edges" : [
-        {
-          "textNo" : 20,
-          "iden" : "3B18F845-7551-43A0-9043-FA8AC5CDC4BB",
-          "type" : "edge"
-        }
-      ]
-    },
-    {
-      "name" : "After converting iOS Oovium from Objective-C to Swift in creating Oovium 2.0, I didn’t have time to also convert the macOS version.  But, in 2020ish Apple released ‘Catalyst’ which allowed for the same code base to be used for both the iOS and macOS versions of an app.",
-      "iden" : "1783DDB0-4E5E-4E91-9608-B943B96DF638",
-      "type" : "text",
-      "edges" : [
-        {
-          "textNo" : 21,
-          "iden" : "5E1D34EE-32EC-41E6-AB2E-AC9E4CBC5CAE",
-          "type" : "edge"
-        }
-      ],
-      "y" : 2155.1720886230469,
-      "shape" : 1,
-      "color" : 9,
-      "no" : 19,
-      "x" : 2940.9864857812508
-    },
-    {
-      "x" : 3001.5356295556649,
-      "no" : 20,
-      "shape" : 1,
-      "y" : 2001.8699188232422,
-      "iden" : "3DEFFA25-24AD-4440-9EA8-D40218FFADB7",
-      "name" : "One interesting thing I found though is that even though the iOS version was much more polished and fit its device better, I found myself using the macOS version 90% of the time.",
-      "edges" : [
-        {
-          "textNo" : 19,
-          "iden" : "E34B9B84-4E3B-45DC-918D-687355B8EDAE",
-          "type" : "edge"
-        }
-      ],
-      "color" : 9,
+      "name" : "Well that’s the plan anyway...",
       "type" : "text"
     },
     {
       "type" : "text",
-      "no" : 21,
-      "x" : 2972.5836406884773,
-      "y" : 2331.3561248779297,
-      "color" : 9,
+      "no" : 16,
       "shape" : 1,
       "edges" : [
         {
           "type" : "edge",
-          "textNo" : 22,
-          "iden" : "70C0BF2C-4550-4C88-B8AC-F9BD680D47C5"
+          "iden" : "133F3947-7E0C-4F71-A778-F0B9A2FB3DBD",
+          "textNo" : 17
         }
       ],
-      "iden" : "A379F779-C19E-442C-8145-7CD4CB494EAF",
-      "name" : "Catalyst wasn’t automatic and is still a bit buggy, but in general I’m very happy with the final product which I think will have a profound effect on my ability to add features quickly to Oovium in the future."
+      "color" : 9,
+      "iden" : "F7CEDFC0-1D03-4D5C-ABF0-7E1F7A941228",
+      "name" : "There is now a single code base for both the iOS and macOS version of Oovium!",
+      "x" : 3117.465338930665,
+      "y" : 1590.527587890625
     },
     {
+      "no" : 17,
+      "iden" : "FFE7D8B9-06F3-4B8C-9991-06EC9711A068",
+      "y" : 1701.4596405029297,
+      "type" : "text",
+      "color" : 9,
+      "edges" : [
+        {
+          "iden" : "D8975FE7-069E-407E-8958-3E45A4AF052B",
+          "textNo" : 18,
+          "type" : "edge"
+        }
+      ],
+      "x" : 3119.6123624902348,
+      "shape" : 1,
+      "name" : "Back in 2013 before I headed off to Silicon Valley, I spent 3 months converting iOS Oovium to the Mac."
+    },
+    {
+      "name" : "I didn’t have a tremendous amount of time to work on that project and after I went to SF I didn’t have time to do a lot of follow up work on Oovium in general, but the macOS version in particular.",
+      "color" : 9,
+      "y" : 1826.5860137939453,
+      "no" : 18,
+      "type" : "text",
+      "iden" : "A365F444-9B2E-42ED-9BE4-2EA3C38230F5",
+      "x" : 3053.3101236230477,
+      "shape" : 1,
+      "edges" : [
+        {
+          "type" : "edge",
+          "textNo" : 20,
+          "iden" : "3B18F845-7551-43A0-9043-FA8AC5CDC4BB"
+        }
+      ]
+    },
+    {
+      "edges" : [
+        {
+          "type" : "edge",
+          "textNo" : 21,
+          "iden" : "5E1D34EE-32EC-41E6-AB2E-AC9E4CBC5CAE"
+        }
+      ],
+      "color" : 9,
+      "shape" : 1,
+      "type" : "text",
+      "x" : 3022.9864857812508,
+      "y" : 2147.1720886230469,
+      "name" : "After converting iOS Oovium from Objective-C to Swift in creating Oovium 2.0, I didn’t have time to also convert the macOS version.  But, in 2020ish Apple released ‘Catalyst’ which allowed for the same code base to be used for both the iOS and macOS versions of an app.",
+      "no" : 19,
+      "iden" : "1783DDB0-4E5E-4E91-9608-B943B96DF638"
+    },
+    {
+      "shape" : 1,
+      "no" : 20,
+      "name" : "One interesting thing I found though is that even though the iOS version was much more polished and fit its device better, I found myself using the macOS version 90% of the time.",
+      "iden" : "3DEFFA25-24AD-4440-9EA8-D40218FFADB7",
+      "y" : 1993.8699188232422,
+      "edges" : [
+        {
+          "type" : "edge",
+          "textNo" : 19,
+          "iden" : "E34B9B84-4E3B-45DC-918D-687355B8EDAE"
+        }
+      ],
+      "type" : "text",
+      "x" : 3083.5356295556649,
+      "color" : 9
+    },
+    {
+      "shape" : 1,
+      "edges" : [
+        {
+          "iden" : "70C0BF2C-4550-4C88-B8AC-F9BD680D47C5",
+          "type" : "edge",
+          "textNo" : 22
+        }
+      ],
+      "color" : 9,
+      "iden" : "A379F779-C19E-442C-8145-7CD4CB494EAF",
+      "no" : 21,
+      "x" : 3054.5836406884773,
+      "name" : "Catalyst wasn’t automatic and is still a bit buggy, but in general I’m very happy with the final product which I think will have a profound effect on my ability to add features quickly to Oovium in the future.",
+      "y" : 2323.3561248779297,
+      "type" : "text"
+    },
+    {
+      "name" : "Each of these 3 enhancements is a big deal, but I believe the combination of the three really creates an app with an entirely different feel to it.",
+      "type" : "text",
+      "no" : 22,
+      "shape" : 1,
       "edges" : [
         {
           "iden" : "24DB238A-B030-4802-BF9A-F877921F5097",
@@ -384,43 +380,36 @@
           "textNo" : 23
         }
       ],
-      "y" : 2584.4322204589844,
-      "iden" : "F61E6363-3DB7-4955-8DE8-E6595085ABB7",
       "color" : 7,
-      "shape" : 1,
-      "name" : "Each of these 3 enhancements is a big deal, but I believe the combination of the three really creates an app with an entirely different feel to it.",
-      "no" : 22,
-      "x" : 2522.1849001367191,
-      "type" : "text"
+      "x" : 2604.1849001367191,
+      "y" : 2576.4322204589844,
+      "iden" : "F61E6363-3DB7-4955-8DE8-E6595085ABB7"
     },
     {
-      "shape" : 3,
+      "y" : 2708.0829705810547,
       "type" : "text",
-      "name" : "Smaller Quieter",
-      "x" : 2618.0164286523441,
-      "iden" : "AB416CE5-20DA-4602-912F-6F35BAC5818E",
-      "no" : 23,
-      "color" : 13,
+      "x" : 2700.0164286523441,
+      "shape" : 3,
       "edges" : [
         {
-          "iden" : "B14A691A-40AA-46BE-8D9C-9BF8020C640C",
+          "type" : "edge",
           "textNo" : 24,
+          "iden" : "B14A691A-40AA-46BE-8D9C-9BF8020C640C"
+        },
+        {
+          "type" : "edge",
+          "textNo" : 27,
+          "iden" : "989F691A-CC99-4D7D-9BA3-6C2906F2897A"
+        },
+        {
+          "textNo" : 35,
+          "iden" : "8C03DD25-C716-491B-AFA5-42F8C34CFE94",
           "type" : "edge"
         },
         {
-          "iden" : "989F691A-CC99-4D7D-9BA3-6C2906F2897A",
-          "type" : "edge",
-          "textNo" : 27
-        },
-        {
-          "iden" : "8C03DD25-C716-491B-AFA5-42F8C34CFE94",
-          "type" : "edge",
-          "textNo" : 35
-        },
-        {
-          "type" : "edge",
+          "textNo" : 44,
           "iden" : "AE74C134-8749-466F-A163-97CA261F58F4",
-          "textNo" : 44
+          "type" : "edge"
         },
         {
           "iden" : "9ABB21CA-1BAB-4CC0-A300-E88AA7CBF58D",
@@ -428,95 +417,98 @@
           "textNo" : 48
         }
       ],
-      "y" : 2716.0829705810547
+      "no" : 23,
+      "name" : "Smaller Quieter",
+      "iden" : "AB416CE5-20DA-4602-912F-6F35BAC5818E",
+      "color" : 13
     },
     {
-      "edges" : [
-        {
-          "type" : "edge",
-          "textNo" : 25,
-          "iden" : "BEC82A2E-168D-48F0-B488-83D950078464"
-        }
-      ],
-      "x" : 2143.0981935449227,
-      "no" : 24,
       "name" : "TextBub in the Tron skin redesigned",
-      "type" : "text",
-      "y" : 2654.2063751220703,
+      "no" : 24,
+      "color" : 12,
+      "x" : 2225.0981935449227,
       "shape" : 1,
       "iden" : "2FD9D6D3-BA9D-402A-8C65-82C0092896BB",
-      "color" : 12
-    },
-    {
-      "x" : 2044.8203623681648,
-      "y" : 2732.431640625,
-      "name" : "I released the Ivory skin and TextBubs at the same time in 2011.  Since I was working on both of these features simulataneously, TextBubs were optimized for use with Ivory.  The Tron version was a bit of an after thought.",
-      "shape" : 1,
       "edges" : [
         {
-          "iden" : "6A8C0B11-C2C6-4522-B034-AF4A04007314",
-          "type" : "edge",
-          "textNo" : 26
+          "textNo" : 25,
+          "iden" : "BEC82A2E-168D-48F0-B488-83D950078464",
+          "type" : "edge"
         }
       ],
-      "color" : 9,
-      "no" : 25,
-      "iden" : "16CA2811-5FE7-4428-A07B-E882D1692F1F",
+      "y" : 2646.2063751220703,
       "type" : "text"
     },
     {
-      "no" : 26,
-      "name" : "I have finally redesigned the TextBub for the Tron skin and am quite happy with the result.",
-      "type" : "text",
-      "iden" : "F32DD151-D879-4ACF-9012-D94954A515DC",
+      "y" : 2724.431640625,
+      "x" : 2126.8203623681648,
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "6A8C0B11-C2C6-4522-B034-AF4A04007314",
+          "textNo" : 26
+        }
+      ],
+      "no" : 25,
+      "iden" : "16CA2811-5FE7-4428-A07B-E882D1692F1F",
       "color" : 9,
-      "x" : 2094.520913393555,
+      "type" : "text",
       "shape" : 1,
-      "y" : 2867.5832061767578
+      "name" : "I released the Ivory skin and TextBubs at the same time in 2011.  Since I was working on both of these features simulataneously, TextBubs were optimized for use with Ivory.  The Tron version was a bit of an after thought."
     },
     {
-      "name" : "Oovium converted to SPM, broken up into 3 modules and entirely published on GitHub.",
+      "type" : "text",
+      "no" : 26,
+      "iden" : "F32DD151-D879-4ACF-9012-D94954A515DC",
       "shape" : 1,
-      "x" : 2521.1738698144536,
+      "x" : 2176.520913393555,
+      "name" : "I have finally redesigned the TextBub for the Tron skin and am quite happy with the result.",
+      "color" : 9,
+      "y" : 2859.5832061767578
+    },
+    {
+      "x" : 2603.1738698144536,
+      "y" : 2875.2647705078125,
+      "no" : 27,
       "type" : "text",
       "color" : 12,
-      "no" : 27,
+      "iden" : "9E41CF19-F021-41D2-BF20-7D11F5B2696D",
+      "shape" : 1,
+      "name" : "Oovium converted to SPM, broken up into 3 modules and entirely published on GitHub.",
       "edges" : [
         {
           "iden" : "3D60112D-7915-4097-A5E4-1F6BFB31FB6D",
-          "textNo" : 29,
-          "type" : "edge"
+          "type" : "edge",
+          "textNo" : 29
         }
-      ],
-      "y" : 2883.2647705078125,
-      "iden" : "9E41CF19-F021-41D2-BF20-7D11F5B2696D"
+      ]
     },
     {
-      "color" : 9,
-      "no" : 29,
-      "iden" : "679273B9-4932-48A6-BCC0-E2A7A21AC949",
       "edges" : [
         {
+          "type" : "edge",
           "textNo" : 30,
-          "iden" : "B3C396CB-4D16-435E-B639-C01B51707438",
-          "type" : "edge"
+          "iden" : "B3C396CB-4D16-435E-B639-C01B51707438"
         }
       ],
-      "type" : "text",
-      "y" : 3002.9356536865234,
       "name" : "Apple’s SPM: Swift Package Manager has finally gotten pretty good.  I have converted Oovium to build using it.",
-      "shape" : 1,
-      "x" : 2470.5935753808599
-    },
-    {
-      "type" : "text",
-      "y" : 3123.6336975097656,
-      "x" : 2492.1178549218757,
+      "x" : 2552.5935753808599,
       "color" : 9,
       "shape" : 1,
+      "type" : "text",
+      "y" : 2994.9356536865234,
+      "iden" : "679273B9-4932-48A6-BCC0-E2A7A21AC949",
+      "no" : 29
+    },
+    {
+      "x" : 2574.1178549218757,
       "name" : "I have broken up Oovium into 3 packages (4 counting Acheron): OoviumEngine, OoviumKit and Oovium.",
+      "y" : 3115.6336975097656,
       "no" : 30,
+      "shape" : 1,
+      "type" : "text",
       "iden" : "CAFE8278-78C7-404E-BD78-BD7D6B777BA7",
+      "color" : 9,
       "edges" : [
         {
           "iden" : "30A79E0E-4198-462D-B516-77532AE761C0",
@@ -526,199 +518,197 @@
       ]
     },
     {
-      "name" : "OoviumEngine is the math engine alone; it includes a command line version of Oovium.  OoviumEngine could be dropped into any project in order to make use of aethers or its function parser. ",
-      "x" : 2352.4453104882814,
-      "shape" : 1,
-      "y" : 3251.8419189453125,
+      "type" : "text",
       "color" : 9,
+      "shape" : 1,
+      "no" : 31,
+      "name" : "OoviumEngine is the math engine alone; it includes a command line version of Oovium.  OoviumEngine could be dropped into any project in order to make use of aethers or its function parser. ",
+      "y" : 3243.8419189453125,
       "iden" : "F7C9E9B9-66DE-462E-8784-098836B2A880",
+      "x" : 2434.4453104882814,
       "edges" : [
         {
           "textNo" : 32,
           "type" : "edge",
           "iden" : "EFB51E1E-7F86-4A63-B2DE-6639C22FE494"
         }
-      ],
-      "no" : 31,
-      "type" : "text"
+      ]
     },
     {
-      "shape" : 1,
-      "y" : 3388.6470947265625,
-      "iden" : "A4B55E4F-743E-4A59-BC0A-FA7BF96C4F0D",
+      "type" : "text",
+      "no" : 32,
+      "x" : 2474.8435396142586,
+      "name" : "OoviumKit is the user interface components of Oovium, including the AetherView.  It could be embedded into any app wanting to make use of Oovium to enable end users to define their own algorithms.  It is currently used by Aexels, Aepryus’ cellular automata sand box and will be used by Evolizer, Oovium’s upcoming evolution simulation \/ game.",
       "edges" : [
         {
-          "iden" : "249C40EC-2CD5-44AA-A688-D55D4F455741",
           "type" : "edge",
+          "iden" : "249C40EC-2CD5-44AA-A688-D55D4F455741",
           "textNo" : 33
         }
       ],
-      "type" : "text",
-      "name" : "OoviumKit is the user interface components of Oovium, including the AetherView.  It could be embedded into any app wanting to make use of Oovium to enable end users to define their own algorithms.  It is currently used by Aexels, Aepryus’ cellular automata sand box and will be used by Evolizer, Oovium’s upcoming evolution simulation \/ game.",
-      "no" : 32,
-      "x" : 2392.8435396142586,
-      "color" : 9
-    },
-    {
-      "no" : 33,
       "color" : 9,
       "shape" : 1,
+      "iden" : "A4B55E4F-743E-4A59-BC0A-FA7BF96C4F0D",
+      "y" : 3380.6470947265625
+    },
+    {
+      "y" : 3554.9364624023438,
+      "color" : 9,
       "iden" : "0FC09122-E12E-4E79-A8D3-5F879546B61C",
+      "x" : 2504.6838109765631,
       "edges" : [
         {
+          "textNo" : 34,
           "iden" : "FB00FC9B-9976-497E-8BD7-5A91E1884664",
-          "type" : "edge",
-          "textNo" : 34
-        }
-      ],
-      "type" : "text",
-      "y" : 3562.9364624023438,
-      "x" : 2422.6838109765631,
-      "name" : "The final module is Oovium which is a collection of the remaining components necessary in order to create the Oovium app."
-    },
-    {
-      "no" : 34,
-      "shape" : 1,
-      "iden" : "8B099C8F-1DB0-46C3-A7DB-EAE8809F2A6B",
-      "type" : "text",
-      "color" : 9,
-      "name" : "All this code is now visible and available to download at Aepryus’ GitHub account.",
-      "y" : 3680.4181976318359,
-      "x" : 2487.5291415429692
-    },
-    {
-      "x" : 3166.2391632714853,
-      "type" : "text",
-      "y" : 2576.96142578125,
-      "color" : 12,
-      "shape" : 1,
-      "no" : 35,
-      "iden" : "54704CE3-F27C-4EBF-ADB1-4D03F02F861E",
-      "edges" : [
-        {
-          "iden" : "EB1EB1D3-09AB-4342-B143-3A22D8189A3C",
-          "textNo" : 37,
           "type" : "edge"
         }
       ],
-      "name" : "Numerous Aspects of the Oovium Code Base Refactored"
+      "type" : "text",
+      "name" : "The final module is Oovium which is a collection of the remaining components necessary in order to create the Oovium app.",
+      "no" : 33,
+      "shape" : 1
     },
     {
-      "y" : 2681.1812133789062,
       "color" : 9,
-      "name" : "The original Oovium was written in Objective-C; a language that I never was particularly fond of.  The main goal of Oovium 2 was the conversion of the entire code base to Swift.",
-      "type" : "text",
-      "no" : 37,
+      "name" : "All this code is now visible and available to download at Aepryus’ GitHub account.",
+      "x" : 2569.5291415429692,
+      "no" : 34,
+      "y" : 3672.4181976318359,
       "shape" : 1,
+      "iden" : "8B099C8F-1DB0-46C3-A7DB-EAE8809F2A6B",
+      "type" : "text"
+    },
+    {
+      "x" : 3248.2391632714853,
+      "color" : 12,
+      "name" : "Numerous Aspects of the Oovium Code Base Refactored",
+      "iden" : "54704CE3-F27C-4EBF-ADB1-4D03F02F861E",
+      "no" : 35,
+      "shape" : 1,
+      "type" : "text",
       "edges" : [
         {
           "type" : "edge",
+          "iden" : "EB1EB1D3-09AB-4342-B143-3A22D8189A3C",
+          "textNo" : 37
+        }
+      ],
+      "y" : 2568.96142578125
+    },
+    {
+      "color" : 9,
+      "edges" : [
+        {
           "textNo" : 39,
+          "type" : "edge",
           "iden" : "2EF8D19D-B76E-4228-8072-9FCF51D42D1B"
         }
       ],
-      "x" : 3106.7156120019536,
-      "iden" : "BEE69FAA-D896-449C-846D-21562A9FAE2D"
+      "iden" : "BEE69FAA-D896-449C-846D-21562A9FAE2D",
+      "x" : 3188.7156120019536,
+      "name" : "The original Oovium was written in Objective-C; a language that I never was particularly fond of.  The main goal of Oovium 2 was the conversion of the entire code base to Swift.",
+      "type" : "text",
+      "no" : 37,
+      "y" : 2673.1812133789062,
+      "shape" : 1
     },
     {
       "no" : 39,
-      "iden" : "5992AE61-A8F2-46F5-86D6-499809E57F75",
       "color" : 9,
-      "name" : "During the conversion to Swift, to expediate the process I decided to change as little as possible with the UI \/ UX of Oovium.",
-      "x" : 3121.3166337304697,
-      "y" : 2821.3122863769531,
-      "shape" : 1,
-      "type" : "text",
       "edges" : [
         {
           "iden" : "C7ED4AFC-4930-40C5-B628-6315045C852E",
+          "textNo" : 40,
+          "type" : "edge"
+        }
+      ],
+      "type" : "text",
+      "shape" : 1,
+      "name" : "During the conversion to Swift, to expediate the process I decided to change as little as possible with the UI \/ UX of Oovium.",
+      "x" : 3203.3166337304697,
+      "iden" : "5992AE61-A8F2-46F5-86D6-499809E57F75",
+      "y" : 2813.3122863769531
+    },
+    {
+      "name" : "I also decided to limit how much of the code base I refactored.  The Oovium engine and in particular the written in C core math engine was highly refactored and polished, but many other aspects of the code was largely left alone aside from the conversion to Swift.",
+      "shape" : 1,
+      "y" : 2946.7733001708984,
+      "color" : 9,
+      "edges" : [
+        {
           "type" : "edge",
-          "textNo" : 40
+          "iden" : "37550CA7-3DC9-46B4-8BF3-FB72A7DDC010",
+          "textNo" : 41
+        }
+      ],
+      "type" : "text",
+      "iden" : "27546BFE-BE7B-4EF1-8DE7-58A8F05A6E8C",
+      "x" : 3162.6069502587898,
+      "no" : 40
+    },
+    {
+      "edges" : [
+        {
+          "textNo" : 42,
+          "iden" : "B06EECFA-9781-4671-81A2-94D81743D9C6",
+          "type" : "edge"
+        }
+      ],
+      "name" : "In Oovium 3.0, I have been considerably more aggressive at ripping out old subsystems and entirely rewriting them.",
+      "color" : 9,
+      "no" : 41,
+      "x" : 3215.0495014062508,
+      "iden" : "221ABE77-A682-4C1A-964C-3E8E0B61C924",
+      "type" : "text",
+      "y" : 3109.998779296875,
+      "shape" : 1
+    },
+    {
+      "color" : 9,
+      "type" : "text",
+      "y" : 3244.1960144042969,
+      "name" : "I have learned a lot about programming and iOS development after years of working at startups in Silicon Valley and have also learned a lot about Oovium.",
+      "iden" : "BAF7C7F7-4821-474C-8A5D-F28A8C27E954",
+      "shape" : 1,
+      "no" : 42,
+      "x" : 3212.2813482568367,
+      "edges" : [
+        {
+          "iden" : "41761E86-F67B-4639-AF09-E7BAB6A2EB7D",
+          "textNo" : 43,
+          "type" : "edge"
         }
       ]
     },
     {
-      "no" : 40,
       "color" : 9,
-      "iden" : "27546BFE-BE7B-4EF1-8DE7-58A8F05A6E8C",
+      "type" : "text",
+      "no" : 43,
+      "iden" : "2A40EBF8-72F1-4717-8035-60073F466889",
+      "y" : 3387.0070953369141,
+      "shape" : 1,
+      "x" : 3192.7216343408209,
+      "name" : "The end result is an increasinly tight and elegant code base that will result in a more robust app and an app that is easier and quicker to extend in the future."
+    },
+    {
+      "type" : "text",
+      "y" : 3001.7692718505859,
+      "name" : "Numerous Bug and Crash Fixes",
       "edges" : [
         {
-          "textNo" : 41,
-          "type" : "edge",
-          "iden" : "37550CA7-3DC9-46B4-8BF3-FB72A7DDC010"
+          "iden" : "CD793FE9-B177-4A5F-ABAF-CA00E6E516CE",
+          "textNo" : 45,
+          "type" : "edge"
         }
       ],
-      "type" : "text",
-      "name" : "I also decided to limit how much of the code base I refactored.  The Oovium engine and in particular the written in C core math engine was highly refactored and polished, but many other aspects of the code was largely left alone aside from the conversion to Swift.",
-      "x" : 3080.6069502587898,
-      "y" : 2954.7733001708984,
+      "iden" : "5EC1554C-3005-4DB4-98DD-F14F869EE800",
+      "x" : 2206.9350751367192,
+      "no" : 44,
+      "color" : 12,
       "shape" : 1
     },
     {
-      "iden" : "221ABE77-A682-4C1A-964C-3E8E0B61C924",
-      "name" : "In Oovium 3.0, I have been considerably more aggressive at ripping out old subsystems and entirely rewriting them.",
       "type" : "text",
-      "color" : 9,
-      "edges" : [
-        {
-          "iden" : "B06EECFA-9781-4671-81A2-94D81743D9C6",
-          "type" : "edge",
-          "textNo" : 42
-        }
-      ],
-      "y" : 3117.998779296875,
-      "x" : 3133.0495014062508,
-      "shape" : 1,
-      "no" : 41
-    },
-    {
-      "no" : 42,
-      "name" : "I have learned a lot about programming and iOS development after years of working at startups in Silicon Valley and have also learned a lot about Oovium.",
-      "y" : 3252.1960144042969,
-      "color" : 9,
-      "edges" : [
-        {
-          "type" : "edge",
-          "iden" : "41761E86-F67B-4639-AF09-E7BAB6A2EB7D",
-          "textNo" : 43
-        }
-      ],
-      "shape" : 1,
-      "iden" : "BAF7C7F7-4821-474C-8A5D-F28A8C27E954",
-      "x" : 3130.2813482568367,
-      "type" : "text"
-    },
-    {
-      "y" : 3395.0070953369141,
-      "color" : 9,
-      "type" : "text",
-      "x" : 3110.7216343408209,
-      "iden" : "2A40EBF8-72F1-4717-8035-60073F466889",
-      "name" : "The end result is an increasinly tight and elegant code base that will result in a more robust app and an app that is easier and quicker to extend in the future.",
-      "shape" : 1,
-      "no" : 43
-    },
-    {
-      "shape" : 1,
-      "no" : 44,
-      "edges" : [
-        {
-          "type" : "edge",
-          "textNo" : 45,
-          "iden" : "CD793FE9-B177-4A5F-ABAF-CA00E6E516CE"
-        }
-      ],
-      "y" : 3009.7692718505859,
-      "type" : "text",
-      "iden" : "5EC1554C-3005-4DB4-98DD-F14F869EE800",
-      "name" : "Numerous Bug and Crash Fixes",
-      "x" : 2124.9350751367192,
-      "color" : 12
-    },
-    {
-      "shape" : 1,
-      "iden" : "B1E3324C-29CF-4E00-8BA7-A4ED89606F00",
-      "x" : 1986.0000000000002,
       "name" : "In creating Oovium the entire code base was moved from Objective-C to Swift under tight time constraints.  The result was not nearly as sturdy as Oovium 1 and there were considerably more quirks, bugs and crashes than I’d of liked.",
       "edges" : [
         {
@@ -727,27 +717,31 @@
           "textNo" : 47
         }
       ],
-      "type" : "text",
-      "y" : 3116.109375,
+      "iden" : "B1E3324C-29CF-4E00-8BA7-A4ED89606F00",
+      "x" : 2068,
+      "y" : 3108.109375,
+      "no" : 45,
       "color" : 9,
-      "no" : 45
+      "shape" : 1
     },
     {
-      "name" : "I believe Oovium 3 is a substantially more stable version and will continue to improve at a quick pace going forward.",
-      "y" : 3280.0200805664062,
-      "x" : 2005.3688084716796,
-      "type" : "text",
-      "color" : 9,
-      "no" : 47,
+      "x" : 2087.3688084716796,
       "shape" : 1,
-      "iden" : "9040A702-A709-4C6A-95E6-EFFECE74C865"
+      "iden" : "9040A702-A709-4C6A-95E6-EFFECE74C865",
+      "type" : "text",
+      "y" : 3272.0200805664062,
+      "name" : "I believe Oovium 3 is a substantially more stable version and will continue to improve at a quick pace going forward.",
+      "no" : 47,
+      "color" : 9
     },
     {
-      "color" : 12,
-      "y" : 2860.5592498779297,
       "no" : 48,
+      "color" : 12,
+      "y" : 2852.5592498779297,
+      "name" : "Tweaks to the Menu",
+      "type" : "text",
+      "shape" : 1,
       "iden" : "2A51570E-8A19-4FB3-BE1A-2943B037AA88",
-      "x" : 2908.0061315917969,
       "edges" : [
         {
           "textNo" : 49,
@@ -755,71 +749,77 @@
           "type" : "edge"
         }
       ],
-      "name" : "Tweaks to the Menu",
-      "type" : "text",
-      "shape" : 1
+      "x" : 2990.0061315917969
     },
     {
-      "color" : 9,
       "shape" : 1,
-      "no" : 49,
-      "type" : "text",
-      "iden" : "794CF00A-7278-4075-903A-3E47B9088FCB",
-      "y" : 2924.2510070800781,
-      "name" : "Minor tweaks to the menu have been made.",
-      "x" : 2868.7269633789065,
       "edges" : [
         {
-          "iden" : "1B12217F-B66A-4B14-872C-A48170068777",
+          "textNo" : 50,
           "type" : "edge",
-          "textNo" : 50
+          "iden" : "1B12217F-B66A-4B14-872C-A48170068777"
         }
-      ]
+      ],
+      "type" : "text",
+      "x" : 2950.7269633789065,
+      "iden" : "794CF00A-7278-4075-903A-3E47B9088FCB",
+      "no" : 49,
+      "name" : "Minor tweaks to the menu have been made.",
+      "y" : 2916.2510070800781,
+      "color" : 9
     },
     {
-      "y" : 3009.1079559326172,
-      "x" : 2845.2020284423829,
       "color" : 9,
       "iden" : "6155C710-81BD-4BD3-8D3C-58D349D38880",
-      "no" : 50,
-      "shape" : 1,
+      "x" : 2927.2020284423829,
       "name" : "Including the removal of outdated items.",
-      "type" : "text",
+      "shape" : 1,
       "edges" : [
         {
           "iden" : "FAC3E378-756F-4512-843B-278946F2B220",
-          "textNo" : 51,
-          "type" : "edge"
-        }
-      ]
-    },
-    {
-      "x" : 2855.152764160156,
-      "no" : 51,
-      "name" : "Adding the ability to select (and save) the current skin.",
-      "shape" : 1,
-      "edges" : [
-        {
           "type" : "edge",
-          "textNo" : 52,
-          "iden" : "FDACF68E-F371-4F48-B008-8B58FB41D13D"
+          "textNo" : 51
         }
       ],
-      "color" : 9,
-      "type" : "text",
-      "iden" : "C0EA6B85-E68F-4034-9B98-D5AF7605B644",
-      "y" : 3094.9287719726562
+      "y" : 3001.1079559326172,
+      "no" : 50,
+      "type" : "text"
     },
     {
-      "name" : "And the inclusion of this and other static aethers.",
-      "no" : 52,
-      "y" : 3184.5493011474609,
-      "type" : "text",
+      "y" : 3086.9287719726562,
+      "x" : 2937.152764160156,
       "color" : 9,
-      "x" : 2889.2140805664062,
+      "name" : "Adding the ability to select (and save) the current skin.",
       "shape" : 1,
-      "iden" : "C2650609-F48B-4B7F-8BF3-EF9B34424F31"
+      "no" : 51,
+      "type" : "text",
+      "edges" : [
+        {
+          "textNo" : 52,
+          "iden" : "FDACF68E-F371-4F48-B008-8B58FB41D13D",
+          "type" : "edge"
+        }
+      ],
+      "iden" : "C0EA6B85-E68F-4034-9B98-D5AF7605B644"
+    },
+    {
+      "shape" : 1,
+      "iden" : "C2650609-F48B-4B7F-8BF3-EF9B34424F31",
+      "color" : 9,
+      "name" : "And the inclusion of this and other static aethers.",
+      "type" : "text",
+      "x" : 2971.2140805664062,
+      "y" : 3176.5493011474609,
+      "no" : 52
     }
   ],
-  "name" : "What’s New 3.0"
+  "type" : "aether",
+  "modified" : "2022-11-14T23:47:37+0900",
+  "version" : "3.0",
+  "width" : 2168,
+  "yOffset" : 1397.5,
+  "name" : "What’s New 3.0",
+  "iden" : "5133CFFE-676A-4B9D-B03F-87A8A2C74832",
+  "height" : 1507,
+  "xOffset" : 1961
 }
