@@ -26,9 +26,13 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
 		return true
 	}
-	func applicationWillResignActive(_ application: UIApplication) {
+    func applicationWillResignActive(_ application: UIApplication) {
 		Log.print("==================== [ Oovium - Exiting ] =======================================")
-		Oovium.exitPond.start()
+        if Oovium.exitPond.started {
+            guard Oovium.exitPond.complete else { return }
+            Oovium.exitPond.reset()
+        }
+        Oovium.exitPond.start()
 	}
 	func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask { [.all] }
     
