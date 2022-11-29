@@ -179,13 +179,13 @@ class BootPond: Pond {
 			&& self.loadUser.succeeded
 		}
 
-        startOovium.ready = {
-            self.loadSettings.succeeded
-			&& (self.needNotMigrate.succeeded || self.migrate.succeeded)
-			&& self.queryCloud.completed
-		}
+        startOovium.ready = { self.loadSettings.succeeded }
         
-        loadAether.ready = { self.startOovium.succeeded }
+        loadAether.ready = {
+            (self.needNotMigrate.succeeded || self.migrate.succeeded)
+            && self.queryCloud.completed
+            && self.startOovium.succeeded
+        }
         initializeAether.ready =  { self.loadAether.failed }
 
 		invalid.ready = {
