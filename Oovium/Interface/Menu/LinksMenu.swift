@@ -27,16 +27,16 @@ class LinksMenu: KeyPad {
             UIApplication.shared.open(URL(string: "https://vimeo.com/aepryus")!, options: [:], completionHandler: nil)
         }))
         
-		schematic.add(row: 2, col: 0, key: Key(text: NSLocalizedString("review", tableName: nil, bundle: Bundle(for: type(of: self)), value: "", comment: ""), uiColor: apricot, {
-			self.redDot.dismissRootMenu()
-			UIApplication.shared.open(URL(string: "http://itunes.apple.com/app/oovium/id336573328?mt=8")!, options: [:], completionHandler: nil)
-		}))
-
-        schematic.add(row: 3, col: 0, key: Key(text: NSLocalizedString("oovium", tableName: nil, bundle: Bundle(for: type(of: self)), value: "", comment: ""), uiColor: apricot, {
+        schematic.add(row: 2, col: 0, key: Key(text: NSLocalizedString("oovium", tableName: nil, bundle: Bundle(for: type(of: self)), value: "", comment: ""), uiColor: apricot, {
             self.redDot.dismissRootMenu()
             UIApplication.shared.open(URL(string: "http://aepryus.com/Principia?view=article&articleID=3")!, options: [:], completionHandler: nil)
         }))
         
+        schematic.add(row: 3, col: 0, key: Key(text: NSLocalizedString("review", tableName: nil, bundle: Bundle(for: type(of: self)), value: "", comment: ""), uiColor: apricot, {
+            self.redDot.dismissRootMenu()
+            UIApplication.shared.open(URL(string: "http://itunes.apple.com/app/oovium/id336573328?mt=8")!, options: [:], completionHandler: nil)
+        }))
+
 		self.schematic = schematic
 	}
 	required init?(coder aDecoder: NSCoder) { fatalError() }
