@@ -44,10 +44,7 @@ public class Oovium {
         get { OoviumState.behindView.leftExplorer.facade }
     }
 
-	static var version: String {
-		guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else { return "0.0" }
-		return version
-	}
+	static var version: String { Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0" }
 	public static var screenBurn: Bool = true
 
 	static let taglines = [
@@ -55,7 +52,8 @@ public class Oovium {
         "bringing sexy back",
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
-        "a bicycle for the mind"
+        "a bicycle for the mind",
+        "it's totally off the grid"
     ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
