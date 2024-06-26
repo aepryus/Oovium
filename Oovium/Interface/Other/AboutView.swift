@@ -51,7 +51,7 @@ class AboutView: UIView {
         aepryusLabel.shadowColor = .green.alpha(0.4)
         addSubview(aepryusLabel)
         
-        copyrightLabel.text = "\u{00A9} 2022"
+        copyrightLabel.text = "\u{00A9} 2024"
         copyrightLabel.pen = pen23
         copyrightLabel.shadowColor = .green.alpha(0.4)
         addSubview(copyrightLabel)

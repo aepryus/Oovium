@@ -11,11 +11,30 @@ import OoviumKit
 import UIKit
 
 class OoviumController: UIViewController {
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        addKeyCommand(UIKeyCommand(input: "x", modifierFlags: [.command], action: #selector(onCut)))
+        addKeyCommand(UIKeyCommand(input: "c", modifierFlags: [.command], action: #selector(onCopy)))
+        addKeyCommand(UIKeyCommand(input: "v", modifierFlags: [.command], action: #selector(onPaste)))
+    }
+    required init?(coder: NSCoder) { fatalError() }
 
     func stretch() {
 		Oovium.aetherView.stretch()
 		Oovium.aetherView.needsStretch = false
 	}
+    
+// Events ==========================================================================================
+    @objc func onCut() {
+        Oovium.aetherView.onCut()
+    }
+    @objc func onCopy() {
+        Oovium.aetherView.onCopy()
+    }
+    @objc func onPaste() {
+        Oovium.aetherView.onPaste()
+    }
 
 // UIViewController ================================================================================
 	override var preferredStatusBarStyle: UIStatusBarStyle { Skin.statusBarStyle }
