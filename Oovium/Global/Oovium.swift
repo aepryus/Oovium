@@ -53,7 +53,7 @@ public class Oovium {
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
         "a bicycle for the mind",
-        "it's totally off the grid"
+        "off the grid"
     ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
