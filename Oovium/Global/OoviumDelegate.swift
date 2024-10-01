@@ -34,7 +34,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
         }
         Oovium.exitPond.start()
         
-        print(Oovium.aetherView.aether.unload().toJSON())
+//        print(Oovium.aetherView.aether.unload().toJSON())
 	}
 	func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask { [.all] }
     
