@@ -47,6 +47,7 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
 		let aboutAction: UIAction = UIAction(title: "About Oovium", handler: { (action: UIAction) in
 			if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
+            Oovium.aetherView.printTowers()
 		})
 		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [aboutAction]))
 
