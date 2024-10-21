@@ -61,8 +61,8 @@ public class Oovium {
 	static func color(for def: Def) -> UIColor {
 		if def === RealDef.def { return UIColor.green }
 		else if def === ComplexDef.def { return UIColor.cyan }
-		else if def === VectorDef.def { return OOColor.marine.uiColor }
-		else if def === StringDef.def { return OOColor.peach.uiColor }
+		else if def === VectorDef.def { return Text.Color.marine.uiColor }
+		else if def === StringDef.def { return Text.Color.peach.uiColor }
 		else if def === LambdaDef.def { return UIColor.cyan }
 		else if def === RecipeDef.def { return UIColor.blue }
 		else if def === DateDef.def { return UIColor.yellow }
