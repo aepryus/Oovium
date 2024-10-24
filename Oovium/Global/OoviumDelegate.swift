@@ -44,16 +44,12 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
         builder.remove(menu: .hide)
 
 		let aboutAction: UIAction = UIAction(title: "About Oovium", handler: { (action: UIAction) in
-			if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
-            Oovium.aetherView.printTowers()
-            print(Oovium.aetherView.aether.unload().toJSON())
+            Oovium.aetherController.onAbout()
 		})
 		builder.replace(menu: .about, with: UIMenu(title: "", image: nil, identifier: .about, options: .displayInline, children: [aboutAction]))
 
         let clearAction = UIAction(title: "Clear", handler: { _ in
-            Oovium.aetherView.invokeConfirmModal("clearConfirm".localized, {
-                Oovium.aetherView.clearAether()
-            })
+            Oovium.aetherController.onClear()
         })
 
         let aetherMenu: UIMenu = UIMenu(title: "Aether", children: [clearAction])

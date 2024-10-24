@@ -26,6 +26,16 @@ class OoviumController: UIViewController {
 	}
     
 // Events ==========================================================================================
+    func onAbout() {
+        if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
+        Oovium.aetherView.printTowers()
+        print(Oovium.aetherView.aether.unload().toJSON())
+    }
+    func onClear() {
+        Oovium.aetherView.invokeConfirmModal("clearConfirm".localized, {
+            Oovium.aetherView.clearAether()
+        })
+    }
     @objc func onCut() {
         Oovium.aetherView.onCut()
     }
