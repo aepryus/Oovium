@@ -10,7 +10,7 @@ import Acheron
 import Foundation
 import OoviumKit
 
-class Settings: Anchor {
+class Settings: Anchor, OoviumKitDelegate {
     enum Skin: CaseIterable {
         case tron, ivory
         
@@ -23,9 +23,6 @@ class Settings: Anchor {
         
         static let tronSkin: TronSkin = TronSkin()
         static let ivorySkin: IvorySkin = IvorySkin()
-    }
-    enum SelectionMode: CaseIterable {
-        case lasso, rectangle
     }
     
     var skin: Skin {

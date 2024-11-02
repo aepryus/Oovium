@@ -93,7 +93,7 @@ public class Oovium {
         }
         get { Oovium.settings.skin }
     }
-    static var selectionMode: Settings.SelectionMode {
+    static var selectionMode: SelectionMode {
         set { Loom.transact { Oovium.settings.selectionMode = newValue } }
         get { Oovium.settings.selectionMode }
     }
