@@ -7,9 +7,9 @@
 //
 
 import Acheron
-import Foundation
 import OoviumEngine
 import OoviumKit
+import UIKit
 
 class BootPond: Pond {
 
@@ -108,6 +108,7 @@ class BootPond: Pond {
                 Loom.set(key: "settingsIden", value: Oovium.settings.iden)
             }
             Skin.skin = Oovium.settings.skin.skin
+            UIMenuSystem.main.setNeedsRebuild()
             complete(true)
         }
     }()

@@ -33,6 +33,7 @@
 		D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */; };
 		D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9627DDD24000D46874 /* Localizable.strings */; };
 		D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9B27DDD24000D46874 /* Assets.xcassets */; };
+		D8B6F7C12CD59E9B003E61A8 /* OoviumMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 		D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */; };
@@ -71,6 +72,7 @@
 		D8B5BB9927DDD24000D46874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8B5BB9A27DDD24000D46874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8B5BB9B27DDD24000D46874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoviumMenu.swift; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
 		D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = CheatSheet.oo; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				D83D48F827DA0A790078C828 /* Ponds */,
 				D83D48F327DA0A5F0078C828 /* OoviumController.swift */,
 				D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */,
+				D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */,
 				D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */,
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
@@ -343,6 +346,7 @@
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
 				D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */,
 				D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */,
+				D8B6F7C12CD59E9B003E61A8 /* OoviumMenu.swift in Sources */,
 				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
 				D83D490627DA0A930078C828 /* Security.swift in Sources */,
 				D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */,
@@ -520,6 +524,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +563,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -31,6 +31,7 @@ import UIKit
 public class Oovium {
 	static var window: OoviumWindow = OoviumWindow(frame: UIScreen.main.bounds)
 	static var aetherController: OoviumController!
+    static var menu: OoviumMenu = OoviumMenu()
 	static var aetherView: AetherView!
     static var redDot: RedDot!
 
@@ -82,6 +83,20 @@ public class Oovium {
         let aether: Aether = Aether(json: Local.aetherJSONFromBundle(name: name))
         Oovium.aetherView.openAether(aether)
     }
+    
+// Settings ========================================================================================
+    static var skin: Settings.Skin {
+        set {
+            Loom.transact { Oovium.settings.skin = newValue }
+            Skin.skin = Oovium.settings.skin.skin
+            Oovium.reRender()
+        }
+        get { Oovium.settings.skin }
+    }
+    static var selectionMode: Settings.SelectionMode {
+        set { Loom.transact { Oovium.settings.selectionMode = newValue } }
+        get { Oovium.settings.selectionMode }
+    }
 
 // =================================================================================================
 
@@ -94,9 +109,6 @@ public class Oovium {
 	}
     
     static func setSkin(_ skin: Settings.Skin) {
-        Loom.transact { Oovium.settings.skin = skin }
-        Skin.skin = Oovium.settings.skin.skin
-        Oovium.reRender()
     }
 
 	static func redisplay(view: UIView) {
