@@ -17,6 +17,8 @@ class OoviumController: UIViewController {
         addKeyCommand(UIKeyCommand(input: "x", modifierFlags: [.command], action: #selector(onCut)))
         addKeyCommand(UIKeyCommand(input: "c", modifierFlags: [.command], action: #selector(onCopy)))
         addKeyCommand(UIKeyCommand(input: "v", modifierFlags: [.command], action: #selector(onPaste)))
+        addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command], action: #selector(onUndo)))
+        addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command, .shift], action: #selector(onRedo)))
     }
     required init?(coder: NSCoder) { fatalError() }
 
@@ -44,6 +46,12 @@ class OoviumController: UIViewController {
     }
     @objc func onPaste() {
         Oovium.aetherView.onPaste()
+    }
+    @objc func onUndo() {
+        Oovium.aetherView.undo()
+    }
+    @objc func onRedo() {
+        Oovium.aetherView.redo()
     }
 
 // UIViewController ================================================================================
