@@ -24,6 +24,8 @@ class OoviumController: UIViewController {
         addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command], action: #selector(onUndo)))
         addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command, .shift], action: #selector(onRedo)))
         addKeyCommand(UIKeyCommand(input: "a", modifierFlags: [.command,], action: #selector(onSelectAll)))
+        addKeyCommand(UIKeyCommand(input: "y", modifierFlags: [], action: #selector(onYes)))
+        addKeyCommand(UIKeyCommand(input: "n", modifierFlags: [], action: #selector(onNo)))
     }
     required init?(coder: NSCoder) { fatalError() }
 
@@ -54,6 +56,8 @@ class OoviumController: UIViewController {
     @objc func onUndo() { Oovium.aetherView.undo() }
     @objc func onRedo() { Oovium.aetherView.redo() }
     @objc func onSelectAll() { Oovium.aetherView.selectAll() }
+    @objc func onYes() { Oovium.aetherView.onYes() }
+    @objc func onNo() { Oovium.aetherView.onNo() }
 
 // UIViewController ================================================================================
     override var preferredStatusBarStyle: UIStatusBarStyle { Skin.statusBarStyle }

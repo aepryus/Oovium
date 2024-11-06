@@ -19,7 +19,6 @@
 		D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D127D8E5230078C828 /* HelpMenu.swift */; };
 		D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EC27DA00CE0078C828 /* AboutView.swift */; };
 		D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */; };
-		D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */; };
 		D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F327DA0A5F0078C828 /* OoviumController.swift */; };
 		D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F927DA0A790078C828 /* BootPond.swift */; };
 		D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FA27DA0A790078C828 /* ExitPond.swift */; };
@@ -55,7 +54,6 @@
 		D83D48D127D8E5230078C828 /* HelpMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
 		D83D48EC27DA00CE0078C828 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumDelegate.swift; sourceTree = "<group>"; };
-		D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumWindow.swift; sourceTree = "<group>"; };
 		D83D48F327DA0A5F0078C828 /* OoviumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumController.swift; sourceTree = "<group>"; };
 		D83D48F927DA0A790078C828 /* BootPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootPond.swift; sourceTree = "<group>"; };
 		D83D48FA27DA0A790078C828 /* ExitPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitPond.swift; sourceTree = "<group>"; };
@@ -245,7 +243,6 @@
 				D83D48F327DA0A5F0078C828 /* OoviumController.swift */,
 				D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */,
 				D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */,
-				D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */,
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
 			path = Global;
@@ -340,7 +337,6 @@
 				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
 				D83D490A27DA0A930078C828 /* Shell.swift in Sources */,
-				D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */,
 				D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */,
 				D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */,
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,

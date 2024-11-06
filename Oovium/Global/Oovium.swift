@@ -29,7 +29,7 @@ import OoviumKit
 import UIKit
 
 public class Oovium {
-	static var window: OoviumWindow = OoviumWindow(frame: UIScreen.main.bounds)
+	static var window: UIWindow = UIWindow(frame: UIScreen.main.bounds)
 	static var aetherController: OoviumController!
     static var menu: OoviumMenu = OoviumMenu()
 	static var aetherView: AetherView!
@@ -54,7 +54,7 @@ public class Oovium {
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
         "a bicycle for the mind",
-        "off the grid"
+        "it's off the grid"
     ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
