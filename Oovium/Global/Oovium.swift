@@ -80,8 +80,10 @@ public class Oovium {
     static func openStaticAether(name: String) {
         Oovium.aetherView.closeCurrentAether()
         Oovium.aetherView.facade = nil
-        let aether: Aether = Aether(json: Local.aetherJSONFromBundle(name: name))
-        Oovium.aetherView.openAether(aether)
+        do {
+            let aether: Aether = try Aether(json: Local.aetherJSONFromBundle(name: name))
+            Oovium.aetherView.openAether(aether)
+        } catch {}
     }
     
 // Settings ========================================================================================

@@ -122,35 +122,39 @@ class BootPond: Pond {
         pebble(name: "Load Aether") { (complete: @escaping (Bool) -> ()) in
             guard let aetherURL: String = Pequod.get(key: "aetherURL") else { complete(false); return }
             let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as! AetherFacade
-            facade.load { (json: String?) in
-                guard let json else { complete(false); return }
-//                print("====================================================================")
-//                print(json)
-//                print("====================================================================")
-                let aether: Aether = Aether(json: json)
-                Oovium.aetherView.swapToAether(facade: facade, aether: aether)
-                complete(true)
-            }
+            do {
+                try facade.load { (json: String?) in
+                    guard let json else { complete(false); return }
+                    //                print("====================================================================")
+                    //                print(json)
+                    //                print("====================================================================")
+                    let aether: Aether = Aether(json: json)
+                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                    complete(true)
+                }
+            } catch {}
         }
     }()
     lazy var initializeAether: Pebble = {
         pebble(name: "Initialize Aether") { (complete: @escaping (Bool) -> ()) in
             let facade: AetherFacade = Facade.create(ooviumKey: "Local::aether01") as! AetherFacade
-            facade.load { (json: String?) in
-                if let json {
-                    let aether: Aether = Aether(json: json)
-                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
-                    complete(true)
-                } else {
-                    let aether: Aether = Aether()
-                    aether.name = "aether01"
-                    facade.store(aether: aether) { (success: Bool) in
-                        guard success else { complete(false); return }
+            do {
+                try facade.load { (json: String?) in
+                    if let json {
+                        let aether: Aether = Aether(json: json)
                         Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                         complete(true)
+                    } else {
+                        let aether: Aether = Aether()
+                        aether.name = "aether01"
+                        facade.store(aether: aether) { (success: Bool) in
+                            guard success else { complete(false); return }
+                            Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                            complete(true)
+                        }
                     }
                 }
-            }
+            } catch {}
         }
     }()
 
