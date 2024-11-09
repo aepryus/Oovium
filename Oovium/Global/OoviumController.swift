@@ -47,7 +47,7 @@ class OoviumController: UIViewController {
     }
 
 // Keys ============================================================================================
-    @objc func onReturn() { Oovium.aetherView.onReturn() }
+    @objc func onReturn() { Oovium.aetherView.onReturnQ() }
     @objc func onEscape() { Oovium.aetherView.onEscape() }
     @objc func onDelete() { Oovium.aetherView.onDelete() }
     @objc func onCut() { Oovium.aetherView.onCut() }
