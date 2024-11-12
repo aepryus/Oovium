@@ -45,6 +45,10 @@ class OoviumController: UIViewController {
             Oovium.aetherView.clearAether()
         })
     }
+    @objc func onNew() {}
+    @objc func onOpen() {}
+    @objc func onSave() {}
+    @objc func onDuplicate() {}
 
 // Keys ============================================================================================
     @objc func onReturn() { Oovium.aetherView.onReturnQ() }
