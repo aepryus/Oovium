@@ -26,53 +26,31 @@ class OoviumMenu {
         builder.replace(menu: .about, with: UIMenu(title: "", identifier: .about, options: .displayInline, children: [aboutAction]))
 
         // Aether Menu
-        let newCommand: UIKeyCommand = UIKeyCommand(
-            title: "New",
-            action: #selector(Oovium.aetherController.onNew),
-            input: "n",
-            modifierFlags: .command
-        )
-
-        let openCommand: UIKeyCommand = UIKeyCommand(
-            title: "Open",
-            action: #selector(Oovium.aetherController.onOpen),
-            input: "o",
-            modifierFlags: .command
-        )
-
-        let saveCommand: UIKeyCommand = UIKeyCommand(
-            title: "Save",
-            action: #selector(Oovium.aetherController.onSave),
-            input: "s",
-            modifierFlags: .command
-        )
-
-        let duplicateCommand: UIKeyCommand = UIKeyCommand(
-            title: "Duplicate",
-            action: #selector(Oovium.aetherController.onDuplicate),
-            input: "d",
-            modifierFlags: .command
-        )
+        let newCommand: UIKeyCommand = UIKeyCommand(title: "New".localized, action: #selector(Oovium.aetherController.onNew), input: "n", modifierFlags: .command)
+        let openCommand: UIKeyCommand = UIKeyCommand(title: "Open".localized, action: #selector(Oovium.aetherController.onOpen), input: "o", modifierFlags: .command)
+        let saveCommand: UIKeyCommand = UIKeyCommand(title: "Save".localized, action: #selector(Oovium.aetherController.onSave), input: "s", modifierFlags: .command)
+        let duplicateCommand: UIKeyCommand = UIKeyCommand(title: "Duplicate".localized, action: #selector(Oovium.aetherController.onDuplicate), input: "d", modifierFlags: .command)
+        let clearCommand: UICommand = UICommand(title: "Clear".localized, action: #selector(Oovium.aetherController.onClear))
 
         let cheatSheetAction: UIAction = UIAction(title: "Cheat Sheet", handler: { (action: UIAction) in
             Oovium.openStaticAether(name: "CheatSheet")
         })
         
-        let version30Action: UIAction = UIAction(title: "Version 3.0", handler: { (action: UIAction) in
-            Oovium.openStaticAether(name: "WhatsNew30")
-        })
         let version31Action: UIAction = UIAction(title: "Version 3.1", handler: { (action: UIAction) in
             Oovium.openStaticAether(name: "WhatsNew31")
         })
-        let whatsNewMenu: UIMenu = UIMenu(title: "What's New", children: [version30Action, version31Action])
+        let version30Action: UIAction = UIAction(title: "Version 3.0", handler: { (action: UIAction) in
+            Oovium.openStaticAether(name: "WhatsNew30")
+        })
+        let whatsNewMenu: UIMenu = UIMenu(title: "What's New", children: [version31Action, version30Action])
         
         let roadMapAction: UIAction = UIAction(title: "Road Map", handler: { (action: UIAction) in
-            Oovium.openStaticAether(name: "RoadMap")
+            Oovium.openStaticAether(name: "Horizon31")
         })
 
         let aetherMenu: UIMenu = UIMenu(title: "Aether", children: [
             UIMenu(title: "", options: .displayInline, children: [
-                newCommand, openCommand, saveCommand, duplicateCommand
+                newCommand, openCommand, saveCommand, duplicateCommand, clearCommand
             ]),
             UIMenu(title: "", options: .displayInline, children: [
                 cheatSheetAction, whatsNewMenu, roadMapAction
@@ -81,47 +59,12 @@ class OoviumMenu {
         builder.insertSibling(aetherMenu, afterMenu: .application)
 
         // Edit Menu
-        let undoCommand: UIKeyCommand = UIKeyCommand(
-            title: "Undo",
-            action: #selector(Oovium.aetherController.onUndo),
-            input: "z",
-            modifierFlags: .command
-        )
-
-        let redoCommand: UIKeyCommand = UIKeyCommand(
-            title: "Redo",
-            action: #selector(Oovium.aetherController.onRedo),
-            input: "z",
-            modifierFlags: [.command, .shift]
-        )
-
-        let cutCommand: UIKeyCommand = UIKeyCommand(
-            title: "Cut",
-            action: #selector(Oovium.aetherController.onCut),
-            input: "x",
-            modifierFlags: .command
-        )
-
-        let copyCommand: UIKeyCommand = UIKeyCommand(
-            title: "Copy",
-            action: #selector(Oovium.aetherController.onCopy),
-            input: "c",
-            modifierFlags: .command
-        )
-
-        let pasteCommand: UIKeyCommand = UIKeyCommand(
-            title: "Paste",
-            action: #selector(Oovium.aetherController.onPaste),
-            input: "v",
-            modifierFlags: .command
-        )
-
-        let selectAllCommand: UIKeyCommand = UIKeyCommand(
-            title: "Select All",
-            action: #selector(Oovium.aetherController.onSelectAll),
-            input: "a",
-            modifierFlags: .command
-        )
+        let undoCommand: UIKeyCommand = UIKeyCommand(title: "Undo".localized, action: #selector(Oovium.aetherController.onUndo), input: "z", modifierFlags: .command)
+        let redoCommand: UIKeyCommand = UIKeyCommand(title: "Redo".localized, action: #selector(Oovium.aetherController.onRedo), input: "z", modifierFlags: [.command, .shift])
+        let cutCommand: UIKeyCommand = UIKeyCommand(title: "Cut".localized, action: #selector(Oovium.aetherController.onCut), input: "x", modifierFlags: .command)
+        let copyCommand: UIKeyCommand = UIKeyCommand(title: "Copy".localized, action: #selector(Oovium.aetherController.onCopy), input: "c", modifierFlags: .command)
+        let pasteCommand: UIKeyCommand = UIKeyCommand(title: "Paste".localized, action: #selector(Oovium.aetherController.onPaste), input: "v", modifierFlags: .command)
+        let selectAllCommand: UIKeyCommand = UIKeyCommand(title: "Select All".localized, action: #selector(Oovium.aetherController.onSelectAll), input: "a", modifierFlags: .command)
 
         let editMenu: UIMenu = UIMenu(title: "Aedit", children: [
             UIMenu(title: "", options: .displayInline, children: [

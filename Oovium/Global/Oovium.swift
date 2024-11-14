@@ -54,7 +54,7 @@ public class Oovium {
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
         "a bicycle for the mind",
-        "it's off the grid"
+        "escape the grid"
     ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
@@ -79,7 +79,7 @@ public class Oovium {
 
     static func openStaticAether(name: String) {
         Oovium.aetherView.closeCurrentAether()
-        Oovium.aetherView.facade = nil
+        Oovium.aetherView.facade = AetherFacade(name: name, parent: SpaceFacade(space: Space.statics))
         do {
             let aether: Aether = try Aether(json: Local.aetherJSONFromBundle(name: name))
             Oovium.aetherView.openAether(aether)

@@ -40,15 +40,24 @@ class OoviumController: UIViewController {
         Oovium.aetherView.printTowers()
         print(Oovium.aetherView.aether.unload().toJSON())
     }
-    func onClear() {
+    @objc func onClear() {
         Oovium.aetherView.invokeConfirmModal("clearConfirm".localized, {
             Oovium.aetherView.clearAether()
         })
     }
-    @objc func onNew() {}
-    @objc func onOpen() {}
-    @objc func onSave() {}
-    @objc func onDuplicate() {}
+    @objc func onNew() {
+        OoviumState.behindView.leftExplorer.controller.onNewAether()
+    }
+    @objc func onOpen() {
+        Oovium.aetherView.controller.toggleExplorer()
+    }
+    @objc func onSave() {
+        Oovium.aetherView.saveAether()
+        
+    }
+    @objc func onDuplicate() {
+        Oovium.aetherView.controller.duplicateAether()
+    }
 
 // Keys ============================================================================================
     @objc func onReturn() { Oovium.aetherView.onReturnQ() }

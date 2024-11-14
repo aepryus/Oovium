@@ -25,6 +25,10 @@
 		D83D490627DA0A930078C828 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FE27DA0A930078C828 /* Security.swift */; };
 		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
+		D83FC5B02CE6AFF80056DC85 /* WhatsNew31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */; };
+		D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */; };
+		D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */; };
+		D83FC5B62CE6B6140056DC85 /* Horizon31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B52CE6B6140056DC85 /* Horizon31.oo */; };
 		D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53DA28CB3DD000F84008 /* Settings.swift */; };
 		D89A53E628CB488100F84008 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E328CB488100F84008 /* ScaleView.swift */; };
 		D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E428CB488100F84008 /* SettingsHover.swift */; };
@@ -36,8 +40,6 @@
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 		D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */; };
-		D8D1A3A1292200CC00B2B4D7 /* WhatsNew.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */; };
-		D8D1A3A32922196200B2B4D7 /* Horizon.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A3A22922196200B2B4D7 /* Horizon.oo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,10 @@
 		D83D48FE27DA0A930078C828 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
 		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew31.oo; sourceTree = "<group>"; };
+		D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew30.oo; sourceTree = "<group>"; };
+		D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon30.oo; sourceTree = "<group>"; };
+		D83FC5B52CE6B6140056DC85 /* Horizon31.oo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Horizon31.oo; sourceTree = "<group>"; };
 		D89A53DA28CB3DD000F84008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D89A53E328CB488100F84008 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		D89A53E428CB488100F84008 /* SettingsHover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHover.swift; sourceTree = "<group>"; };
@@ -74,8 +80,6 @@
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
 		D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = CheatSheet.oo; sourceTree = "<group>"; };
-		D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew.oo; sourceTree = "<group>"; };
-		D8D1A3A22922196200B2B4D7 /* Horizon.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon.oo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,9 +194,11 @@
 		D8B5BB9227DDD20600D46874 /* Aethers */ = {
 			isa = PBXGroup;
 			children = (
+				D83FC5B52CE6B6140056DC85 /* Horizon31.oo */,
+				D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */,
 				D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */,
-				D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */,
-				D8D1A3A22922196200B2B4D7 /* Horizon.oo */,
+				D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */,
+				D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */,
 			);
 			path = Aethers;
 			sourceTree = "<group>";
@@ -316,10 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */,
 				D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */,
-				D8D1A3A1292200CC00B2B4D7 /* WhatsNew.oo in Resources */,
 				D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */,
-				D8D1A3A32922196200B2B4D7 /* Horizon.oo in Resources */,
+				D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */,
+				D83FC5B02CE6AFF80056DC85 /* WhatsNew31.oo in Resources */,
+				D83FC5B62CE6B6140056DC85 /* Horizon31.oo in Resources */,
 				D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */,
 				D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */,
 			);
