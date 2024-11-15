@@ -4,7 +4,7 @@
   "yOffset" : 1315,
   "name" : "Horizon 3.0",
   "width" : 2025,
-  "readOnly" : false,
+  "readOnly" : true,
   "version" : "3.1",
   "aexels" : [
     {

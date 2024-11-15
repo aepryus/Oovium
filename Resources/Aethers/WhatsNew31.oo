@@ -1,6 +1,6 @@
 {
   "yOffset" : 1180.5,
-  "readOnly" : false,
+  "readOnly" : true,
   "type" : "aether",
   "name" : "What’s New 3.0 copy",
   "modified" : "2024-11-15T07:19:15+0900",

@@ -120,8 +120,10 @@ class BootPond: Pond {
 	}()
     lazy var loadAether: Pebble = {
         pebble(name: "Load Aether") { (complete: @escaping (Bool) -> ()) in
-            guard let aetherURL: String = Pequod.get(key: "aetherURL") else { complete(false); return }
-            let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as! AetherFacade
+            guard let aetherURL: String = Pequod.get(key: "aetherURL"),
+                  let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as? AetherFacade
+            else { complete(false); return }
+            
             do {
                 try facade.load { (json: String?) in
                     guard let json else { complete(false); return }

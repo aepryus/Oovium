@@ -7,7 +7,7 @@
   "modified" : "2024-11-15T06:57:57+0900",
   "name" : "What’s New 3.0",
   "height" : 1444,
-  "readOnly" : false,
+  "readOnly" : true,
   "aexels" : [
     {
       "no" : 1,
