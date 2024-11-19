@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */; };
+		D821901D2CEA2D2F00D493F2 /* RedDotMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */; };
 		D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835F15028ECF1600086E533 /* SkinMenu.swift */; };
 		D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BC27D8E12F0078C828 /* Initiation.swift */; };
 		D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C327D8E1540078C828 /* OoviumState.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Oovium.swift"; sourceTree = "<group>"; };
+		D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotMenu.swift; sourceTree = "<group>"; };
 		D832029428B6B5DE00164F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Oovium/Info.plist; sourceTree = SOURCE_ROOT; };
 		D835F15028ECF1600086E533 /* SkinMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMenu.swift; sourceTree = "<group>"; };
 		D83D48BC27D8E12F0078C828 /* Initiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initiation.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		D83D48CB27D8E4EF0078C828 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */,
 				D83D48CD27D8E5230078C828 /* AetherMenu.swift */,
 				D83D48D127D8E5230078C828 /* HelpMenu.swift */,
 				D83D48CF27D8E5230078C828 /* KeyPad.swift */,
@@ -359,6 +362,7 @@
 				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,
 				D89A53E828CB488100F84008 /* SwapButton.swift in Sources */,
 				D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */,
+				D821901D2CEA2D2F00D493F2 /* RedDotMenu.swift in Sources */,
 				D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */,
 				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
 				D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */,

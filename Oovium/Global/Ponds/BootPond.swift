@@ -134,7 +134,7 @@ class BootPond: Pond {
                     Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                     complete(true)
                 }
-            } catch {}
+            } catch { complete(false) }
         }
     }()
     lazy var initializeAether: Pebble = {
