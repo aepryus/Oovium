@@ -11,19 +11,74 @@ import OoviumKit
 import UIKit
 
 class OoviumController: UIViewController {
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        addKeyCommand(UIKeyCommand(input: UIKeyCommand.inputEscape, modifierFlags: [], action: #selector(onEscape)))
+        addKeyCommand(UIKeyCommand(input: "\r", modifierFlags: [], action: #selector(onReturn)))
+        addKeyCommand(UIKeyCommand(input: UIKeyCommand.inputDelete, modifierFlags: [], action: #selector(onDelete)))
+        addKeyCommand(UIKeyCommand(input: "\u{7f}", modifierFlags: [], action: #selector(onDelete)))
+        addKeyCommand(UIKeyCommand(input: "x", modifierFlags: [.command], action: #selector(onCut)))
+        addKeyCommand(UIKeyCommand(input: "c", modifierFlags: [.command], action: #selector(onCopy)))
+        addKeyCommand(UIKeyCommand(input: "v", modifierFlags: [.command], action: #selector(onPaste)))
+        addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command], action: #selector(onUndo)))
+        addKeyCommand(UIKeyCommand(input: "z", modifierFlags: [.command, .shift], action: #selector(onRedo)))
+        addKeyCommand(UIKeyCommand(input: "a", modifierFlags: [.command,], action: #selector(onSelectAll)))
+        addKeyCommand(UIKeyCommand(input: "y", modifierFlags: [], action: #selector(onYes)))
+        addKeyCommand(UIKeyCommand(input: "n", modifierFlags: [], action: #selector(onNo)))
+    }
+    required init?(coder: NSCoder) { fatalError() }
 
     func stretch() {
-		Oovium.aetherView.stretch()
-		Oovium.aetherView.needsStretch = false
-	}
+        Oovium.aetherView.stretch()
+        Oovium.aetherView.needsStretch = false
+    }
+    
+// Menus ==========================================================================================
+    func onAbout() {
+        if let backView = Oovium.aetherView.backView as? AboutView { backView.fade(aboutOn: true) }
+        Oovium.aetherView.printTowers()
+        print(Oovium.aetherView.aether.unload().toJSON())
+    }
+    @objc func onClear() {
+        Oovium.aetherView.invokeConfirmModal("clearConfirm".localized, {
+            Oovium.aetherView.clearAether()
+        })
+    }
+    @objc func onNew() {
+        OoviumState.behindView.leftExplorer.controller.onNewAether()
+    }
+    @objc func onOpen() {
+        Oovium.aetherView.controller.toggleExplorer()
+    }
+    @objc func onSave() {
+        Oovium.aetherView.saveAether()
+        
+    }
+    @objc func onDuplicate() {
+        Oovium.aetherView.controller.duplicateAether()
+    }
+
+// Keys ============================================================================================
+    @objc func onReturn() { Oovium.aetherView.onReturnQ() }
+    @objc func onEscape() { Oovium.aetherView.onEscape() }
+    @objc func onDelete() { Oovium.aetherView.onDelete() }
+    @objc func onCut() { Oovium.aetherView.onCut() }
+    @objc func onCopy() { Oovium.aetherView.onCopy() }
+    @objc func onPaste() { Oovium.aetherView.onPaste() }
+    @objc func onUndo() { Oovium.aetherView.undo() }
+    @objc func onRedo() { Oovium.aetherView.redo() }
+    @objc func onSelectAll() { Oovium.aetherView.selectAll() }
+    @objc func onYes() { Oovium.aetherView.onYes() }
+    @objc func onNo() { Oovium.aetherView.onNo() }
 
 // UIViewController ================================================================================
-	override var preferredStatusBarStyle: UIStatusBarStyle { Skin.statusBarStyle }
-	override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { .fade }
+    override var preferredStatusBarStyle: UIStatusBarStyle { Skin.statusBarStyle }
+    override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { .fade }
     override var prefersHomeIndicatorAutoHidden: Bool { true }
-	
-	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-		super.viewWillTransition(to: size, with: coordinator)
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
         
         if Screen.mac {
             Oovium.aetherView.frame = CGRect(x: Oovium.aetherView.left, y: Screen.safeTop, width: size.width, height: size.height-Screen.safeTop)
@@ -38,5 +93,5 @@ class OoviumController: UIViewController {
         coordinator.animate { (context: UIViewControllerTransitionCoordinatorContext) in
             Modal.shieldView.render()
         }
-	}
+    }
 }

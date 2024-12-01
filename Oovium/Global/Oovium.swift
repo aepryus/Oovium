@@ -29,8 +29,9 @@ import OoviumKit
 import UIKit
 
 public class Oovium {
-	static var window: OoviumWindow = OoviumWindow(frame: UIScreen.main.bounds)
+	static var window: UIWindow = UIWindow(frame: UIScreen.main.bounds)
 	static var aetherController: OoviumController!
+    static var menu: OoviumMenu = OoviumMenu()
 	static var aetherView: AetherView!
     static var redDot: RedDot!
 
@@ -44,10 +45,7 @@ public class Oovium {
         get { OoviumState.behindView.leftExplorer.facade }
     }
 
-	static var version: String {
-		guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else { return "0.0" }
-		return version
-	}
+	static var version: String { Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0" }
 	public static var screenBurn: Bool = true
 
 	static let taglines = [
@@ -55,7 +53,8 @@ public class Oovium {
         "bringing sexy back",
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
-        "a bicycle for the mind"
+        "a bicycle for the mind",
+        "escape the grid"
     ]
 
     static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
@@ -63,8 +62,8 @@ public class Oovium {
 	static func color(for def: Def) -> UIColor {
 		if def === RealDef.def { return UIColor.green }
 		else if def === ComplexDef.def { return UIColor.cyan }
-		else if def === VectorDef.def { return OOColor.marine.uiColor }
-		else if def === StringDef.def { return OOColor.peach.uiColor }
+		else if def === VectorDef.def { return Text.Color.marine.uiColor }
+		else if def === StringDef.def { return Text.Color.peach.uiColor }
 		else if def === LambdaDef.def { return UIColor.cyan }
 		else if def === RecipeDef.def { return UIColor.blue }
 		else if def === DateDef.def { return UIColor.yellow }
@@ -80,9 +79,25 @@ public class Oovium {
 
     static func openStaticAether(name: String) {
         Oovium.aetherView.closeCurrentAether()
-        Oovium.aetherView.facade = nil
-        let aether: Aether = Aether(json: Local.aetherJSONFromBundle(name: name))
-        Oovium.aetherView.openAether(aether)
+        Oovium.aetherView.facade = AetherFacade(name: name, parent: SpaceFacade(space: Space.statics))
+        do {
+            let aether: Aether = try Aether(json: Local.aetherJSONFromBundle(name: name))
+            Oovium.aetherView.openAether(aether)
+        } catch {}
+    }
+    
+// Settings ========================================================================================
+    static var skin: Settings.Skin {
+        set {
+            Loom.transact { Oovium.settings.skin = newValue }
+            Skin.skin = Oovium.settings.skin.skin
+            Oovium.reRender()
+        }
+        get { Oovium.settings.skin }
+    }
+    static var selectionMode: SelectionMode {
+        set { Loom.transact { Oovium.settings.selectionMode = newValue } }
+        get { Oovium.settings.selectionMode }
     }
 
 // =================================================================================================
@@ -96,9 +111,6 @@ public class Oovium {
 	}
     
     static func setSkin(_ skin: Settings.Skin) {
-        Loom.transact { Oovium.settings.skin = skin }
-        Skin.skin = Oovium.settings.skin.skin
-        Oovium.reRender()
     }
 
 	static func redisplay(view: UIView) {

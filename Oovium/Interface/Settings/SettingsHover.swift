@@ -60,6 +60,6 @@ public class SettingsHover: Modal {
     public override func draw(_ rect: CGRect) {
         let path = CGMutablePath()
         path.addRoundedRect(in: rect.insetBy(dx: 2*Oo.s, dy: 2*Oo.s), cornerWidth: 6*Oo.s, cornerHeight: 6*Oo.s)
-        Skin.bubble(path: path, uiColor: OOColor.marine.uiColor, width: 4.0/3.0*Oo.s)
+        Skin.bubble(path: path, uiColor: Text.Color.marine.uiColor, width: 4.0/3.0*Oo.s)
     }
 }

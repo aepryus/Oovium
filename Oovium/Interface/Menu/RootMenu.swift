@@ -65,12 +65,12 @@ class RootMenu: Hover {
 	}
 	
 // Hover ===========================================================================================
-	override public func rescale() {
+	public override func rescale() {
 		super.rescale()
 		schematic.render(rect: CGRect(x: 0, y: 0, width: 78*Oo.s, height: 174*Oo.s))
 		path = RootMenu.renderPath()
 	}
-	override public func retract() {
+	public override func retract() {
 		dismiss()
 	}
 	
