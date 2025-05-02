@@ -59,18 +59,18 @@ class OoviumMenu {
         builder.insertSibling(aetherMenu, afterMenu: .application)
 
         // Edit Menu
-        let undoCommand: UIKeyCommand = UIKeyCommand(title: "Undo".localized, action: #selector(Oovium.aetherController.onUndo), input: "z", modifierFlags: .command)
-        let redoCommand: UIKeyCommand = UIKeyCommand(title: "Redo".localized, action: #selector(Oovium.aetherController.onRedo), input: "z", modifierFlags: [.command, .shift])
+//        let undoCommand: UIKeyCommand = UIKeyCommand(title: "Undo".localized, action: #selector(Oovium.aetherController.onUndo), input: "z", modifierFlags: .command)
+//        let redoCommand: UIKeyCommand = UIKeyCommand(title: "Redo".localized, action: #selector(Oovium.aetherController.onRedo), input: "z", modifierFlags: [.command, .shift])
         let cutCommand: UIKeyCommand = UIKeyCommand(title: "Cut".localized, action: #selector(Oovium.aetherController.onCut), input: "x", modifierFlags: .command)
         let copyCommand: UIKeyCommand = UIKeyCommand(title: "Copy".localized, action: #selector(Oovium.aetherController.onCopy), input: "c", modifierFlags: .command)
         let pasteCommand: UIKeyCommand = UIKeyCommand(title: "Paste".localized, action: #selector(Oovium.aetherController.onPaste), input: "v", modifierFlags: .command)
         let selectAllCommand: UIKeyCommand = UIKeyCommand(title: "Select All".localized, action: #selector(Oovium.aetherController.onSelectAll), input: "a", modifierFlags: .command)
 
         let editMenu: UIMenu = UIMenu(title: "Aedit", children: [
-            UIMenu(title: "", options: .displayInline, children: [
-                undoCommand,
-                redoCommand
-            ]),
+//            UIMenu(title: "", options: .displayInline, children: [
+//                undoCommand,
+//                redoCommand
+//            ]),
             UIMenu(title: "", options: .displayInline, children: [
                 cutCommand,
                 copyCommand,
