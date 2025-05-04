@@ -130,7 +130,6 @@ class BootPond: Pond {
                     //                print("====================================================================")
                     //                print(json)
                     //                print("====================================================================")
-                    print("loadAether Pebble")
                     let aether: Aether = Aether(json: json)
                     Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                     complete(true)
