@@ -1,264 +1,196 @@
 {
-  "yOffset" : 1180.5,
-  "readOnly" : true,
-  "type" : "aether",
   "name" : "What’s New 3.0 copy",
-  "modified" : "2024-11-15T07:19:15+0900",
+  "height" : 1353,
+  "xOffset" : 1469.5,
+  "yOffset" : 1089.5,
+  "type" : "aether",
+  "modified" : "2025-05-05T18:52:25+0900",
+  "readOnly" : false,
   "iden" : "5133CFFE-676A-4B9D-B03F-87A8A2C74832",
-  "height" : 1444,
-  "xOffset" : 1540.5,
+  "width" : 1893,
   "version" : "3.1",
   "aexels" : [
     {
-      "iden" : "D1E06E92-1886-4C09-A696-C3E36BA53ED4",
-      "no" : 1,
-      "name" : "Oovium 3.1",
-      "shape" : 3,
-      "y" : 1408,
+      "type" : "text",
       "color" : 14,
       "edges" : [
         {
-          "no" : 0,
           "type" : "edge",
-          "textNo" : 2,
-          "iden" : "2C725BC7-E313-4605-A209-21AA120097A5"
+          "iden" : "2C725BC7-E313-4605-A209-21AA120097A5",
+          "no" : 0,
+          "textNo" : 2
         }
       ],
-      "type" : "text",
-      "x" : 2058.4632103271479
+      "shape" : 3,
+      "iden" : "D1E06E92-1886-4C09-A696-C3E36BA53ED4",
+      "name" : "Oovium 3.1",
+      "x" : 1987.4632103271479,
+      "no" : 1,
+      "y" : 1317
     },
     {
-      "x" : 1864,
-      "name" : "Welcome to Oovium 3.1 - the macOS release!  This version concentrates on a number of quality of life improvements especially for macOS.",
-      "iden" : "E9A93C34-668C-4285-A447-210070AB4B18",
-      "shape" : 1,
-      "y" : 1570.516021484375,
-      "type" : "text",
-      "color" : 7,
+      "y" : 1479.516021484375,
       "edges" : [
         {
+          "iden" : "922029A1-C848-4822-B7A6-32D9D4B15570",
           "no" : 0,
           "type" : "edge",
-          "iden" : "922029A1-C848-4822-B7A6-32D9D4B15570",
           "textNo" : 3
         }
       ],
-      "no" : 2
+      "type" : "text",
+      "iden" : "E9A93C34-668C-4285-A447-210070AB4B18",
+      "shape" : 1,
+      "x" : 1793,
+      "name" : "Welcome to Oovium 3.1 - the macOS release!  This version concentrates on a number of quality of life improvements especially for macOS.",
+      "no" : 2,
+      "color" : 7
     },
     {
-      "color" : 13,
-      "edges" : [
-        {
-          "textNo" : 4,
-          "iden" : "E9418C67-0B5E-472E-ABB1-F38977D49B3C",
-          "no" : 0,
-          "type" : "edge"
-        },
-        {
-          "iden" : "ED649921-2D8F-440A-9C5E-5648FD427949",
-          "textNo" : 5,
-          "no" : 0,
-          "type" : "edge"
-        },
-        {
-          "no" : 0,
-          "textNo" : 6,
-          "iden" : "D2906DE2-831C-4354-BE13-D00A590917C4",
-          "type" : "edge"
-        },
-        {
-          "type" : "edge",
-          "textNo" : 54,
-          "no" : 1,
-          "iden" : "6C97CCF4-9D15-4366-8B54-D3E08084A003"
-        },
-        {
-          "type" : "edge",
-          "no" : 1,
-          "iden" : "4E0B73CF-A2D5-47BA-9B98-41956E4C660D",
-          "textNo" : 53
-        }
-      ],
-      "y" : 1712.1230587158202,
       "no" : 3,
       "shape" : 3,
       "type" : "text",
+      "edges" : [
+        {
+          "type" : "edge",
+          "no" : 0,
+          "iden" : "E9418C67-0B5E-472E-ABB1-F38977D49B3C",
+          "textNo" : 4
+        },
+        {
+          "type" : "edge",
+          "no" : 0,
+          "iden" : "D2906DE2-831C-4354-BE13-D00A590917C4",
+          "textNo" : 6
+        },
+        {
+          "textNo" : 54,
+          "type" : "edge",
+          "no" : 1,
+          "iden" : "6C97CCF4-9D15-4366-8B54-D3E08084A003"
+        }
+      ],
       "name" : "3 Major Aspects",
       "iden" : "FE2F5717-B216-45EB-8CB3-77928DCA71D2",
-      "x" : 2042.2798731396479
+      "x" : 1971.2798731396479,
+      "color" : 13,
+      "y" : 1621.1230587158202
     },
     {
-      "color" : 12,
       "type" : "text",
+      "y" : 1503.1627866210938,
       "shape" : 0,
-      "no" : 4,
-      "name" : "Copy and Paste",
-      "y" : 1594.1627866210938,
-      "x" : 2289.6168881542962,
+      "color" : 12,
       "edges" : [
         {
+          "iden" : "5373B7FA-636E-45DD-924E-6CE7438B2F46",
           "textNo" : 55,
-          "no" : 1,
           "type" : "edge",
-          "iden" : "5373B7FA-636E-45DD-924E-6CE7438B2F46"
+          "no" : 1
         },
         {
+          "textNo" : 56,
           "type" : "edge",
           "iden" : "63588ABC-121D-4864-BA1B-BA21C0F00B0F",
-          "no" : 1,
-          "textNo" : 56
+          "no" : 1
         },
         {
-          "textNo" : 57,
           "iden" : "4B1B1EB2-3475-4BE9-94E4-0292B25B155A",
-          "no" : 1,
-          "type" : "edge"
-        }
-      ],
-      "iden" : "2967AF7F-9C84-4B5A-A4DE-166934CA3F95"
-    },
-    {
-      "name" : "Undo \/ Redo",
-      "edges" : [
-        {
-          "iden" : "3BF83283-A776-4E19-A8E7-F287E65D1E76",
           "type" : "edge",
           "no" : 1,
-          "textNo" : 58
+          "textNo" : 57
         }
       ],
-      "iden" : "C63A2352-3E35-4FC8-8BD2-AF374413ED50",
-      "y" : 1668.3156033935547,
-      "color" : 12,
-      "no" : 5,
-      "type" : "text",
-      "x" : 2385.4974900830075,
-      "shape" : 0
+      "iden" : "2967AF7F-9C84-4B5A-A4DE-166934CA3F95",
+      "name" : "Copy and Paste",
+      "no" : 4,
+      "x" : 2218.6168881542962
     },
     {
-      "y" : 1747.7748319091797,
-      "color" : 12,
-      "no" : 6,
-      "iden" : "AEA5C6E0-4654-4C44-886D-94B05880F201",
-      "shape" : 0,
-      "type" : "text",
       "name" : "Rectangle Selection Mode",
-      "x" : 2365.7239391796875,
+      "x" : 2294.7239391796875,
+      "iden" : "AEA5C6E0-4654-4C44-886D-94B05880F201",
+      "y" : 1656.7748319091797,
+      "type" : "text",
+      "no" : 6,
+      "color" : 12,
+      "shape" : 0,
       "edges" : [
         {
-          "iden" : "DBF97150-2637-4098-B3B6-8C11CF6E50F4",
-          "textNo" : 59,
           "type" : "edge",
+          "no" : 1,
+          "textNo" : 59,
+          "iden" : "DBF97150-2637-4098-B3B6-8C11CF6E50F4"
+        }
+      ]
+    },
+    {
+      "type" : "text",
+      "name" : "Added Standard macOS Menu Items",
+      "x" : 2211.3881182177729,
+      "no" : 54,
+      "color" : 12,
+      "iden" : "14E8343D-95D6-4D1A-BEBF-11A673BF9E7F",
+      "shape" : 0,
+      "y" : 1746.0964780273439,
+      "edges" : [
+        {
+          "type" : "edge",
+          "iden" : "D1EA88E7-9871-45E1-ACD3-F30F5EBF46E9",
+          "textNo" : 60,
           "no" : 1
         }
       ]
     },
     {
-      "y" : 1931.6384641113282,
-      "name" : "New Slate Skin",
-      "x" : 2261.8395887988281,
-      "color" : 12,
-      "shape" : 0,
-      "edges" : [
-        {
-          "no" : 1,
-          "iden" : "03C1553B-9DE0-47C9-8C76-07D8A99A2436",
-          "textNo" : 61,
-          "type" : "edge"
-        }
-      ],
-      "iden" : "D8C33C8A-9543-448A-BD16-5FB22FCD3B34",
-      "no" : 53,
-      "type" : "text"
-    },
-    {
-      "y" : 1837.0964780273439,
-      "no" : 54,
-      "iden" : "14E8343D-95D6-4D1A-BEBF-11A673BF9E7F",
-      "edges" : [
-        {
-          "no" : 1,
-          "textNo" : 60,
-          "iden" : "D1EA88E7-9871-45E1-ACD3-F30F5EBF46E9",
-          "type" : "edge"
-        }
-      ],
-      "name" : "Added Standard macOS Menu Items",
+      "shape" : 1,
       "type" : "text",
-      "color" : 12,
-      "x" : 2282.3881182177729,
-      "shape" : 0
-    },
-    {
-      "x" : 2440.5109786914063,
-      "color" : 9,
       "name" : "Can now copy single bubbles and paste the value into other apps.",
-      "shape" : 1,
-      "no" : 55,
+      "x" : 2369.5109786914063,
+      "y" : 1331.6648465576172,
       "iden" : "6813A06B-B6BD-469D-B87E-57095AB37F3E",
-      "y" : 1422.6648465576172,
-      "type" : "text"
+      "no" : 55,
+      "color" : 9
     },
     {
+      "name" : "Can copy text from other apps and paste into bubbles.",
       "iden" : "D53FF9B7-1DA4-4C99-8C2F-31E753CF454E",
-      "x" : 2643.735279296875,
       "color" : 9,
-      "shape" : 1,
-      "y" : 1459.0716094970703,
+      "x" : 2572.735279296875,
       "type" : "text",
       "no" : 56,
-      "name" : "Can copy text from other apps and paste into bubbles."
-    },
-    {
-      "name" : "Can copy multiple bubbles into the same aether OR into an entirely different aether.",
-      "x" : 2734.1045141601562,
-      "y" : 1546.5559997558594,
-      "type" : "text",
-      "no" : 57,
-      "color" : 9,
-      "iden" : "5C9D2EE5-F9AB-4D66-8246-F4F41A4F9E61",
+      "y" : 1368.0716094970703,
       "shape" : 1
     },
     {
-      "name" : "The long overdue undo \/ redo finally implemented.",
-      "color" : 9,
+      "x" : 2663.1045141601562,
       "type" : "text",
-      "iden" : "199C9424-F54A-4F3D-BA44-BB9D5828BF5A",
-      "x" : 2551.668749633789,
-      "no" : 58,
       "shape" : 1,
-      "y" : 1633.7875366210938
+      "no" : 57,
+      "color" : 9,
+      "iden" : "5C9D2EE5-F9AB-4D66-8246-F4F41A4F9E61",
+      "name" : "Can copy multiple bubbles into the same aether OR into an entirely different aether.",
+      "y" : 1455.5559997558594
     },
     {
-      "y" : 1735.8058013916016,
+      "x" : 2565.8135243408205,
+      "no" : 59,
       "color" : 9,
-      "name" : "Can now switch between the old ‘lasso’ selection mode or the new ‘rectangle’ mode.  (lasso is recommend for the iPad and iPhone; rectangle for the mac)",
       "type" : "text",
       "shape" : 1,
       "iden" : "A3F8C975-4138-437B-9FF9-BA041F966F83",
-      "no" : 59,
-      "x" : 2636.8135243408205
+      "name" : "Can now switch between the old ‘lasso’ selection mode or the new ‘rectangle’ mode.  (lasso is recommend for the iPad and iPhone; rectangle for the mac)",
+      "y" : 1644.8058013916016
     },
     {
+      "color" : 9,
       "shape" : 1,
-      "type" : "text",
+      "x" : 2418.8039265136717,
       "iden" : "08A66F68-E158-4F4A-B07F-96F9658CCA2B",
-      "color" : 9,
-      "name" : "added more standard menu items for macOS, including new, open, save, etc.  And edit options of copy, paste, undo, redo, etc.",
+      "type" : "text",
       "no" : 60,
-      "x" : 2489.8039265136717,
-      "y" : 1906.4332122802734
-    },
-    {
-      "no" : 61,
-      "y" : 2045.6432495117188,
-      "shape" : 1,
-      "color" : 9,
-      "x" : 2268.0671177978516,
-      "name" : "added a dryer dark mode skin perhaps better suited for macs.",
-      "iden" : "E5F7FDEA-89CB-4260-A734-4AEF9B3EBEEB",
-      "type" : "text"
+      "name" : "added more standard menu items for macOS, including new, open, save, etc.  And edit options of copy, paste, undo, redo, etc.",
+      "y" : 1815.4332122802734
     }
-  ],
-  "width" : 1964
+  ]
 }

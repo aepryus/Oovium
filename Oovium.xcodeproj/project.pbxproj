@@ -26,10 +26,10 @@
 		D83D490627DA0A930078C828 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FE27DA0A930078C828 /* Security.swift */; };
 		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
-		D83FC5B02CE6AFF80056DC85 /* WhatsNew31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */; };
 		D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */; };
 		D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */; };
-		D83FC5B62CE6B6140056DC85 /* Horizon31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B52CE6B6140056DC85 /* Horizon31.oo */; };
+		D84DF38A2DC8C265008867FB /* Horizon31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D84DF3882DC8C265008867FB /* Horizon31.oo */; };
+		D84DF38B2DC8C265008867FB /* WhatsNew31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D84DF3892DC8C265008867FB /* WhatsNew31.oo */; };
 		D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53DA28CB3DD000F84008 /* Settings.swift */; };
 		D89A53E628CB488100F84008 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E328CB488100F84008 /* ScaleView.swift */; };
 		D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E428CB488100F84008 /* SettingsHover.swift */; };
@@ -64,10 +64,10 @@
 		D83D48FE27DA0A930078C828 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
 		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
-		D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew31.oo; sourceTree = "<group>"; };
 		D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew30.oo; sourceTree = "<group>"; };
 		D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon30.oo; sourceTree = "<group>"; };
-		D83FC5B52CE6B6140056DC85 /* Horizon31.oo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Horizon31.oo; sourceTree = "<group>"; };
+		D84DF3882DC8C265008867FB /* Horizon31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon31.oo; sourceTree = "<group>"; };
+		D84DF3892DC8C265008867FB /* WhatsNew31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew31.oo; sourceTree = "<group>"; };
 		D89A53DA28CB3DD000F84008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D89A53E328CB488100F84008 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		D89A53E428CB488100F84008 /* SettingsHover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHover.swift; sourceTree = "<group>"; };
@@ -197,11 +197,11 @@
 		D8B5BB9227DDD20600D46874 /* Aethers */ = {
 			isa = PBXGroup;
 			children = (
-				D83FC5B52CE6B6140056DC85 /* Horizon31.oo */,
-				D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */,
 				D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */,
+				D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */,
+				D84DF3882DC8C265008867FB /* Horizon31.oo */,
 				D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */,
-				D83FC5AF2CE6AFF80056DC85 /* WhatsNew31.oo */,
+				D84DF3892DC8C265008867FB /* WhatsNew31.oo */,
 			);
 			path = Aethers;
 			sourceTree = "<group>";
@@ -326,11 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */,
+				D84DF38A2DC8C265008867FB /* Horizon31.oo in Resources */,
+				D84DF38B2DC8C265008867FB /* WhatsNew31.oo in Resources */,
 				D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */,
 				D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */,
 				D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */,
-				D83FC5B02CE6AFF80056DC85 /* WhatsNew31.oo in Resources */,
-				D83FC5B62CE6B6140056DC85 /* Horizon31.oo in Resources */,
 				D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */,
 				D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */,
 			);
