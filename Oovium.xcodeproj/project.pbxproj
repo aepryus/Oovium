@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */; };
+		D821901D2CEA2D2F00D493F2 /* RedDotMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */; };
 		D835F15128ECF1600086E533 /* SkinMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835F15028ECF1600086E533 /* SkinMenu.swift */; };
 		D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48BC27D8E12F0078C828 /* Initiation.swift */; };
 		D83D48C927D8E1540078C828 /* OoviumState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48C327D8E1540078C828 /* OoviumState.swift */; };
@@ -19,13 +20,16 @@
 		D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48D127D8E5230078C828 /* HelpMenu.swift */; };
 		D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48EC27DA00CE0078C828 /* AboutView.swift */; };
 		D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */; };
-		D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */; };
 		D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F327DA0A5F0078C828 /* OoviumController.swift */; };
 		D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48F927DA0A790078C828 /* BootPond.swift */; };
 		D83D48FC27DA0A790078C828 /* ExitPond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FA27DA0A790078C828 /* ExitPond.swift */; };
 		D83D490627DA0A930078C828 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D48FE27DA0A930078C828 /* Security.swift */; };
 		D83D490927DA0A930078C828 /* Pequod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490327DA0A930078C828 /* Pequod.swift */; };
 		D83D490A27DA0A930078C828 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D490527DA0A930078C828 /* Shell.swift */; };
+		D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */; };
+		D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */ = {isa = PBXBuildFile; fileRef = D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */; };
+		D84DF38A2DC8C265008867FB /* Horizon31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D84DF3882DC8C265008867FB /* Horizon31.oo */; };
+		D84DF38B2DC8C265008867FB /* WhatsNew31.oo in Resources */ = {isa = PBXBuildFile; fileRef = D84DF3892DC8C265008867FB /* WhatsNew31.oo */; };
 		D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53DA28CB3DD000F84008 /* Settings.swift */; };
 		D89A53E628CB488100F84008 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E328CB488100F84008 /* ScaleView.swift */; };
 		D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A53E428CB488100F84008 /* SettingsHover.swift */; };
@@ -33,15 +37,15 @@
 		D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9427DDD24000D46874 /* Launch Screen.storyboard */; };
 		D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9627DDD24000D46874 /* Localizable.strings */; };
 		D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5BB9B27DDD24000D46874 /* Assets.xcassets */; };
+		D8B6F7C12CD59E9B003E61A8 /* OoviumMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */; };
 		D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC68AC27D64F3500D25FF1 /* Oovium.swift */; };
 		D8CC68B127D6506600D25FF1 /* OoviumKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CC68B027D6506600D25FF1 /* OoviumKit */; };
 		D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */; };
-		D8D1A3A1292200CC00B2B4D7 /* WhatsNew.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */; };
-		D8D1A3A32922196200B2B4D7 /* Horizon.oo in Resources */ = {isa = PBXBuildFile; fileRef = D8D1A3A22922196200B2B4D7 /* Horizon.oo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81898C428F8042D004F52D6 /* UIFont+Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Oovium.swift"; sourceTree = "<group>"; };
+		D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotMenu.swift; sourceTree = "<group>"; };
 		D832029428B6B5DE00164F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Oovium/Info.plist; sourceTree = SOURCE_ROOT; };
 		D835F15028ECF1600086E533 /* SkinMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinMenu.swift; sourceTree = "<group>"; };
 		D83D48BC27D8E12F0078C828 /* Initiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initiation.swift; sourceTree = "<group>"; };
@@ -54,13 +58,16 @@
 		D83D48D127D8E5230078C828 /* HelpMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMenu.swift; sourceTree = "<group>"; };
 		D83D48EC27DA00CE0078C828 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumDelegate.swift; sourceTree = "<group>"; };
-		D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumWindow.swift; sourceTree = "<group>"; };
 		D83D48F327DA0A5F0078C828 /* OoviumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OoviumController.swift; sourceTree = "<group>"; };
 		D83D48F927DA0A790078C828 /* BootPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootPond.swift; sourceTree = "<group>"; };
 		D83D48FA27DA0A790078C828 /* ExitPond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitPond.swift; sourceTree = "<group>"; };
 		D83D48FE27DA0A930078C828 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
 		D83D490327DA0A930078C828 /* Pequod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pequod.swift; sourceTree = "<group>"; };
 		D83D490527DA0A930078C828 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew30.oo; sourceTree = "<group>"; };
+		D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon30.oo; sourceTree = "<group>"; };
+		D84DF3882DC8C265008867FB /* Horizon31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon31.oo; sourceTree = "<group>"; };
+		D84DF3892DC8C265008867FB /* WhatsNew31.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew31.oo; sourceTree = "<group>"; };
 		D89A53DA28CB3DD000F84008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D89A53E328CB488100F84008 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		D89A53E428CB488100F84008 /* SettingsHover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHover.swift; sourceTree = "<group>"; };
@@ -71,11 +78,10 @@
 		D8B5BB9927DDD24000D46874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8B5BB9A27DDD24000D46874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8B5BB9B27DDD24000D46874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoviumMenu.swift; sourceTree = "<group>"; };
 		D8CC689227D64EB500D25FF1 /* Oovium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oovium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC68AC27D64F3500D25FF1 /* Oovium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oovium.swift; sourceTree = "<group>"; };
 		D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = CheatSheet.oo; sourceTree = "<group>"; };
-		D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = WhatsNew.oo; sourceTree = "<group>"; };
-		D8D1A3A22922196200B2B4D7 /* Horizon.oo */ = {isa = PBXFileReference; explicitFileType = text.json; path = Horizon.oo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 		D83D48CB27D8E4EF0078C828 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				D821901C2CEA2A9900D493F2 /* RedDotMenu.swift */,
 				D83D48CD27D8E5230078C828 /* AetherMenu.swift */,
 				D83D48D127D8E5230078C828 /* HelpMenu.swift */,
 				D83D48CF27D8E5230078C828 /* KeyPad.swift */,
@@ -191,8 +198,10 @@
 			isa = PBXGroup;
 			children = (
 				D8D1A39E2921CA8200B2B4D7 /* CheatSheet.oo */,
-				D8D1A3A0292200CC00B2B4D7 /* WhatsNew.oo */,
-				D8D1A3A22922196200B2B4D7 /* Horizon.oo */,
+				D83FC5B32CE6B4A70056DC85 /* Horizon30.oo */,
+				D84DF3882DC8C265008867FB /* Horizon31.oo */,
+				D83FC5B12CE6B0960056DC85 /* WhatsNew30.oo */,
+				D84DF3892DC8C265008867FB /* WhatsNew31.oo */,
 			);
 			path = Aethers;
 			sourceTree = "<group>";
@@ -242,7 +251,7 @@
 				D83D48F827DA0A790078C828 /* Ponds */,
 				D83D48F327DA0A5F0078C828 /* OoviumController.swift */,
 				D83D48F027DA0A5F0078C828 /* OoviumDelegate.swift */,
-				D83D48F127DA0A5F0078C828 /* OoviumWindow.swift */,
+				D8B6F7C02CD59E98003E61A8 /* OoviumMenu.swift */,
 				D8CC68AC27D64F3500D25FF1 /* Oovium.swift */,
 			);
 			path = Global;
@@ -280,7 +289,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				CLASSPREFIX = OO;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				ORGANIZATIONNAME = "Aepryus Software";
 				TargetAttributes = {
 					D8CC689127D64EB500D25FF1 = {
@@ -316,10 +325,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83FC5B22CE6B0960056DC85 /* WhatsNew30.oo in Resources */,
+				D84DF38A2DC8C265008867FB /* Horizon31.oo in Resources */,
+				D84DF38B2DC8C265008867FB /* WhatsNew31.oo in Resources */,
 				D8B5BB9C27DDD24000D46874 /* Launch Screen.storyboard in Resources */,
-				D8D1A3A1292200CC00B2B4D7 /* WhatsNew.oo in Resources */,
 				D8B5BB9E27DDD24000D46874 /* Assets.xcassets in Resources */,
-				D8D1A3A32922196200B2B4D7 /* Horizon.oo in Resources */,
+				D83FC5B42CE6B4A70056DC85 /* Horizon30.oo in Resources */,
 				D8D1A39F2921CA8200B2B4D7 /* CheatSheet.oo in Resources */,
 				D8B5BB9D27DDD24000D46874 /* Localizable.strings in Resources */,
 			);
@@ -337,12 +348,12 @@
 				D83D48D227D8E5230078C828 /* LinksMenu.swift in Sources */,
 				D8CC68AD27D64F3500D25FF1 /* Oovium.swift in Sources */,
 				D83D490A27DA0A930078C828 /* Shell.swift in Sources */,
-				D83D48F527DA0A5F0078C828 /* OoviumWindow.swift in Sources */,
 				D89A53E728CB488100F84008 /* SettingsHover.swift in Sources */,
 				D83D48F427DA0A5F0078C828 /* OoviumDelegate.swift in Sources */,
 				D83D48BD27D8E12F0078C828 /* Initiation.swift in Sources */,
 				D83D48FB27DA0A790078C828 /* BootPond.swift in Sources */,
 				D89A53DB28CB3DD000F84008 /* Settings.swift in Sources */,
+				D8B6F7C12CD59E9B003E61A8 /* OoviumMenu.swift in Sources */,
 				D83D48D427D8E5230078C828 /* RedDot.swift in Sources */,
 				D83D490627DA0A930078C828 /* Security.swift in Sources */,
 				D83D48D527D8E5230078C828 /* KeyPad.swift in Sources */,
@@ -351,6 +362,7 @@
 				D83D490927DA0A930078C828 /* Pequod.swift in Sources */,
 				D89A53E828CB488100F84008 /* SwapButton.swift in Sources */,
 				D83D48F727DA0A5F0078C828 /* OoviumController.swift in Sources */,
+				D821901D2CEA2D2F00D493F2 /* RedDotMenu.swift in Sources */,
 				D83D48ED27DA00CE0078C828 /* AboutView.swift in Sources */,
 				D83D48D727D8E5230078C828 /* HelpMenu.swift in Sources */,
 				D81898C528F8042D004F52D6 /* UIFont+Oovium.swift in Sources */,
@@ -380,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -412,6 +425,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -444,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -476,6 +491,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -508,7 +524,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 26;
-				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -518,11 +533,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -545,7 +562,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 26;
-				DEVELOPMENT_TEAM = Z6PFG8RC6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Oovium/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -555,11 +571,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aepryus.oovium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -7,9 +7,9 @@
 //
 
 import Acheron
-import Foundation
 import OoviumEngine
 import OoviumKit
+import UIKit
 
 class BootPond: Pond {
 
@@ -108,6 +108,7 @@ class BootPond: Pond {
                 Loom.set(key: "settingsIden", value: Oovium.settings.iden)
             }
             Skin.skin = Oovium.settings.skin.skin
+            UIMenuSystem.main.setNeedsRebuild()
             complete(true)
         }
     }()
@@ -119,37 +120,43 @@ class BootPond: Pond {
 	}()
     lazy var loadAether: Pebble = {
         pebble(name: "Load Aether") { (complete: @escaping (Bool) -> ()) in
-            guard let aetherURL: String = Pequod.get(key: "aetherURL") else { complete(false); return }
-            let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as! AetherFacade
-            facade.load { (json: String?) in
-                guard let json else { complete(false); return }
-//                print("====================================================================")
-//                print(json)
-//                print("====================================================================")
-                let aether: Aether = Aether(json: json)
-                Oovium.aetherView.swapToAether(facade: facade, aether: aether)
-                complete(true)
-            }
+            guard let aetherURL: String = Pequod.get(key: "aetherURL"),
+                  let facade: AetherFacade = Facade.create(ooviumKey: aetherURL) as? AetherFacade
+            else { complete(false); return }
+            
+            do {
+                try facade.load { (json: String?) in
+                    guard let json else { complete(false); return }
+                    //                print("====================================================================")
+                    //                print(json)
+                    //                print("====================================================================")
+                    let aether: Aether = Aether(json: json)
+                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                    complete(true)
+                }
+            } catch { complete(false) }
         }
     }()
     lazy var initializeAether: Pebble = {
         pebble(name: "Initialize Aether") { (complete: @escaping (Bool) -> ()) in
             let facade: AetherFacade = Facade.create(ooviumKey: "Local::aether01") as! AetherFacade
-            facade.load { (json: String?) in
-                if let json {
-                    let aether: Aether = Aether(json: json)
-                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
-                    complete(true)
-                } else {
-                    let aether: Aether = Aether()
-                    aether.name = "aether01"
-                    facade.store(aether: aether) { (success: Bool) in
-                        guard success else { complete(false); return }
+            do {
+                try facade.load { (json: String?) in
+                    if let json {
+                        let aether: Aether = Aether(json: json)
                         Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                         complete(true)
+                    } else {
+                        let aether: Aether = Aether()
+                        aether.name = "aether01"
+                        facade.store(aether: aether) { (success: Bool) in
+                            guard success else { complete(false); return }
+                            Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                            complete(true)
+                        }
                     }
                 }
-            }
+            } catch {}
         }
     }()
 

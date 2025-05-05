@@ -13,7 +13,7 @@ import UIKit
 
 fileprivate class SwapView: UIView {
     lazy var icon: UIImage = { renderIcon(color: UIColor.white) }()
-    lazy var highlight: UIImage = { renderIcon(color: OOColor.lavender.uiColor) }()
+    lazy var highlight: UIImage = { renderIcon(color: Text.Color.lavender.uiColor) }()
     
     var isHighlighted: Bool = false {
         didSet {setNeedsDisplay()}

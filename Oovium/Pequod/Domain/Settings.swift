@@ -10,7 +10,7 @@ import Acheron
 import Foundation
 import OoviumKit
 
-class Settings: Anchor {
+class Settings: Anchor, OoviumKitDelegate {
     enum Skin: CaseIterable {
         case tron, ivory
         
@@ -29,11 +29,16 @@ class Settings: Anchor {
         set { skinString = newValue.toString() }
         get { Skin.from(string: skinString)! }
     }
+    var selectionMode: SelectionMode {
+        set { selectionModeString = newValue.toString() }
+        get { SelectionMode.from(string: selectionModeString)! }
+    }
     
     @objc dynamic var skinString: String = Skin.tron.toString()
+    @objc dynamic var selectionModeString: String = "lasso"
     @objc dynamic var gadgetScale: Double = 1
     @objc dynamic var aetherScale: Double = 1
     
 // Domain ==========================================================================================
-    override var properties: [String] { super.properties + ["skinString", "gadgetScale", "aetherScale"] }
+    override var properties: [String] { super.properties + ["skinString", "selectionModeString", "gadgetScale", "aetherScale"] }
 }
