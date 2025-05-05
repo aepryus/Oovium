@@ -1464,7 +1464,7 @@
   "yOffset" : 1295.5,
   "xOffset" : 1549.5,
   "height" : 1353,
-  "readOnly" : false,
+  "readOnly" : true,
   "iden" : "044CCC1A-785A-4061-B883-4F6FFFA5B538",
   "name" : "Horizon 3.1"
 }

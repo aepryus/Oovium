@@ -5,7 +5,7 @@
   "yOffset" : 1089.5,
   "type" : "aether",
   "modified" : "2025-05-05T18:52:25+0900",
-  "readOnly" : false,
+  "readOnly" : true,
   "iden" : "5133CFFE-676A-4B9D-B03F-87A8A2C74832",
   "width" : 1893,
   "version" : "3.1",
