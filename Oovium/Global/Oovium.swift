@@ -54,10 +54,10 @@ public class Oovium {
         "cogito ergo Oovium",
         "μή μου τούς κύκλους τάραττε",
         "a bicycle for the mind",
-        "escape the grid"
+        "escape from the grid"
     ]
 
-    static func tagline() -> String { Screen.iPhone ? taglines.last! : taglines.randomElement()! }
+    static func tagline() -> String { taglines.randomElement()! }
 
 	static func color(for def: Def) -> UIColor {
 		if def === RealDef.def { return UIColor.green }
