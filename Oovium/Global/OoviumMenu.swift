@@ -80,6 +80,12 @@ class OoviumMenu {
         ])
         builder.insertSibling(editMenu, afterMenu: aetherMenu.identifier)
         
+        // Insert Menu
+        let insertCSVAction = UIAction(title: "CSV".localized) { _ in Oovium.aetherController.onInsertCSV() }
+        
+        let insertMenu: UIMenu = UIMenu(title: "Insert", children: [insertCSVAction])
+        builder.insertSibling(insertMenu, afterMenu: editMenu.identifier)
+
         // Options Menu
         let skinMenu: UIMenu = UIMenu(title: "Skins", image: UIImage(systemName: "paintbrush"), children: [
             UIAction(title: "Tron".localized, state: Oovium.skin == .tron ? .on : .off) { (action: UIAction) in
@@ -104,7 +110,7 @@ class OoviumMenu {
         ])
 
         let optionsMenu: UIMenu = UIMenu(title: "Options", children: [skinMenu, selectionMenu])
-        builder.insertSibling(optionsMenu, afterMenu: editMenu.identifier)
+        builder.insertSibling(optionsMenu, afterMenu: insertMenu.identifier)
 
         // Links Menu
         let linksMenu: UIMenu = UIMenu(title: "Links", children: [

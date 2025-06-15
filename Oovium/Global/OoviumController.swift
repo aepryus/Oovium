@@ -7,10 +7,12 @@
 //
 
 import Acheron
+import OoviumEngine
 import OoviumKit
 import UIKit
+import UniformTypeIdentifiers
 
-class OoviumController: UIViewController {
+class OoviumController: UIViewController, UIDocumentPickerDelegate {
     
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -58,6 +60,12 @@ class OoviumController: UIViewController {
     @objc func onDuplicate() {
         Oovium.aetherView.controller.duplicateAether()
     }
+    @objc func onInsertCSV() {
+        let controller: UIDocumentPickerViewController = UIDocumentPickerViewController(forOpeningContentTypes: [UTType.commaSeparatedText])
+        controller.allowsMultipleSelection = true
+        controller.delegate = self
+        present(controller, animated: true) {}
+    }
 
 // Keys ============================================================================================
     @objc func onReturn() { Oovium.aetherView.onReturnQ() }
@@ -94,4 +102,32 @@ class OoviumController: UIViewController {
             Modal.shieldView.render()
         }
     }
+    
+// UIDocumentPickerDelegate ========================================================================
+    private func importCSVs(urls: [URL]) throws {
+        urls.forEach {
+            guard let data: Data = FileManager.default.contents(atPath: $0.path),
+                  let dataString = String(data: data, encoding: .utf8)
+                else { return }
+            
+            let lines: [String] = CSV.split(csv: dataString)
+            let csv: [[String]] = lines.map { CSV.split(line: $0) }
+            Oovium.aetherView.importCSV(tokens: csv)
+        }
+    }
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentAt url: URL) {
+        do {
+            try importCSVs(urls: [url])
+        } catch {
+            print("\(error)")
+        }
+    }
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+        do {
+            try importCSVs(urls: urls)
+        } catch {
+            print("\(error)")
+        }
+    }
+    public func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) { }
 }
