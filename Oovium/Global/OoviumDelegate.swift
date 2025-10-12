@@ -26,6 +26,41 @@ class OoviumDelegate: UIResponder, UIApplicationDelegate, AetherViewDelegate {
 
 		return true
 	}
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        print("iCloud contains? \(Space.cloud?.contains(url: url) ?? false)")
+        print("Local contains? \(Space.local.contains(url: url))")
+
+        
+        if !(Space.local.contains(url: url) || Space.cloud?.contains(url: url) ?? false) {
+            Log.print("[ Importing: \(url) ] ======================")
+            do {
+                 try OoviumState.behindView.leftExplorer.controller.importAether(url: url) { (facade: AetherFacade?) in
+                     guard let facade else { return }
+                
+                     do {
+                         try facade.load { json in
+                             guard let json else { return }
+                             let aether = Aether(json: json)
+                             DispatchQueue.main.async {
+                                 Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                             }
+                         }
+                     } catch  {
+                         print("Error loading [oo] file: \(error)")
+                     }
+                }
+            }
+            catch {
+                print("Error loading [oo] file: \(error)")
+                return false
+            }
+        } else {
+            print("[ Not Importing: \(url)] - file already within the managed domain.")
+        }
+        
+        return true
+    }
     func applicationWillResignActive(_ application: UIApplication) {
 		Log.print("==================== [ Oovium - Exiting ] =======================================")
         if Oovium.exitPond.started {

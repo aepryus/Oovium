@@ -41,6 +41,8 @@
             </array>
         </dict>
     </array>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>UIStatusBarStyle</key>
