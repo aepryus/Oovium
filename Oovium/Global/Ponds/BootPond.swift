@@ -140,6 +140,16 @@ class BootPond: Pond {
     lazy var initializeAether: Pebble = {
         pebble(name: "Initialize Aether") { (complete: @escaping (Bool) -> ()) in
             let facade: AetherFacade = Facade.create(ooviumKey: "Local::aether01") as! AetherFacade
+            
+            let createAndStore = {
+                let aether: Aether = Aether()
+                aether.name = "aether01"
+                facade.store(aether: aether) { (success: Bool) in
+                    guard success else { complete(false); return }
+                    Oovium.aetherView.swapToAether(facade: facade, aether: aether)
+                    complete(true)
+                }
+            }
             do {
                 try facade.load { (json: String?) in
                     if let json {
@@ -147,17 +157,12 @@ class BootPond: Pond {
                         Oovium.aetherView.swapToAether(facade: facade, aether: aether)
                         complete(true)
                     } else {
-                        let aether: Aether = Aether()
-                        aether.name = "aether01"
-                        facade.store(aether: aether) { (success: Bool) in
-                            guard success else { complete(false); return }
-                            Oovium.aetherView.swapToAether(facade: facade, aether: aether)
-                            complete(true)
-                        }
+                        createAndStore()
                     }
                 }
             } catch {
                 print("initializeAether Local::aether01 failed to open [\(error)]")
+                createAndStore()
             }
         }
     }()
