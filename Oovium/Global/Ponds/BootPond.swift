@@ -156,7 +156,9 @@ class BootPond: Pond {
                         }
                     }
                 }
-            } catch {}
+            } catch {
+                print("initializeAether Local::aether01 failed to open [\(error)]")
+            }
         }
     }()
 
